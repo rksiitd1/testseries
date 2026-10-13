@@ -30,11 +30,10 @@
     .mast-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
     .brand { display: flex; align-items: center; gap: 10px; font-size: .77rem; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
     .brand-mark { display: grid; width: 30px; height: 30px; place-items: center; background: var(--green); color: white; font-size: .78rem; letter-spacing: 0; }
-    h1 { margin: 25px 0 7px; font-size: clamp(2.1rem, 5vw, 3.55rem); font-weight: 720; letter-spacing: -.06em; line-height: 1; }
-    .updated { display: grid; gap: 1px; min-width: 190px; padding: 8px 12px; border: 1px solid var(--line-dark); background: var(--surface); text-align: right; }
-    .updated-label { color: var(--green); font-size: .62rem; font-weight: 850; letter-spacing: .12em; }
-    .updated strong { font-size: .92rem; line-height: 1.25; }
-    .updated-range { color: var(--sub); font-size: .8rem; font-weight: 650; }
+    h1 { margin: 25px 0 7px; font-size: clamp(2.1rem, 5vw, 3.55rem); font-weight: 850; letter-spacing: -.06em; line-height: 1; }
+    .archive-period { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; margin: 0; color: var(--sub); font-size: .92rem; }
+    .archive-period strong { color: var(--ink); font-weight: 760; }
+    .archive-period span { font-weight: 650; }
     .tools { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: rgba(243,240,232,.96); backdrop-filter: blur(10px); }
     .tools-inner { display: flex; align-items: center; gap: 10px; padding-block: 10px; }
     .search { flex: 1 1 auto; min-width: 160px; height: 40px; padding: 0 12px; border: 1px solid var(--line-dark); border-radius: 2px; background: var(--surface); color: var(--ink); font: inherit; }
@@ -98,9 +97,6 @@
     @media (max-width: 480px) {
       .wrap { width: calc(100% - 18px); }
       .mast-top { align-items: flex-start; }
-      .updated { min-width: 0; max-width: 170px; padding: 6px 8px; text-align: right; }
-      .updated strong { font-size: .8rem; }
-      .updated-range { font-size: .71rem; }
       h1 { margin-top: 21px; }
       .tools-inner { display: block; }
       .search { width: 100%; }
@@ -121,13 +117,9 @@
     <div class="wrap">
       <div class="mast-top">
         <div class="brand"><span class="brand-mark">S</span><span>Sri Classes · Test archive</span></div>
-        <div class="updated" aria-label="Completed tests, 6 to 13 October 2026">
-          <span class="updated-label">COMPLETED TESTS</span>
-          <strong><span id="completed-count">15</span> tests</strong>
-          <span class="updated-range">6–13 October 2026</span>
-        </div>
       </div>
       <h1>Test Series</h1>
+      <p class="archive-period"><strong><span id="completed-count">14</span> completed tests</strong><span>6–13 October 2026</span></p>
     </div>
   </header>
   <div class="tools">
@@ -139,16 +131,13 @@
   <main class="wrap">
     <div class="section-title"><h2>Test days</h2><p>Class 10 first · Class 12 second</p></div>
     <div class="timeline" id="timeline" aria-live="polite"></div>
-    <section class="unassigned" id="unassigned-section" hidden>
-      <div class="section-title"><h2>Other completed paper</h2><p>Date not specified</p></div>
-      <p class="unassigned-note">This paper is included in the archive; no test date was given for it.</p>
-      <div id="unassigned"></div>
-    </section>
   </main>
   <footer class="wrap footer"><strong>Sri Classes</strong> · `SHRI_` PDF = branded paper · Answer key is shared across the two language versions where applicable.</footer>
   <script>
     const files = ["Biology-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Biology-Class-12th-Chapter-1-question-paper-english.html","Biology-Class-12th-Chapter-1-question-paper-english.pdf","Biology-Class-12th-Chapter-1-question-paper.html","Biology-Class-12th-Chapter-1-question-paper.pdf","Biology-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.html","Biology-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Biology-Class-12th-Chapter-2-question-paper-english.html","Biology-Class-12th-Chapter-2-question-paper-english.pdf","Biology-Class-12th-Chapter-2-question-paper.html","Biology-Class-12th-Chapter-2-question-paper.pdf","Chemistry-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Chemistry-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Chemistry-Class-12th-Chapter-1-question-paper-english.html","Chemistry-Class-12th-Chapter-1-question-paper-english.pdf","Chemistry-Class-12th-Chapter-1-question-paper.html","Chemistry-Class-12th-Chapter-1-question-paper.pdf","Chemistry-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.html","Chemistry-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Chemistry-Class-12th-Chapter-2-question-paper-english.html","Chemistry-Class-12th-Chapter-2-question-paper-english.pdf","Chemistry-Class-12th-Chapter-2-question-paper.html","Chemistry-Class-12th-Chapter-2-question-paper.pdf","English-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","English-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","English-Class-12th-Chapter-1-question-paper.html","English-Class-12th-Chapter-1-question-paper.pdf","Hindi-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-1-question-paper.html","Hindi-Class-10th-Chapter-1-question-paper.pdf","Hindi-Class-10th-Chapter-2-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-2-question-paper.html","Hindi-Class-10th-Chapter-2-question-paper.pdf","Hindi-Class-10th-Chapter-3-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-3-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-3-question-paper.html","Hindi-Class-10th-Chapter-3-question-paper.pdf","Hindi-Class-10th-Chapter-4-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-4-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-4-question-paper.html","Hindi-Class-10th-Chapter-4-question-paper.pdf","Hindi-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-5-question-paper.html","Hindi-Class-10th-Chapter-5-question-paper.pdf","Hindi-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Hindi-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-12th-Chapter-1-question-paper.html","Hindi-Class-12th-Chapter-1-question-paper.pdf","Physics-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.html","Physics-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.pdf","Physics-Class-10th-Chapter-5-question-paper.html","Physics-Class-10th-Chapter-5-question-paper.pdf","Physics-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Physics-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Physics-Class-12th-Chapter-1-question-paper-english.html","Physics-Class-12th-Chapter-1-question-paper-english.pdf","Physics-Class-12th-Chapter-1-question-paper.html","Physics-Class-12th-Chapter-1-question-paper.pdf","Sanskrit-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.pdf","Sanskrit-Class-10th-All-Chapters-question-paper.html","Sanskrit-Class-10th-All-Chapters-question-paper.pdf","SHRI_Biology-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Biology-Class-12th-Chapter-1-question-paper.pdf","SHRI_Biology-Class-12th-Chapter-2-question-paper-english.pdf","SHRI_Biology-Class-12th-Chapter-2-question-paper.pdf","SHRI_Chemistry-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Chemistry-Class-12th-Chapter-1-question-paper.pdf","SHRI_Chemistry-Class-12th-Chapter-2-question-paper-english.pdf","SHRI_Chemistry-Class-12th-Chapter-2-question-paper.pdf","SHRI_English-Class-12th-Chapter-1-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-1-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-2-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-3-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-4-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-5-question-paper.pdf","SHRI_Hindi-Class-12th-Chapter-1-question-paper.pdf","SHRI_Physics-Class-10th-Chapter-5-question-paper.pdf","SHRI_Physics-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Physics-Class-12th-Chapter-1-question-paper.pdf","SHRI_Sanskrit-Class-10th-All-Chapters-question-paper.pdf","SHRI_Social-Science-Class-10th-All-Chapters-question-paper.pdf","Social-Science-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.html","Social-Science-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.pdf","Social-Science-Class-10th-All-Chapters-question-paper.html","Social-Science-Class-10th-All-Chapters-question-paper.pdf"];
     const schedule = [
+      { date: '2026-10-14', weekday: 'Wednesday', upcoming: true,
+        ten: [{ subject: 'Social Science', chapter: 'All Chapters' }], twelve: [] },
       { date: '2026-10-13', weekday: 'Tuesday', today: true,
         ten: [{ subject: 'Hindi', chapter: 'Chapter 5' }, { subject: 'Sanskrit', chapter: 'All Chapters' }],
         twelve: [{ subject: 'Chemistry', chapter: 'Chapter 2', bilingual: true }] },
@@ -267,28 +256,14 @@
         const number = document.createElement('span'); number.className = 'date-number'; number.textContent = Number(day.date.slice(-2));
         const weekday = document.createElement('span'); weekday.className = 'date-weekday'; weekday.textContent = day.weekday;
         date.append(month, number, weekday);
-        if (day.today) { const tag = document.createElement('span'); tag.className = 'today-tag'; tag.textContent = 'Today'; date.append(tag); }
+        if (day.today || day.upcoming) { const tag = document.createElement('span'); tag.className = 'today-tag'; tag.textContent = day.upcoming ? 'Tomorrow' : 'Today'; date.append(tag); }
         const sessions = document.createElement('div'); sessions.className = 'sessions';
         sessions.append(sessionRow('10', day.ten), sessionRow('12', day.twelve));
         article.append(date, sessions); timeline.append(article);
       }
       if (!shown) { const empty = document.createElement('div'); empty.className = 'empty-result'; empty.textContent = 'No dates match that search.'; timeline.append(empty); }
     }
-    const allAssignedSpecs = [];
-    for (const day of schedule) for (const spec of [...day.ten.map(x => ({...x,classNumber:'10'})), ...day.twelve.map(x => ({...x,classNumber:'12'}))]) allAssignedSpecs.push(spec);
-    const assignedNames = new Set();
-    for (const spec of allAssignedSpecs) for (const file of findFiles(spec)) assignedNames.add(file.name);
-    const unassignedRecords = records.filter(file => !assignedNames.has(file.name));
-    const unassignedTests = new Map();
-    for (const file of unassignedRecords) {
-      const id = [file.classNumber, file.subject, file.chapter].join('|');
-      if (!unassignedTests.has(id)) unassignedTests.set(id, { classNumber: file.classNumber, subject: file.subject, chapter: file.chapter, bilingual: false });
-    }
-    for (const spec of unassignedTests.values()) {
-      const section = document.getElementById('unassigned-section'); section.hidden = false;
-      document.getElementById('unassigned').append(subjectCard(spec));
-    }
-    document.getElementById('completed-count').textContent = schedule.reduce((count, day) => count + day.ten.length + day.twelve.length, 0) + unassignedTests.size;
+    document.getElementById('completed-count').textContent = schedule.reduce((count, day) => count + (day.upcoming ? 0 : day.ten.length + day.twelve.length), 0);
     document.getElementById('search').addEventListener('input', render);
     render();
   </script>
