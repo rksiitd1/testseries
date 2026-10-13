@@ -1,0 +1,1986 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 1 Answer Key - 16 Up Duplex</title>
+
+<style>
+  /*
+    PRINT SPECIFICATION
+    -------------------
+    Paper: A4 portrait
+    Duplex: flip on LONG EDGE
+    Page 1: 16 copies of Answers 1-50
+    Page 2: 16 copies of Answers 51-100
+
+    IMPORTANT:
+    - The BACK page is horizontally mirrored at the CARD-POSITION level.
+    - The text inside each card is NOT mirrored and remains upright.
+    - This is deliberate: it makes front/back cards correspond physically
+      after long-edge duplex printing and cutting.
+  */
+
+  @page {
+    size: A4 portrait;
+    margin: 0;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    width: 210mm;
+    background: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  body {
+    min-height: 594mm;
+  }
+
+  .sheet {
+    position: relative;
+    width: 210mm;
+    height: 297mm;
+    overflow: hidden;
+    page-break-after: always;
+    break-after: page;
+    background: #fff;
+  }
+
+  .sheet:last-of-type {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  /*
+    Printable area:
+      left/right = 8 mm
+      top/bottom = 8 mm
+
+    Grid area:
+      width  = 194 mm
+      height = 281 mm
+
+    Each card:
+      width  = 48.5 mm
+      height = 70.25 mm
+
+    Absolute positioning is used instead of CSS grid/flex pagination so
+    the browser cannot reflow the back page into additional pages.
+  */
+
+  .card {
+    position: absolute;
+    left: calc(8mm + (var(--card-col) * 48.5mm));
+    top: calc(8mm + (var(--card-row) * 70.25mm));
+    width: 48.5mm;
+    height: 70.25mm;
+    border: 0.30mm dashed #777;
+    padding: 3.0mm 2.4mm 2.2mm;
+    overflow: hidden;
+  }
+
+  .title {
+    margin: 0;
+    text-align: center;
+    font-size: 8pt;
+    line-height: 1.05;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+  }
+
+  .range {
+    margin: 1.3mm 0 2.0mm;
+    text-align: center;
+    font-size: 6.5pt;
+    line-height: 1;
+    font-weight: 700;
+  }
+
+  .answer-grid {
+    position: relative;
+    width: 100%;
+    height: 52.5mm;
+  }
+
+  .answer {
+    position: absolute;
+    left: calc(var(--c) * 20%);
+    top: calc(var(--r) * 5.10mm);
+    width: 19%;
+    font-size: 6.6pt;
+    line-height: 1;
+    white-space: nowrap;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /*
+    Cutting guides are the card borders themselves.
+    No decorative content is printed outside the 16 cards.
+  */
+
+  .print-instructions {
+    display: none;
+  }
+
+  @media screen {
+    body {
+      margin: 0 auto;
+      background: #efefef;
+    }
+
+    .sheet {
+      margin: 8mm auto;
+      box-shadow: 0 0 8mm rgba(0,0,0,.12);
+    }
+
+    .print-instructions {
+      display: block;
+      position: fixed;
+      left: 10px;
+      bottom: 10px;
+      padding: 8px 10px;
+      background: #fff;
+      border: 1px solid #bbb;
+      border-radius: 4px;
+      font: 13px/1.4 Arial, sans-serif;
+      color: #333;
+      z-index: 1000;
+    }
+  }
+
+  @media print {
+    html, body {
+      width: 210mm;
+      background: #fff;
+    }
+
+    body {
+      min-height: 594mm;
+    }
+
+    .sheet {
+      margin: 0;
+      box-shadow: none;
+    }
+
+    .print-instructions {
+      display: none !important;
+    }
+  }
+</style>
+</head>
+
+<body>
+
+<section class="sheet" aria-label="Front page - Answers 1 to 50">
+      <div class="card" style="--card-col:0;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:3;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:0;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:3;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:0;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:3;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:0;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:3;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 1-50</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">1-A</span>
+        <span class="answer" style="--c:1;--r:0;">2-B</span>
+        <span class="answer" style="--c:2;--r:0;">3-D</span>
+        <span class="answer" style="--c:3;--r:0;">4-C</span>
+        <span class="answer" style="--c:4;--r:0;">5-B</span>
+        <span class="answer" style="--c:0;--r:1;">6-C</span>
+        <span class="answer" style="--c:1;--r:1;">7-A</span>
+        <span class="answer" style="--c:2;--r:1;">8-D</span>
+        <span class="answer" style="--c:3;--r:1;">9-B</span>
+        <span class="answer" style="--c:4;--r:1;">10-C</span>
+        <span class="answer" style="--c:0;--r:2;">11-D</span>
+        <span class="answer" style="--c:1;--r:2;">12-A</span>
+        <span class="answer" style="--c:2;--r:2;">13-B</span>
+        <span class="answer" style="--c:3;--r:2;">14-D</span>
+        <span class="answer" style="--c:4;--r:2;">15-A</span>
+        <span class="answer" style="--c:0;--r:3;">16-C</span>
+        <span class="answer" style="--c:1;--r:3;">17-A</span>
+        <span class="answer" style="--c:2;--r:3;">18-C</span>
+        <span class="answer" style="--c:3;--r:3;">19-D</span>
+        <span class="answer" style="--c:4;--r:3;">20-B</span>
+        <span class="answer" style="--c:0;--r:4;">21-A</span>
+        <span class="answer" style="--c:1;--r:4;">22-D</span>
+        <span class="answer" style="--c:2;--r:4;">23-B</span>
+        <span class="answer" style="--c:3;--r:4;">24-C</span>
+        <span class="answer" style="--c:4;--r:4;">25-D</span>
+        <span class="answer" style="--c:0;--r:5;">26-A</span>
+        <span class="answer" style="--c:1;--r:5;">27-B</span>
+        <span class="answer" style="--c:2;--r:5;">28-C</span>
+        <span class="answer" style="--c:3;--r:5;">29-B</span>
+        <span class="answer" style="--c:4;--r:5;">30-C</span>
+        <span class="answer" style="--c:0;--r:6;">31-D</span>
+        <span class="answer" style="--c:1;--r:6;">32-A</span>
+        <span class="answer" style="--c:2;--r:6;">33-C</span>
+        <span class="answer" style="--c:3;--r:6;">34-B</span>
+        <span class="answer" style="--c:4;--r:6;">35-A</span>
+        <span class="answer" style="--c:0;--r:7;">36-D</span>
+        <span class="answer" style="--c:1;--r:7;">37-B</span>
+        <span class="answer" style="--c:2;--r:7;">38-A</span>
+        <span class="answer" style="--c:3;--r:7;">39-C</span>
+        <span class="answer" style="--c:4;--r:7;">40-D</span>
+        <span class="answer" style="--c:0;--r:8;">41-A</span>
+        <span class="answer" style="--c:1;--r:8;">42-B</span>
+        <span class="answer" style="--c:2;--r:8;">43-C</span>
+        <span class="answer" style="--c:3;--r:8;">44-D</span>
+        <span class="answer" style="--c:4;--r:8;">45-B</span>
+        <span class="answer" style="--c:0;--r:9;">46-C</span>
+        <span class="answer" style="--c:1;--r:9;">47-A</span>
+        <span class="answer" style="--c:2;--r:9;">48-D</span>
+        <span class="answer" style="--c:3;--r:9;">49-C</span>
+        <span class="answer" style="--c:4;--r:9;">50-D</span>
+        </div>
+      </div>
+</section>
+
+<section class="sheet" aria-label="Back page - Answers 51 to 100">
+      <div class="card" style="--card-col:3;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:0;--card-row:0;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:3;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:0;--card-row:1;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:3;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:0;--card-row:2;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:3;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:2;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:1;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+      <div class="card" style="--card-col:0;--card-row:3;">
+        <div class="title">CHAPTER 1</div>
+        <div class="range">ANSWERS 51-100</div>
+        <div class="answer-grid">
+        <span class="answer" style="--c:0;--r:0;">51-B</span>
+        <span class="answer" style="--c:1;--r:0;">52-A</span>
+        <span class="answer" style="--c:2;--r:0;">53-D</span>
+        <span class="answer" style="--c:3;--r:0;">54-B</span>
+        <span class="answer" style="--c:4;--r:0;">55-C</span>
+        <span class="answer" style="--c:0;--r:1;">56-A</span>
+        <span class="answer" style="--c:1;--r:1;">57-B</span>
+        <span class="answer" style="--c:2;--r:1;">58-D</span>
+        <span class="answer" style="--c:3;--r:1;">59-C</span>
+        <span class="answer" style="--c:4;--r:1;">60-A</span>
+        <span class="answer" style="--c:0;--r:2;">61-B</span>
+        <span class="answer" style="--c:1;--r:2;">62-A</span>
+        <span class="answer" style="--c:2;--r:2;">63-C</span>
+        <span class="answer" style="--c:3;--r:2;">64-D</span>
+        <span class="answer" style="--c:4;--r:2;">65-A</span>
+        <span class="answer" style="--c:0;--r:3;">66-C</span>
+        <span class="answer" style="--c:1;--r:3;">67-D</span>
+        <span class="answer" style="--c:2;--r:3;">68-B</span>
+        <span class="answer" style="--c:3;--r:3;">69-A</span>
+        <span class="answer" style="--c:4;--r:3;">70-B</span>
+        <span class="answer" style="--c:0;--r:4;">71-D</span>
+        <span class="answer" style="--c:1;--r:4;">72-C</span>
+        <span class="answer" style="--c:2;--r:4;">73-D</span>
+        <span class="answer" style="--c:3;--r:4;">74-A</span>
+        <span class="answer" style="--c:4;--r:4;">75-C</span>
+        <span class="answer" style="--c:0;--r:5;">76-B</span>
+        <span class="answer" style="--c:1;--r:5;">77-D</span>
+        <span class="answer" style="--c:2;--r:5;">78-B</span>
+        <span class="answer" style="--c:3;--r:5;">79-A</span>
+        <span class="answer" style="--c:4;--r:5;">80-C</span>
+        <span class="answer" style="--c:0;--r:6;">81-D</span>
+        <span class="answer" style="--c:1;--r:6;">82-B</span>
+        <span class="answer" style="--c:2;--r:6;">83-A</span>
+        <span class="answer" style="--c:3;--r:6;">84-D</span>
+        <span class="answer" style="--c:4;--r:6;">85-C</span>
+        <span class="answer" style="--c:0;--r:7;">86-A</span>
+        <span class="answer" style="--c:1;--r:7;">87-B</span>
+        <span class="answer" style="--c:2;--r:7;">88-D</span>
+        <span class="answer" style="--c:3;--r:7;">89-A</span>
+        <span class="answer" style="--c:4;--r:7;">90-D</span>
+        <span class="answer" style="--c:0;--r:8;">91-C</span>
+        <span class="answer" style="--c:1;--r:8;">92-B</span>
+        <span class="answer" style="--c:2;--r:8;">93-C</span>
+        <span class="answer" style="--c:3;--r:8;">94-B</span>
+        <span class="answer" style="--c:4;--r:8;">95-A</span>
+        <span class="answer" style="--c:0;--r:9;">96-D</span>
+        <span class="answer" style="--c:1;--r:9;">97-B</span>
+        <span class="answer" style="--c:2;--r:9;">98-A</span>
+        <span class="answer" style="--c:3;--r:9;">99-D</span>
+        <span class="answer" style="--c:4;--r:9;">100-C</span>
+        </div>
+      </div>
+</section>
+
+<div class="print-instructions">
+  <strong>Print:</strong> A4 · Portrait · 100% / Actual size · Double-sided ·
+  <strong>Flip on long edge</strong> · Disable browser headers and footers.
+</div>
+
+</body>
+</html>

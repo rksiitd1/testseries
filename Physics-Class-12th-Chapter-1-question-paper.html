@@ -1,0 +1,1115 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <title>Question Paper - Electric Charges and Fields (Hindi)</title>
+  <script>
+    window.MathJax = {
+      tex: { inlineMath: [['$', '$'], ['\\(', '\\)']] }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wght@400;600;700&display=swap');
+
+    @media print {
+      @page { size: A4 portrait; margin: 8mm; }
+      body { -webkit-print-color-adjust: exact; margin: 0; padding: 0; }
+    }
+
+    body {
+      font-family: 'Noto Serif Devanagari', serif;
+      font-size: 8.5pt;
+      line-height: 1.2;
+      color: #000;
+      background: #fff;
+      text-align: justify;
+      padding: 8mm;
+      margin: 0;
+    }
+
+    /* === HEADER === */
+    .paper-header {
+      text-align: center;
+      border-bottom: 1.5px solid #000;
+      padding-bottom: 4px;
+      margin-bottom: 6px;
+    }
+    .paper-header h1 {
+      font-size: 14pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      margin: 0 0 2px 0;
+    }
+    .paper-header .subtitle {
+      font-size: 8pt;
+      font-style: italic;
+      color: #333;
+      margin: 0;
+    }
+
+    /* === THREE-COLUMN LAYOUT === */
+    .content-wrapper {
+      column-count: 3;
+      column-gap: 5mm;
+      column-rule: 0.5px solid #ccc;
+      width: 100%;
+    }
+
+    /* === SECTION HEADER === */
+    .section-header {
+      font-size: 9pt;
+      font-weight: 700;
+      text-align: center;
+      background: #eaeaea;
+      margin: 0 0 5px 0;
+      padding: 2px;
+      break-after: avoid;
+      border: 1px solid #aaa;
+    }
+
+    /* === COMPACT QUESTION BLOCK === */
+    .q {
+      break-inside: avoid;
+      margin-bottom: 5px;
+      padding-bottom: 3px;
+      border-bottom: 0.5px dotted #ccc;
+    }
+    .t {
+      font-weight: 600;
+      font-size: 8.5pt;
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    /* === ADAPTIVE GRIDS FOR OPTIONS === */
+    .o {
+      display: grid;
+      gap: 1px 4px;
+      font-size: 8pt;
+    }
+    .c1 { grid-template-columns: 1fr; }
+    .c2 { grid-template-columns: 1fr 1fr; }
+    .c4 { grid-template-columns: repeat(4, 1fr); }
+  </style>
+</head>
+<body>
+
+  <div class="paper-header">
+    <h1>भौतिक विज्ञान - विद्युत आवेश तथा क्षेत्र</h1>
+    <p class="subtitle">अध्याय 1 | वस्तुनिष्ठ प्रश्न | कक्षा 12 | अधिकतम समय: 120 मिनट</p>
+  </div>
+
+  <div class="content-wrapper">
+    <div class="section-header">खण्ड अ — वस्तुनिष्ठ प्रश्न (Objective Type)</div>
+
+    <div class="q">
+      <span class="t">1. कूलम्ब बल किस प्रकार का बल है?</span>
+      <div class="o c1">
+        <div>(A) केवल विद्युत बल</div>
+        <div>(B) केवल केन्द्रीय बल</div>
+        <div>(C) केन्द्रीय एवं विद्युत बल दोनों</div>
+        <div>(D) इनमें से कोई नहीं</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">2. कथन I: विद्युतीय बल रेखाएँ एक-दूसरे को नहीं काटती हैं।<br>कथन II: बल-रेखा के किसी बिन्दु पर खींची गई स्पर्श-रेखा क्षेत्र की दिशा दर्शाती है।</span>
+      <div class="o c1">
+        <div>(A) दोनों सही हैं; II, I की सही व्याख्या है।</div>
+        <div>(B) दोनों सही हैं; II, I की व्याख्या नहीं है।</div>
+        <div>(C) I सही है, परन्तु II असत्य है।</div>
+        <div>(D) I असत्य है, परन्तु II सही है।</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">3. विद्युत आवेश का क्वांटम e.s.u. मात्रक में होता है:</span>
+      <div class="o c2">
+        <div>(A) $4.78 \times 10^{-10}$</div>
+        <div>(B) $+ 16 \times 10^{-19}$</div>
+        <div>(C) $299 \times 10^{9}$</div>
+        <div>(D) $- 16 \times 10^{-19}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">4. स्थिर विद्युतीय क्षेत्र होता है:</span>
+      <div class="o c2">
+        <div>(A) असंरक्षी</div>
+        <div>(B) विनाशी</div>
+        <div>(C) मिश्रित</div>
+        <div>(D) संरक्षी</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">5. 1 कूलॉम आवेश कितने e.s.u. के बराबर होता है?</span>
+      <div class="o c2">
+        <div>(A) $8.85 \times 10^{-12}$</div>
+        <div>(B) $3 \times 10^9$</div>
+        <div>(C) $9 \times 10^9$</div>
+        <div>(D) $1.6 \times 10^{-19}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">6. निम्नलिखित में से कौन सी राशि सदिश है?</span>
+      <div class="o c2">
+        <div>(A) विद्युत विभव</div>
+        <div>(B) विद्युत तीव्रता</div>
+        <div>(C) विद्युत आवेश</div>
+        <div>(D) विद्युत धारिता</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">7. 1 स्टैट कूलाम बराबर होता है:</span>
+      <div class="o c2">
+        <div>(A) $3 \times 10^9$ C</div>
+        <div>(B) $1/3 \times 10^{-9}$ C</div>
+        <div>(C) $3 \times 10^{-9}$ C</div>
+        <div>(D) $1/3 \times 10^9$ C</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">8. कथन I: किसी वस्तु को ऋणावेशित करने पर उसका द्रव्यमान अल्प बढ़ता है।<br>कथन II: आवेशन इलेक्ट्रॉन के स्थानांतरण से होता है।</span>
+      <div class="o c1">
+        <div>(A) दोनों सही हैं; II, I की सही व्याख्या है।</div>
+        <div>(B) दोनों सही हैं; II, I की व्याख्या नहीं है।</div>
+        <div>(C) I सही है, परन्तु II असत्य है।</div>
+        <div>(D) I असत्य है, परन्तु II सही है।</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">9. यदि गोले पर आवेश 10$\mu$C हो, तो उसकी सतह पर विद्युतीय फ्लक्स है:</span>
+      <div class="o c1">
+        <div>(A) $36\pi \times 10^4 \text{ Nm}^2 / \text{C}$</div>
+        <div>(B) $36\pi \times 10^{-4} \text{ Nm}^2 / \text{C}$</div>
+        <div>(C) $36\pi \times 10^6 \text{ Nm}^2 / \text{C}$</div>
+        <div>(D) $36\pi \times 10^{-6} \text{ Nm}^2 / \text{C}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">10. विद्युत क्षेत्र $\vec{E}$ का S.I. मात्रक क्या है?</span>
+      <div class="o c4">
+        <div>(A) $\text{Cm}^{-2}$</div>
+        <div>(B) $\text{Vm}$</div>
+        <div>(C) $\text{JC}^{-1}$</div>
+        <div>(D) $\text{NC}^{-1}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">11. एक द्विध्रुव $\pm 3.2 \times 10^{-19} C$ के आवेशों से बना है, दूरी $2.4 \times 10^{-10} m$ है। द्विध्रुव आघूर्ण होगा:</span>
+      <div class="o c2">
+        <div>(A) $7.68 \times 10^{-27} \text{ Cm}$</div>
+        <div>(B) $7.68 \times 10^{-29} \text{ Cm}$</div>
+        <div>(C) $7.86 \times 10^{-29} \text{ Cm}$</div>
+        <div>(D) $7.86 \times 10^{-27} \text{ Cm}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">12. मुक्त आकाश की परावैद्युतता ($\epsilon_0$) का मान है:</span>
+      <div class="o c2">
+        <div>(A) $9 \times 10^9 \text{ Fm}^{-1}$</div>
+        <div>(B) $8.85 \times 10^{-12} \text{ Fm}^{-1}$</div>
+        <div>(C) $1.6 \times 10^{-19} \text{ Fm}^{-1}$</div>
+        <div>(D) $8.85 \times 10^{-9} \text{ Fm}^{-1}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">13. $\vec{p}$ आघूर्ण वाले द्विध्रुव को $\vec{E}$ क्षेत्र में रखने पर बल-आघूर्ण होगा:</span>
+      <div class="o c4">
+        <div>(A) $\vec{p} \cdot \vec{E}$</div>
+        <div>(B) $pE$</div>
+        <div>(C) $\vec{p} \times \vec{E}$</div>
+        <div>(D) $\vec{p} / \vec{E}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">14. आवेशित खोखले गोलाकार चालक के भीतर विद्युत क्षेत्र का मान होता है:</span>
+      <div class="o c4">
+        <div>(A) शून्य</div>
+        <div>(B) $E_0\sigma$</div>
+        <div>(C) $\frac{\sigma}{E_0}$</div>
+        <div>(D) अनंत</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">15. आवेशित पतली अचालक चादर के निकट विद्युत क्षेत्र होता है:</span>
+      <div class="o c4">
+        <div>(A) $\frac{\sigma}{2\epsilon_0}$</div>
+        <div>(B) $\frac{\sigma}{\epsilon_0}$</div>
+        <div>(C) $\epsilon_0 \sigma$</div>
+        <div>(D) $\frac{1}{2} \sigma \epsilon_0$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">16. आवेश के पृष्ठ घनत्व का मात्रक होता है:</span>
+      <div class="o c2">
+        <div>(A) $Cm^{-1}$</div>
+        <div>(B) $Cm$</div>
+        <div>(C) $Nm^{-1}$</div>
+        <div>(D) $Cm^{-2}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">17. किसी बंद पृष्ठ के अन्दर यदि $+q$ आवेश रखा हो, तो पृष्ठ से निकलने वाला फ्लक्स होगा:</span>
+      <div class="o c4">
+        <div>(A) $\frac{q}{\epsilon_0}$</div>
+        <div>(B) $q \epsilon_0$</div>
+        <div>(C) $\frac{\epsilon_0}{q}$</div>
+        <div>(D) $\frac{q^2}{\epsilon_0}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">18. निम्नलिखित में से कौन विद्युत क्षेत्र से त्वरित नहीं होता है?</span>
+      <div class="o c2">
+        <div>(A) प्रोटॉन</div>
+        <div>(B) न्यूट्रॉन</div>
+        <div>(C) अल्फा कण</div>
+        <div>(D) इलेक्ट्रॉन</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">19. एकसमान विद्युत क्षेत्र $\vec{E}$ में द्विध्रुव को $\theta$ कोण से घुमाने में किया गया कार्य है:</span>
+      <div class="o c2">
+        <div>(A) $pE(1 - \sin\theta)$</div>
+        <div>(B) $pE(1 - \cos\theta)$</div>
+        <div>(C) $pE \tan\theta$</div>
+        <div>(D) $pE \sec\theta$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">20. किसी माध्यम की आपेक्षिक परावैद्युतता ($\epsilon_r$) होती है:</span>
+      <div class="o c4">
+        <div>(A) $\epsilon + \epsilon_0$</div>
+        <div>(B) $\epsilon \cdot \epsilon_0$</div>
+        <div>(C) $\frac{\epsilon}{\epsilon_0}$</div>
+        <div>(D) $\epsilon - \epsilon_0$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">21. $\frac{1}{4\pi\epsilon_0}$ का मान होता है:</span>
+      <div class="o c1">
+        <div>(A) $9 \times 10^{-9} \text{ Nm}^2\text{C}^{-2}$</div>
+        <div>(B) $9 \times 10^9 \text{ Nm}^2\text{C}^{-2}$</div>
+        <div>(C) $9 \times 10^{12} \text{ Nm}^2\text{C}^{-2}$</div>
+        <div>(D) $9 \times 10^{-12} \text{ Nm}^2\text{C}^{-2}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">22. विद्युत क्षेत्र $\vec{E}$ और बल $\vec{F}$ (आवेश $q$ पर) के बीच सही सम्बन्ध है:</span>
+      <div class="o c4">
+        <div>(A) $\vec{E} = \frac{q}{\vec{F}}$</div>
+        <div>(B) $\vec{E} = q\vec{F}$</div>
+        <div>(C) $\vec{E} = \frac{\vec{F}}{q}$</div>
+        <div>(D) $\vec{E} = \frac{1}{4\pi\epsilon_0} \frac{q}{\vec{F}}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">23. विद्युतीय द्विध्रुव-आघूर्ण का S.I. मात्रक है:</span>
+      <div class="o c4">
+        <div>(A) $cm^2$</div>
+        <div>(B) $cm^{-1}$</div>
+        <div>(C) $cm^{-2}$</div>
+        <div>(D) Cm</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">24. संबन्ध $Q=ne$ में $n$ का कौन सा मान संभव नहीं है?</span>
+      <div class="o c4">
+        <div>(A) 4.2</div>
+        <div>(B) 8</div>
+        <div>(C) 4</div>
+        <div>(D) 100</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">25. इलेक्ट्रॉन पर आवेश का सही मान है:</span>
+      <div class="o c2">
+        <div>(A) $1.602 \times 10^{-16} C$</div>
+        <div>(B) $1.602 \times 10^{-19} C$</div>
+        <div>(C) $1.602 \times 10^{-18} C$</div>
+        <div>(D) $1.602 \times 10^{-17} C$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">26. कूलॉम नियम का सही सदिश रूप है:</span>
+      <div class="o c1">
+        <div>(A) $\vec{F} = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{|\vec{r}|^3}$</div>
+        <div>(B) $\vec{F} = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{|\vec{r}|^2} \vec{r}$</div>
+        <div>(C) $\vec{F} = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{|\vec{r}|^3} \vec{r}$</div>
+        <div>(D) $\vec{F} = \frac{1}{4\pi\epsilon_0} \frac{q_1q_2}{r^2} \vec{r}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">27. निर्वात में स्थित एकांक धन आवेश से निकलने वाला कुल फ्लक्स है:</span>
+      <div class="o c4">
+        <div>(A) $\epsilon_0$</div>
+        <div>(B) $4\pi\epsilon_0$</div>
+        <div>(C) $(4\pi\epsilon_0)^{-1}$</div>
+        <div>(D) $\epsilon_0^{-1}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">28. आवेश का परिमाणीकरण (Quantization) दर्शाता है कि:</span>
+      <div class="o c1">
+        <div>(A) इलेक्ट्रॉन के आवेश का भिन्न (fraction) संभव नहीं है</div>
+        <div>(B) आवेश को नष्ट नहीं किया जा सकता</div>
+        <div>(C) कणों पर आवेश होता है</div>
+        <div>(D) आवेश का मान अनंत हो सकता है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">29. इलेक्ट्रॉन और प्रोटॉन के बीच विद्युतीय बल तथा गुरुत्वीय बल का अनुपात किस कोटि का होता है?</span>
+      <div class="o c4">
+        <div>(A) $10^{42}$</div>
+        <div>(B) $10^{36}$</div>
+        <div>(C) $10^{39}$</div>
+        <div>(D) 1</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">30. दो $Q$ आवेशों को मिलाने वाली रेखा के मध्य में $q$ रखा है। संतुलन के लिए $q$ का मान होगा:</span>
+      <div class="o c4">
+        <div>(A) $-Q/2$</div>
+        <div>(B) $-4Q$</div>
+        <div>(C) $+Q/4$</div>
+        <div>(D) $-Q/4$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">31. द्विध्रुव के स्थायी संतुलन (Stable equilibrium) के लिए $\vec{P}$ और $\vec{E}$ के बीच का कोण होना चाहिए:</span>
+      <div class="o c4">
+        <div>(A) $0^\circ$</div>
+        <div>(B) $90^\circ$</div>
+        <div>(C) $180^\circ$</div>
+        <div>(D) $45^\circ$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">32. 8 कूलॉम ऋण आवेश में उपस्थित इलेक्ट्रॉनों की संख्या है:</span>
+      <div class="o c2">
+        <div>(A) $12.8 \times 10^{19}$</div>
+        <div>(B) $5 \times 10^{19}$</div>
+        <div>(C) $2.5 \times 10^{19}$</div>
+        <div>(D) $1.6 \times 10^{19}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">33. ठोस आवेशित चालक गोले के केन्द्र पर विद्युत क्षेत्र होता है:</span>
+      <div class="o c4">
+        <div>(A) अधिकतम</div>
+        <div>(B) शून्य</div>
+        <div>(C) न्यूनतम</div>
+        <div>(D) अनंत</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">34. 5 C के दो विपरीत आवेश 5.0 cm दूरी पर हैं। इनका द्विध्रुव आघूर्ण होगा:</span>
+      <div class="o c2">
+        <div>(A) $5 \times 10^{-2} \text{ Cm}$</div>
+        <div>(B) 1 Cm</div>
+        <div>(C) $25 \times 10^{-2} \text{ Cm}$</div>
+        <div>(D) शून्य</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">35. वर्ग के कोनों पर समान आवेश हैं। यदि संलग्न आवेशों के बीच बल $F_{12}$ और विकर्ण पर $F_{13}$ हो, तो $\frac{F_{12}}{F_{13}}$ है:</span>
+      <div class="o c4">
+        <div>(A) 2</div>
+        <div>(B) $1/2$</div>
+        <div>(C) $\sqrt{2}$</div>
+        <div>(D) $1/\sqrt{2}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">36. एक उदासीन गोले से $10^{14}$ इलेक्ट्रॉन हटाए जाने पर गोले पर आवेश हो जाएगा:</span>
+      <div class="o c4">
+        <div>(A) $-16 \mu C$</div>
+        <div>(B) $32 \mu C$</div>
+        <div>(C) $-32 \mu C$</div>
+        <div>(D) $+16 \mu C$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">37. विद्युत फ्लक्स का विमीय सूत्र है:</span>
+      <div class="o c2">
+        <div>(A) $[ML^3T^{-3}A^{-1}]$</div>
+        <div>(B) $[ML^2T^{-3}A^{-1}]$</div>
+        <div>(C) $[ML^2T^{-2}A^{-2}]$</div>
+        <div>(D) $[ML^3T^{-2}A^{-1}]$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">38. किसी वस्तु का आवेशन मुख्यतः किसके स्थानांतरण के कारण होता है?</span>
+      <div class="o c4">
+        <div>(A) प्रोटॉन</div>
+        <div>(B) इलेक्ट्रॉन</div>
+        <div>(C) न्यूट्रॉन</div>
+        <div>(D) पॉज़िट्रॉन</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">39. यदि दो बिंदु आवेशों के बीच की दूरी दुगुनी कर दी जाए, तो उनके बीच बल हो जाएगा:</span>
+      <div class="o c2">
+        <div>(A) 2 गुना</div>
+        <div>(B) 4 गुना</div>
+        <div>(C) 1/4 गुना</div>
+        <div>(D) 1/2 गुना</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">40. एकसमान आवेशित अनंत समतल अचालक चादर के समीप विद्युत क्षेत्र होता है:</span>
+      <div class="o c4">
+        <div>(A) $\sigma / \epsilon_0$</div>
+        <div>(B) $2\sigma / \epsilon_0$</div>
+        <div>(C) $\sigma / 2\epsilon_0$</div>
+        <div>(D) शून्य</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">41. गाउस का नियम (Gauss's law) लागू होता है:</span>
+      <div class="o c1">
+        <div>(A) खुले पृष्ठ के लिए</div>
+        <div>(B) केवल बिंदु आवेशों के लिए</div>
+        <div>(C) केवल गोलीय पृष्ठ के लिए</div>
+        <div>(D) किसी भी बंद पृष्ठ के लिए</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">42. किसी अचालक ठोस गोले को आवेश देने पर वह:</span>
+      <div class="o c1">
+        <div>(A) पूरी तरह सतह पर फैल जाता है</div>
+        <div>(B) जहाँ रखा जाता है वहीं रहता है</div>
+        <div>(C) केवल केंद्र पर रहता है</div>
+        <div>(D) सतह और भीतर एकसमान फैलता है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">43. एक स्थिर विद्युत आवेश उत्पन्न करता है:</span>
+      <div class="o c1">
+        <div>(A) केवल चुंबकीय क्षेत्र</div>
+        <div>(B) केवल विद्युत क्षेत्र</div>
+        <div>(C) दोनों (विद्युत और चुंबकीय)</div>
+        <div>(D) कोई नहीं</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">44. छोटे द्विध्रुव के कारण समान दूरी $r$ पर अक्षीय और निरक्षीय स्थितियों में विद्युत क्षेत्र का अनुपात है:</span>
+      <div class="o c4">
+        <div>(A) 1:2</div>
+        <div>(B) 1:1</div>
+        <div>(C) 2:1</div>
+        <div>(D) 4:1</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">45. वैद्युत द्विध्रुव की निरक्षीय रेखा पर विद्युत क्षेत्र की दिशा, द्विध्रुव आघूर्ण की दिशा के:</span>
+      <div class="o c2">
+        <div>(A) समान होती है</div>
+        <div>(B) विपरीत होती है</div>
+        <div>(C) लंबवत होती है</div>
+        <div>(D) $45^\circ$ पर होती है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">46. 1 वोल्ट/मीटर किसके समतुल्य है?</span>
+      <div class="o c4">
+        <div>(A) 1 J/C</div>
+        <div>(B) 1 V/C</div>
+        <div>(C) 1 N/C</div>
+        <div>(D) 1 C/N</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">47. दो आवेशों के बीच $K$ परावैद्युतांक वाला माध्यम रखने पर, उनके बीच स्थिरवैद्युत बल:</span>
+      <div class="o c2">
+        <div>(A) $K$ गुना हो जाता है</div>
+        <div>(B) $1/K$ गुना हो जाता है</div>
+        <div>(C) $K^2$ गुना हो जाता है</div>
+        <div>(D) अपरिवर्तित रहता है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">48. घन के केंद्र पर $q$ आवेश रखा है। इसके किसी एक फलक से निकलने वाला फ्लक्स होगा:</span>
+      <div class="o c4">
+        <div>(A) $q / \epsilon_0$</div>
+        <div>(B) $q / 2\epsilon_0$</div>
+        <div>(C) $q / 6\epsilon_0$</div>
+        <div>(D) $q / 4\epsilon_0$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">49. एक प्रोटॉन और एक इलेक्ट्रॉन एकसमान विद्युत क्षेत्र में स्थित हैं। उन पर लगने वाले बलों के लिए क्या सत्य है?</span>
+      <div class="o c1">
+        <div>(A) बलों की दिशा समान होगी</div>
+        <div>(B) बलों का परिमाण बराबर होगा</div>
+        <div>(C) उनके त्वरण बराबर होंगे</div>
+        <div>(D) परिमाण अलग-अलग होंगे</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">50. अनंत लंबाई के एकसमान रेखीय आवेश के कारण $r$ दूरी पर विद्युत क्षेत्र समानुपाती होता है:</span>
+      <div class="o c4">
+        <div>(A) $1/r^2$</div>
+        <div>(B) $r$</div>
+        <div>(C) $1/r$</div>
+        <div>(D) $1/r^3$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">51. असमान विद्युत क्षेत्र में रखा वैद्युत द्विध्रुव सामान्यतः अनुभव करेगा:</span>
+      <div class="o c1">
+        <div>(A) केवल नेट बल</div>
+        <div>(B) बल और बल आघूर्ण दोनों</div>
+        <div>(C) केवल बल आघूर्ण</div>
+        <div>(D) न बल, न बल आघूर्ण</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">52. 1 माइक्रो-कूलॉम ($1 \mu C$) बराबर होता है:</span>
+      <div class="o c4">
+        <div>(A) $10^{-6} C$</div>
+        <div>(B) $10^{-3} C$</div>
+        <div>(C) $10^{-9} C$</div>
+        <div>(D) $10^{-12} C$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">53. दो सजातीय (Like) आवेश एक-दूसरे को:</span>
+      <div class="o c2">
+        <div>(A) आकर्षित करते हैं</div>
+        <div>(B) कोई बल नहीं लगाते</div>
+        <div>(C) प्रतिकर्षित करते हैं</div>
+        <div>(D) नष्ट करते हैं</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">54. कांच की छड़ को रेशम से रगड़ने पर कांच की छड़ इलेक्ट्रॉन खो देती है, जिससे वह हो जाती है:</span>
+      <div class="o c2">
+        <div>(A) ऋणावेशित</div>
+        <div>(B) धनावेशित</div>
+        <div>(C) अनावेशित</div>
+        <div>(D) दोनों</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">55. निम्नलिखित में से कौन-सा आवेश किसी पिंड पर संभव नहीं है?</span>
+      <div class="o c2">
+        <div>(A) $3.2 \times 10^{-19} C$</div>
+        <div>(B) $6.4 \times 10^{-19} C$</div>
+        <div>(C) $1.6 \times 10^{-19} C$</div>
+        <div>(D) $2.4 \times 10^{-19} C$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">56. दो विद्युत क्षेत्र रेखाएँ एक-दूसरे को किस कोण पर काटती हैं?</span>
+      <div class="o c2">
+        <div>(A) $90^\circ$</div>
+        <div>(B) $45^\circ$</div>
+        <div>(C) कभी नहीं काटती हैं</div>
+        <div>(D) $30^\circ$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">57. जब दो आवेशित चालकों को तार से जोड़ा जाता है, तो आवेश का प्रवाह नहीं होगा यदि:</span>
+      <div class="o c2">
+        <div>(A) उनकी धारिता समान हो</div>
+        <div>(B) उनका विभव समान हो</div>
+        <div>(C) उनका कुल आवेश समान हो</div>
+        <div>(D) उनका आकार समान हो</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">58. आवेशित चालक के पृष्ठ पर विद्युत क्षेत्र रेखाएं पृष्ठ के:</span>
+      <div class="o c2">
+        <div>(A) हमेशा लंबवत होती हैं</div>
+        <div>(B) समांतर होती हैं</div>
+        <div>(C) $45^\circ$ पर होती हैं</div>
+        <div>(D) किसी भी दिशा में हो सकती हैं</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">59. छोटे वैद्युत द्विध्रुव के कारण $r$ दूरी पर विद्युत क्षेत्र अनुक्रमानुपाती होता है:</span>
+      <div class="o c4">
+        <div>(A) $1/r$</div>
+        <div>(B) $1/r^2$</div>
+        <div>(C) $1/r^3$</div>
+        <div>(D) $r^2$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">60. एक इलेक्ट्रॉन को दूसरे इलेक्ट्रॉन की ओर लाने पर निकाय की वैद्युत स्थितिज ऊर्जा:</span>
+      <div class="o c2">
+        <div>(A) घटती है</div>
+        <div>(B) शून्य हो जाती है</div>
+        <div>(C) अपरिवर्तित रहती है</div>
+        <div>(D) बढ़ती है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">61. निर्वात में किसी बंद पृष्ठ से बाहर निकलने वाला कुल फ्लक्स, भीतर स्थित आवेश का होता है:</span>
+      <div class="o c2">
+        <div>(A) $1/\epsilon_0$ गुना</div>
+        <div>(B) $\epsilon_0$ गुना</div>
+        <div>(C) $4\pi\epsilon_0$ गुना</div>
+        <div>(D) $1/4\pi\epsilon_0$ गुना</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">62. वैद्युत द्विध्रुव आघूर्ण ($\vec{p}$) की दिशा होती है:</span>
+      <div class="o c1">
+        <div>(A) धन आवेश से ऋण आवेश की ओर</div>
+        <div>(B) विद्युत क्षेत्र के लंबवत</div>
+        <div>(C) निश्चित नहीं होती</div>
+        <div>(D) ऋण आवेश से धन आवेश की ओर</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">63. वैद्युत आवेश की विमा होती है:</span>
+      <div class="o c4">
+        <div>(A) $[AT]$</div>
+        <div>(B) $[AT^{-1}]$</div>
+        <div>(C) $[A^{-1}T]$</div>
+        <div>(D) $[AT^2]$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">64. मूल आवेश ($e$) का मान है:</span>
+      <div class="o c2">
+        <div>(A) $9.1 \times 10^{-31} C$</div>
+        <div>(B) $1.6 \times 10^{-19} C$</div>
+        <div>(C) $1.6 \times 10^{-27} C$</div>
+        <div>(D) $8.85 \times 10^{-12} C$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">65. किसी आवेशित चालक की सतह के ठीक बाहर विद्युत क्षेत्र की तीव्रता:</span>
+      <div class="o c2">
+        <div>(A) शून्य होती है</div>
+        <div>(B) सतह के स्पर्शीय होती है</div>
+        <div>(C) सतह के लंबवत होती है</div>
+        <div>(D) सतह से $45^\circ$ पर होती है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">66. यदि दो आवेशों के बीच परावैद्युत माध्यम रख दिया जाए, तो उनके बीच बल:</span>
+      <div class="o c2">
+        <div>(A) बढ़ जाता है</div>
+        <div>(B) घट जाता है</div>
+        <div>(C) अपरिवर्तित रहता है</div>
+        <div>(D) शून्य हो जाता है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">67. वैद्युत द्विध्रुव की स्थितिज ऊर्जा न्यूनतम होती है जब $\vec{p}$ और $\vec{E}$ के बीच का कोण होता है:</span>
+      <div class="o c4">
+        <div>(A) $90^\circ$</div>
+        <div>(B) $180^\circ$</div>
+        <div>(C) $0^\circ$</div>
+        <div>(D) $270^\circ$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">68. अचालक अनंत समतल चादर के कारण विद्युत क्षेत्र $E$, दूरी $r$ पर कैसे निर्भर करता है?</span>
+      <div class="o c1">
+        <div>(A) $r$ के अनुक्रमानुपाती होता है</div>
+        <div>(B) $1/r^2$ के अनुक्रमानुपाती होता है</div>
+        <div>(C) $1/r$ के अनुक्रमानुपाती होता है</div>
+        <div>(D) $r$ पर निर्भर नहीं करता</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">69. एक साबुन के बुलबुले को ऋण आवेशित किया जाता है, इसकी त्रिज्या:</span>
+      <div class="o c4">
+        <div>(A) घटेगी</div>
+        <div>(B) अपरिवर्तित रहेगी</div>
+        <div>(C) शून्य हो जाएगी</div>
+        <div>(D) बढ़ेगी</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">70. धातुओं के लिए परावैद्युतांक ($K$) का मान होता है:</span>
+      <div class="o c4">
+        <div>(A) 0</div>
+        <div>(B) अनंत ($\infty$)</div>
+        <div>(C) 1</div>
+        <div>(D) -1</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">71. -1 C आवेश के लिए वस्तु में जोड़े गए अतिरिक्त इलेक्ट्रॉनों की संख्या होगी:</span>
+      <div class="o c2">
+        <div>(A) $1.6 \times 10^{-19}$</div>
+        <div>(B) $6.25 \times 10^{19}$</div>
+        <div>(C) $6.25 \times 10^{18}$</div>
+        <div>(D) $1.6 \times 10^{19}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">72. एकसमान विद्युत क्षेत्र में द्विध्रुव पर बल आघूर्ण अधिकतम होता है जब कोण हो:</span>
+      <div class="o c4">
+        <div>(A) $0^\circ$</div>
+        <div>(B) $90^\circ$</div>
+        <div>(C) $45^\circ$</div>
+        <div>(D) $180^\circ$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">73. कूलॉम के नियम में नियतांक $k = 1 / (4\pi\epsilon_0)$ का मान किस पर निर्भर करता है?</span>
+      <div class="o c1">
+        <div>(A) केवल माध्यम की प्रकृति पर</div>
+        <div>(B) केवल मात्रकों की प्रणाली पर</div>
+        <div>(C) न माध्यम पर, न मात्रकों पर</div>
+        <div>(D) माध्यम और मात्रकों की प्रणाली दोनों पर</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">74. आवेश के संरक्षण का सिद्धांत का अर्थ है:</span>
+      <div class="o c1">
+        <div>(A) ब्रह्मांड का कुल आवेश शून्य है</div>
+        <div>(B) विलगित निकाय का कुल आवेश स्थिर रहता है</div>
+        <div>(C) आवेश केवल नष्ट किया जा सकता है</div>
+        <div>(D) आवेश केवल उत्पन्न किया जा सकता है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">75. समविभव पृष्ठ पर परीक्षण आवेश को एक बिंदु से दूसरे तक ले जाने में किया गया कार्य:</span>
+      <div class="o c4">
+        <div>(A) धनात्मक</div>
+        <div>(B) ऋणात्मक</div>
+        <div>(C) शून्य</div>
+        <div>(D) अनंत</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">76. विद्युत क्षेत्र में स्वतंत्र छोड़े गए आवेशित कण की गतिज ऊर्जा:</span>
+      <div class="o c2">
+        <div>(A) लगातार घटती है</div>
+        <div>(B) नियत रहती है</div>
+        <div>(C) शून्य हो जाती है</div>
+        <div>(D) लगातार बढ़ती है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">77. गॉस का नियम सत्य है यदि स्थिरवैद्युत बल दूरी $r$ के किस घात के व्युत्क्रमानुपाती हो?</span>
+      <div class="o c4">
+        <div>(A) $r^3$</div>
+        <div>(B) $r^2$</div>
+        <div>(C) $r$</div>
+        <div>(D) $r^{-2}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">78. खोखले चालक के अंदर विद्युत क्षेत्र शून्य होता है। इसे कहा जाता है:</span>
+      <div class="o c1">
+        <div>(A) स्थिरवैद्युत परिरक्षण (Electrostatic shielding)</div>
+        <div>(B) परावैद्युत ध्रुवण</div>
+        <div>(C) परावैद्युत भंजन</div>
+        <div>(D) विद्युत प्रेरण</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">79. यदि $q_1 q_2 > 0$ हो, तो दोनों आवेशों के बीच बल की प्रकृति होगी:</span>
+      <div class="o c4">
+        <div>(A) आकर्षण</div>
+        <div>(B) शून्य</div>
+        <div>(C) प्रतिकर्षण</div>
+        <div>(D) अनिश्चित</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">80. यदि $q_1 q_2 < 0$ हो, तो दोनों आवेशों के बीच बल की प्रकृति होगी:</span>
+      <div class="o c4">
+        <div>(A) प्रतिकर्षण</div>
+        <div>(B) आकर्षण</div>
+        <div>(C) शून्य</div>
+        <div>(D) अनिश्चित</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">81. विद्युत बल रेखाएँ किस बिंदु से शुरू होकर किस पर समाप्त होती हैं?</span>
+      <div class="o c1">
+        <div>(A) ऋणावेश से धनावेश पर</div>
+        <div>(B) अनंत से धनावेश पर</div>
+        <div>(C) धनावेश से ऋणावेश पर</div>
+        <div>(D) बंद लूप बनाती हैं</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">82. दो वैद्युत बल रेखाएँ कभी भी एक-दूसरे को नहीं काट सकतीं क्योंकि:</span>
+      <div class="o c1">
+        <div>(A) बल रेखाएँ काल्पनिक होती हैं</div>
+        <div>(B) कटान बिंदु पर विद्युत क्षेत्र की दो दिशाएँ हो जाएँगी</div>
+        <div>(C) वे एक-दूसरे को प्रतिकर्षित करती हैं</div>
+        <div>(D) वे हमेशा समानांतर होती हैं</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">83. बिंदु आवेश $q$ के कारण $r$ दूरी पर विभव (V) और क्षेत्र (E) का अनुपात (V/E) होगा:</span>
+      <div class="o c4">
+        <div>(A) $1/r$</div>
+        <div>(B) $r^2$</div>
+        <div>(C) $r$</div>
+        <div>(D) $1/r^2$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">84. इलेक्ट्रॉन वोल्ट (eV) व्यावहारिक मात्रक है:</span>
+      <div class="o c4">
+        <div>(A) आवेश का</div>
+        <div>(B) विभव का</div>
+        <div>(C) धारा का</div>
+        <div>(D) ऊर्जा का</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">85. वैद्युत क्षेत्र में रखा एक इलेक्ट्रॉन जिस दिशा में बल अनुभव करेगा, वह दिशा होगी:</span>
+      <div class="o c1">
+        <div>(A) क्षेत्र के लंबवत</div>
+        <div>(B) क्षेत्र की दिशा में</div>
+        <div>(C) क्षेत्र की विपरीत दिशा में</div>
+        <div>(D) $45^\circ$ के कोण पर</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">86. एकसमान विद्युत क्षेत्र में वैद्युत द्विध्रुव पर नेट बल (Net force) हमेशा होता है:</span>
+      <div class="o c4">
+        <div>(A) शून्य</div>
+        <div>(B) $pE$</div>
+        <div>(C) $2qE$</div>
+        <div>(D) $qE$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">87. किसी वस्तु पर आवेश की मात्रा हमेशा किस राशि का पूर्ण गुणज होती है?</span>
+      <div class="o c2">
+        <div>(A) $3.2 \times 10^{-19} C$</div>
+        <div>(B) $1.6 \times 10^{-19} C$</div>
+        <div>(C) $9.1 \times 10^{-31} C$</div>
+        <div>(D) 1 कूलॉम</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">88. दो बिंदु आवेशों के बीच लगने वाले बल की दिशा हमेशा होती है:</span>
+      <div class="o c1">
+        <div>(A) किसी भी यादृच्छिक दिशा में</div>
+        <div>(B) उन्हें मिलाने वाली रेखा के लंबवत</div>
+        <div>(C) उन्हें मिलाने वाली रेखा के अनुदिश</div>
+        <div>(D) सतह के स्पर्शीय</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">89. शुष्क वायु के लिए परावैद्युत सामर्थ्य का मान लगभग होता है:</span>
+      <div class="o c2">
+        <div>(A) $3 \times 10^6 \text{ Vm}^{-1}$</div>
+        <div>(B) $3 \times 10^8 \text{ Vm}^{-1}$</div>
+        <div>(C) $1 \times 10^6 \text{ Vm}^{-1}$</div>
+        <div>(D) $9 \times 10^9 \text{ Vm}^{-1}$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">90. विद्युत फ्लक्स एक कैसी राशि है?</span>
+      <div class="o c4">
+        <div>(A) सदिश</div>
+        <div>(B) अदिश</div>
+        <div>(C) प्रदेश</div>
+        <div>(D) कोई नहीं</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">91. किसी बंद पृष्ठ से बाहर निकलने वाला कुल फ्लक्स शून्य है। इसका अर्थ है:</span>
+      <div class="o c1">
+        <div>(A) पृष्ठ के अंदर कुल आवेश शून्य है</div>
+        <div>(B) पृष्ठ के अंदर केवल धनावेश है</div>
+        <div>(C) पृष्ठ के अंदर केवल ऋणावेश है</div>
+        <div>(D) पृष्ठ के बाहर कोई आवेश नहीं है</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">92. एक अल्फा कण ($\alpha$-particle) पर आवेश होता है:</span>
+      <div class="o c2">
+        <div>(A) $-1.6 \times 10^{-19} C$</div>
+        <div>(B) $+1.6 \times 10^{-19} C$</div>
+        <div>(C) $+3.2 \times 10^{-19} C$</div>
+        <div>(D) शून्य</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">93. न्यूट्रॉन पर कुल आवेश होता है:</span>
+      <div class="o c2">
+        <div>(A) $+1.6 \times 10^{-19} C$</div>
+        <div>(B) शून्य</div>
+        <div>(C) $-1.6 \times 10^{-19} C$</div>
+        <div>(D) $+3.2 \times 10^{-19} C$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">94. आवेशित कण ($m, q$) को एकसमान विद्युत क्षेत्र $E$ में रखने पर त्वरण होगा:</span>
+      <div class="o c4">
+        <div>(A) $mE/q$</div>
+        <div>(B) $q/mE$</div>
+        <div>(C) $qE/m$</div>
+        <div>(D) $m/qE$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">95. एक वैद्युत द्विध्रुव को घेरने वाले बंद गोलीय पृष्ठ से गुजरने वाला कुल फ्लक्स होगा:</span>
+      <div class="o c4">
+        <div>(A) $q/\epsilon_0$</div>
+        <div>(B) $2q/\epsilon_0$</div>
+        <div>(C) अनंत</div>
+        <div>(D) शून्य</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">96. किसी चालक के तीखे किनारों पर आवेश का पृष्ठ घनत्व:</span>
+      <div class="o c4">
+        <div>(A) अधिकतम</div>
+        <div>(B) न्यूनतम</div>
+        <div>(C) शून्य</div>
+        <div>(D) एकसमान</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">97. 1 नैनोकूलॉम (1 nC) का मान होता है:</span>
+      <div class="o c4">
+        <div>(A) $10^{-6} C$</div>
+        <div>(B) $10^{-9} C$</div>
+        <div>(C) $10^{-12} C$</div>
+        <div>(D) $10^{-3} C$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">98. एक बंद पृष्ठ के भीतर 3 वैद्युत द्विध्रुव रखे हों, तो पृष्ठ से निर्गत कुल विद्युत फ्लक्स होगा:</span>
+      <div class="o c4">
+        <div>(A) $3q/\epsilon_0$</div>
+        <div>(B) $6q/\epsilon_0$</div>
+        <div>(C) शून्य</div>
+        <div>(D) $q/\epsilon_0$</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">99. एकसमान रूप से आवेशित पतले गोलीय खोल के केंद्र पर विद्युत क्षेत्र होगा:</span>
+      <div class="o c4">
+        <div>(A) $\sigma/\epsilon_0$</div>
+        <div>(B) अनंत</div>
+        <div>(C) $q/4\pi\epsilon_0 R^2$</div>
+        <div>(D) शून्य</div>
+      </div>
+    </div>
+
+    <div class="q">
+      <span class="t">100. किसी प्रोटॉन को दूसरे प्रोटॉन के समीप लाने पर निकाय की वैद्युत स्थितिज ऊर्जा:</span>
+      <div class="o c4">
+        <div>(A) शून्य होती है</div>
+        <div>(B) घटती है</div>
+        <div>(C) बढ़ती है</div>
+        <div>(D) अपरिवर्तित</div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    if (window.MathJax) {
+      MathJax.typesetPromise();
+    }
+  </script>
+
+</body>
+</html>
