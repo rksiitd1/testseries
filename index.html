@@ -30,13 +30,11 @@
     .mast-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
     .brand { display: flex; align-items: center; gap: 10px; font-size: .77rem; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
     .brand-mark { display: grid; width: 30px; height: 30px; place-items: center; background: var(--green); color: white; font-size: .78rem; letter-spacing: 0; }
-    .updated { color: var(--sub); font-size: .78rem; }
     h1 { margin: 25px 0 7px; font-size: clamp(2.1rem, 5vw, 3.55rem); font-weight: 720; letter-spacing: -.06em; line-height: 1; }
-    .lede { max-width: 720px; margin: 0; color: var(--sub); font-size: .98rem; }
-    .summary { display: flex; flex-wrap: wrap; gap: 1px; margin-top: 24px; border: 1px solid var(--line); background: var(--line); }
-    .summary-item { flex: 1 1 130px; padding: 11px 15px; background: var(--surface); }
-    .summary-item strong { display: block; font-size: 1.14rem; line-height: 1.2; }
-    .summary-item span { color: var(--sub); font-size: .73rem; }
+    .updated { display: grid; gap: 1px; min-width: 190px; padding: 8px 12px; border: 1px solid var(--line-dark); background: var(--surface); text-align: right; }
+    .updated-label { color: var(--green); font-size: .62rem; font-weight: 850; letter-spacing: .12em; }
+    .updated strong { font-size: .92rem; line-height: 1.25; }
+    .updated-range { color: var(--sub); font-size: .8rem; font-weight: 650; }
     .tools { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: rgba(243,240,232,.96); backdrop-filter: blur(10px); }
     .tools-inner { display: flex; align-items: center; gap: 10px; padding-block: 10px; }
     .search { flex: 1 1 auto; min-width: 160px; height: 40px; padding: 0 12px; border: 1px solid var(--line-dark); border-radius: 2px; background: var(--surface); color: var(--ink); font: inherit; }
@@ -100,11 +98,10 @@
     @media (max-width: 480px) {
       .wrap { width: calc(100% - 18px); }
       .mast-top { align-items: flex-start; }
-      .updated { max-width: 105px; text-align: right; }
+      .updated { min-width: 0; max-width: 170px; padding: 6px 8px; text-align: right; }
+      .updated strong { font-size: .8rem; }
+      .updated-range { font-size: .71rem; }
       h1 { margin-top: 21px; }
-      .summary-item { flex-basis: 29%; padding: 9px; }
-      .summary-item strong { font-size: 1rem; }
-      .summary-item span { font-size: .66rem; }
       .tools-inner { display: block; }
       .search { width: 100%; }
       .jump { margin-top: 7px; padding-bottom: 2px; }
@@ -124,15 +121,13 @@
     <div class="wrap">
       <div class="mast-top">
         <div class="brand"><span class="brand-mark">S</span><span>Sri Classes · Test archive</span></div>
-        <div class="updated">Completed tests<br>6–13 October 2026</div>
+        <div class="updated" aria-label="Completed tests, 6 to 13 October 2026">
+          <span class="updated-label">COMPLETED TESTS</span>
+          <strong><span id="completed-count">15</span> tests</strong>
+          <span class="updated-range">6–13 October 2026</span>
+        </div>
       </div>
       <h1>Test Series</h1>
-      <p class="lede">A date-wise record of completed tests. The newest day comes first. Branded question papers and answer keys are the primary files.</p>
-      <div class="summary" aria-label="Archive summary">
-        <div class="summary-item"><strong id="day-count">8</strong><span>days in this view</span></div>
-        <div class="summary-item"><strong id="paper-count">—</strong><span>paper variants</span></div>
-        <div class="summary-item"><strong id="key-count">—</strong><span>answer keys</span></div>
-      </div>
     </div>
   </header>
   <div class="tools">
@@ -293,8 +288,7 @@
       const section = document.getElementById('unassigned-section'); section.hidden = false;
       document.getElementById('unassigned').append(subjectCard(spec));
     }
-    document.getElementById('paper-count').textContent = new Set(records.filter(file => !file.key && !file.html).map(file => [file.classNumber,file.subject,file.chapter,file.english ? 'English' : 'Hindi'].join('|'))).size;
-    document.getElementById('key-count').textContent = new Set(records.filter(file => file.key).map(file => [file.classNumber,file.subject,file.chapter].join('|'))).size;
+    document.getElementById('completed-count').textContent = schedule.reduce((count, day) => count + day.ten.length + day.twelve.length, 0) + unassignedTests.size;
     document.getElementById('search').addEventListener('input', render);
     render();
   </script>
