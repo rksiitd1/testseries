@@ -3,219 +3,299 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#f5f2eb">
-  <title>Test Series Library | Sri Classes</title>
+  <meta name="theme-color" content="#f3f0e8">
+  <title>Test Series · Sri Classes</title>
   <style>
     :root {
-      color-scheme: light;
-      --ink: #202a26;
-      --muted: #68736d;
-      --paper: #f5f2eb;
-      --card: #fffefa;
-      --line: #e3e0d8;
-      --green: #176b50;
-      --green-dark: #10543e;
-      --pale-green: #e9f2ed;
-      --saffron: #a95a18;
-      --pale-saffron: #fbf0e2;
-      --shadow: 0 8px 24px rgba(37, 48, 41, .055);
+      --bg: #f3f0e8;
+      --surface: #fffefa;
+      --ink: #1f2925;
+      --sub: #66716b;
+      --line: #d8d7ce;
+      --line-dark: #b7b9ae;
+      --green: #155f48;
+      --green-soft: #e6efe9;
+      --orange: #b56424;
+      --orange-soft: #f7ecdf;
+      --blue: #345f77;
+      --blue-soft: #e8eff3;
+      --shadow: 0 7px 22px rgba(30, 39, 34, .045);
     }
     * { box-sizing: border-box; }
-    body {
-      margin: 0;
-      background: var(--paper);
-      color: var(--ink);
-      font: 15px/1.55 "Segoe UI", "Nirmala UI", Arial, sans-serif;
-    }
+    html { scroll-behavior: smooth; }
+    body { margin: 0; background: var(--bg); color: var(--ink); font: 14px/1.5 "Segoe UI", "Nirmala UI", Arial, sans-serif; }
     a { color: inherit; }
-    .shell { width: min(1180px, calc(100% - 36px)); margin: 0 auto; }
-    .hero { padding: 46px 0 26px; }
-    .eyebrow {
-      color: var(--green); font-size: .76rem; font-weight: 800;
-      letter-spacing: .14em; text-transform: uppercase;
-    }
-    h1 { margin: 8px 0 8px; font-size: clamp(2rem, 5vw, 3.45rem); line-height: 1.08; letter-spacing: -.045em; }
-    .intro { max-width: 690px; margin: 0; color: var(--muted); font-size: 1.02rem; }
-    .stats { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 12px; margin: 24px 0 0; max-width: 690px; }
-    .stat { padding: 13px 16px; border: 1px solid var(--line); border-radius: 14px; background: rgba(255,254,250,.72); }
-    .stat strong { display: block; font-size: 1.35rem; line-height: 1.2; }
-    .stat span { color: var(--muted); font-size: .79rem; }
-    .toolbar {
-      position: sticky; top: 0; z-index: 5; padding: 12px 0;
-      border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-      background: rgba(245,242,235,.94); backdrop-filter: blur(12px);
-    }
-    .controls { display: grid; grid-template-columns: minmax(220px, 1.5fr) repeat(2, minmax(150px, .7fr)); gap: 10px; }
-    input, select {
-      width: 100%; min-height: 44px; padding: 0 13px; border: 1px solid #d7d9d2;
-      border-radius: 11px; background: var(--card); color: var(--ink); font: inherit;
-    }
-    input:focus, select:focus, a:focus-visible { outline: 3px solid #7fb99e; outline-offset: 2px; }
-    main { padding: 28px 0 60px; }
-    .class-section { margin: 0 0 34px; }
-    .class-heading { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin: 0 0 14px; }
-    .class-heading h2 { margin: 0; font-size: 1.55rem; letter-spacing: -.025em; }
-    .class-heading p { margin: 0; color: var(--muted); font-size: .88rem; }
-    .cards { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
-    .test-card { min-width: 0; padding: 18px; border: 1px solid var(--line); border-radius: 16px; background: var(--card); box-shadow: var(--shadow); }
-    .card-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
-    .subject { margin: 0; font-size: 1.15rem; line-height: 1.3; }
-    .detail { margin: 5px 0 0; color: var(--muted); font-size: .9rem; }
-    .badge { flex: 0 0 auto; padding: 4px 9px; border-radius: 999px; background: var(--pale-green); color: var(--green-dark); font-size: .72rem; font-weight: 750; }
-    .badge.english { background: var(--pale-saffron); color: var(--saffron); }
-    .assets { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 17px; }
-    .asset {
-      display: inline-flex; align-items: center; gap: 6px; min-height: 35px; padding: 0 11px;
-      border: 1px solid var(--line); border-radius: 9px; text-decoration: none;
-      font-size: .82rem; font-weight: 680; transition: background .15s, border-color .15s, transform .15s;
-    }
-    .asset:hover { transform: translateY(-1px); border-color: #a8c7b6; background: #f0f6f1; }
-    .asset.primary { border-color: var(--green); background: var(--green); color: white; }
-    .asset.primary:hover { border-color: var(--green-dark); background: var(--green-dark); }
-    .empty { padding: 32px; border: 1px dashed #bfc5bc; border-radius: 16px; color: var(--muted); text-align: center; }
-    .footer { padding: 18px 0 30px; border-top: 1px solid var(--line); color: var(--muted); font-size: .82rem; }
+    .wrap { width: min(1220px, calc(100% - 44px)); margin-inline: auto; }
+    .masthead { padding: 32px 0 23px; border-bottom: 1px solid var(--line); }
+    .mast-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .brand { display: flex; align-items: center; gap: 10px; font-size: .77rem; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
+    .brand-mark { display: grid; width: 30px; height: 30px; place-items: center; background: var(--green); color: white; font-size: .78rem; letter-spacing: 0; }
+    .updated { color: var(--sub); font-size: .78rem; }
+    h1 { margin: 25px 0 7px; font-size: clamp(2.1rem, 5vw, 3.55rem); font-weight: 720; letter-spacing: -.06em; line-height: 1; }
+    .lede { max-width: 720px; margin: 0; color: var(--sub); font-size: .98rem; }
+    .summary { display: flex; flex-wrap: wrap; gap: 1px; margin-top: 24px; border: 1px solid var(--line); background: var(--line); }
+    .summary-item { flex: 1 1 130px; padding: 11px 15px; background: var(--surface); }
+    .summary-item strong { display: block; font-size: 1.14rem; line-height: 1.2; }
+    .summary-item span { color: var(--sub); font-size: .73rem; }
+    .tools { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: rgba(243,240,232,.96); backdrop-filter: blur(10px); }
+    .tools-inner { display: flex; align-items: center; gap: 10px; padding-block: 10px; }
+    .search { flex: 1 1 auto; min-width: 160px; height: 40px; padding: 0 12px; border: 1px solid var(--line-dark); border-radius: 2px; background: var(--surface); color: var(--ink); font: inherit; }
+    .search:focus, a:focus-visible, summary:focus-visible { outline: 2px solid #669b81; outline-offset: 2px; }
+    .jump { display: flex; gap: 4px; overflow-x: auto; scrollbar-width: thin; }
+    .jump a { flex: 0 0 auto; padding: 8px 10px; border: 1px solid var(--line); color: var(--sub); font-size: .77rem; font-weight: 700; text-decoration: none; }
+    .jump a:hover { border-color: var(--green); color: var(--green); }
+    main { padding: 25px 0 50px; }
+    .section-title { display: flex; align-items: end; justify-content: space-between; gap: 12px; margin: 0 0 12px; }
+    .section-title h2 { margin: 0; font-size: 1.15rem; letter-spacing: -.02em; }
+    .section-title p { margin: 0; color: var(--sub); font-size: .8rem; }
+    .timeline { display: grid; gap: 9px; }
+    .day { display: grid; grid-template-columns: 174px minmax(0, 1fr); border: 1px solid var(--line); background: var(--surface); box-shadow: var(--shadow); }
+    .date-col { display: flex; flex-direction: column; align-items: flex-start; justify-content: center; padding: 17px; border-right: 1px solid var(--line); background: #f8f6f0; }
+    .date-month { color: var(--green); font-size: .68rem; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
+    .date-number { margin-top: 2px; font-size: 2.45rem; font-weight: 760; letter-spacing: -.07em; line-height: 1; }
+    .date-weekday { margin-top: 6px; color: var(--sub); font-size: .82rem; font-weight: 700; }
+    .today-tag { margin-top: 10px; padding: 3px 7px; background: var(--green); color: white; font-size: .63rem; font-weight: 800; letter-spacing: .09em; text-transform: uppercase; }
+    .sessions { min-width: 0; }
+    .class-row { display: grid; grid-template-columns: 114px minmax(0,1fr); min-height: 74px; }
+    .class-row + .class-row { border-top: 1px solid var(--line); }
+    .class-label { display: flex; flex-direction: column; justify-content: center; padding: 12px 14px; border-right: 1px solid var(--line); color: var(--sub); font-size: .69rem; font-weight: 850; letter-spacing: .08em; text-transform: uppercase; }
+    .class-label strong { color: var(--ink); font-size: .88rem; letter-spacing: -.01em; text-transform: none; }
+    .subject-list { display: grid; gap: 7px; padding: 10px; }
+    .subject-card { min-width: 0; padding: 11px 12px; border: 1px solid #e1dfd6; background: #fff; }
+    .subject-head { display: flex; align-items: baseline; justify-content: space-between; gap: 10px; margin-bottom: 9px; }
+    .subject-name { margin: 0; font-size: .92rem; font-weight: 760; }
+    .chapter { color: var(--sub); font-size: .75rem; white-space: nowrap; }
+    .actions { display: flex; flex-wrap: wrap; align-items: center; gap: 6px; }
+    .action { display: inline-flex; align-items: center; justify-content: center; min-height: 32px; padding: 5px 10px; border: 1px solid var(--green); background: var(--green); color: white; font-size: .75rem; font-weight: 760; text-decoration: none; }
+    .action:hover { border-color: #0e4936; background: #0e4936; }
+    .action.key { border-color: #a85d21; background: var(--orange); }
+    .action.key:hover { border-color: #8e4b17; background: #8e4b17; }
+    .action.english { border-color: var(--blue); background: var(--blue); }
+    .action.english:hover { border-color: #274b60; background: #274b60; }
+    .action.quiet { min-height: 28px; padding: 3px 8px; border-color: var(--line); background: #faf9f5; color: #46534c; font-size: .7rem; }
+    .action.quiet:hover { border-color: var(--line-dark); background: var(--green-soft); }
+    details.more { margin-top: 8px; color: var(--sub); }
+    details.more summary { display: inline-block; cursor: pointer; font-size: .71rem; font-weight: 700; }
+    .more-links { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 7px; }
+    .off { display: flex; align-items: center; min-height: 52px; padding: 10px 12px; color: #818981; font-size: .8rem; }
+    .off::before { content: ""; width: 5px; height: 5px; margin-right: 9px; background: #c5c9c0; }
+    .empty-result { padding: 28px; border: 1px dashed var(--line-dark); color: var(--sub); text-align: center; }
+    .unassigned { margin-top: 34px; }
+    .unassigned-note { margin: -3px 0 12px; color: var(--sub); font-size: .82rem; }
+    .footer { padding: 16px 0 28px; border-top: 1px solid var(--line); color: var(--sub); font-size: .77rem; }
     .footer strong { color: var(--ink); }
-    @media (max-width: 720px) {
-      .hero { padding-top: 32px; }
-      .controls { grid-template-columns: 1fr 1fr; }
-      .controls input { grid-column: 1 / -1; }
-      .cards { grid-template-columns: 1fr; }
+    @media (max-width: 760px) {
+      .wrap { width: min(100% - 24px, 1220px); }
+      .masthead { padding-top: 22px; }
+      .day { grid-template-columns: 1fr; }
+      .date-col { display: grid; grid-template-columns: auto 1fr auto; align-items: center; column-gap: 10px; padding: 11px 13px; border-right: 0; border-bottom: 1px solid var(--line); }
+      .date-month { grid-column: 1; grid-row: 1; font-size: .61rem; }
+      .date-number { grid-column: 1; grid-row: 2; margin-top: 0; font-size: 1.65rem; }
+      .date-weekday { grid-column: 2; grid-row: 1 / 3; margin: 0; font-size: .9rem; }
+      .today-tag { grid-column: 3; grid-row: 1 / 3; margin: 0; }
+      .class-row { grid-template-columns: 85px minmax(0,1fr); }
+      .class-label { padding-inline: 9px; }
+      .subject-list { padding: 7px; }
     }
-    @media (max-width: 420px) {
-      .shell { width: min(100% - 24px, 1180px); }
-      .stats { gap: 7px; }
-      .stat { padding: 10px; }
-      .class-heading { display: block; }
-      .class-heading p { margin-top: 3px; }
+    @media (max-width: 480px) {
+      .wrap { width: calc(100% - 18px); }
+      .mast-top { align-items: flex-start; }
+      .updated { max-width: 105px; text-align: right; }
+      h1 { margin-top: 21px; }
+      .summary-item { flex-basis: 29%; padding: 9px; }
+      .summary-item strong { font-size: 1rem; }
+      .summary-item span { font-size: .66rem; }
+      .tools-inner { display: block; }
+      .search { width: 100%; }
+      .jump { margin-top: 7px; padding-bottom: 2px; }
+      .class-row { grid-template-columns: 68px minmax(0,1fr); }
+      .class-label { padding: 9px 6px; font-size: .57rem; letter-spacing: .035em; }
+      .class-label strong { font-size: .74rem; }
+      .subject-card { padding: 9px; }
+      .subject-head { align-items: flex-start; }
+      .subject-name { font-size: .85rem; }
+      .chapter { font-size: .68rem; }
+      .action { min-height: 31px; padding-inline: 8px; font-size: .7rem; }
     }
   </style>
 </head>
 <body>
-  <header class="shell hero">
-    <div class="eyebrow">Sri Classes · Test archive</div>
-    <h1>Test Series Library</h1>
-    <p class="intro">Browse completed test papers and answer keys by class, subject, chapter, or language. Open a paper in HTML or PDF, or choose its branded print copy.</p>
-    <div class="stats" aria-label="Archive summary">
-      <div class="stat"><strong id="test-count">—</strong><span>paper entries</span></div>
-      <div class="stat"><strong id="paper-count">—</strong><span>paper files</span></div>
-      <div class="stat"><strong id="key-count">—</strong><span>answer key files</span></div>
+  <header class="masthead">
+    <div class="wrap">
+      <div class="mast-top">
+        <div class="brand"><span class="brand-mark">S</span><span>Sri Classes · Test archive</span></div>
+        <div class="updated">Completed tests<br>6–13 October 2026</div>
+      </div>
+      <h1>Test Series</h1>
+      <p class="lede">A date-wise record of completed tests. The newest day comes first. Branded question papers and answer keys are the primary files.</p>
+      <div class="summary" aria-label="Archive summary">
+        <div class="summary-item"><strong id="day-count">8</strong><span>days in this view</span></div>
+        <div class="summary-item"><strong id="paper-count">—</strong><span>paper variants</span></div>
+        <div class="summary-item"><strong id="key-count">—</strong><span>answer keys</span></div>
+      </div>
     </div>
   </header>
-  <div class="toolbar">
-    <div class="shell controls">
-      <input id="search" type="search" placeholder="Search subject, chapter, or language…" aria-label="Search tests">
-      <select id="class-filter" aria-label="Filter by class"><option value="all">All classes</option><option value="10">Class 10</option><option value="12">Class 12</option></select>
-      <select id="subject-filter" aria-label="Filter by subject"><option value="all">All subjects</option></select>
+  <div class="tools">
+    <div class="wrap tools-inner">
+      <input class="search" id="search" type="search" placeholder="Search date, class, subject, or chapter" aria-label="Search the test archive">
+      <nav class="jump" aria-label="Jump to date" id="jump"></nav>
     </div>
   </div>
-  <main class="shell" id="catalog" aria-live="polite"></main>
-  <footer class="shell footer"><strong>Sri Classes</strong> · Completed tests archive · HTML files are the editable/source versions; `SHRI_` PDFs are branded print copies.</footer>
+  <main class="wrap">
+    <div class="section-title"><h2>Test days</h2><p>Class 10 first · Class 12 second</p></div>
+    <div class="timeline" id="timeline" aria-live="polite"></div>
+    <section class="unassigned" id="unassigned-section" hidden>
+      <div class="section-title"><h2>Other completed paper</h2><p>Date not specified</p></div>
+      <p class="unassigned-note">This paper is included in the archive; no test date was given for it.</p>
+      <div id="unassigned"></div>
+    </section>
+  </main>
+  <footer class="wrap footer"><strong>Sri Classes</strong> · `SHRI_` PDF = branded paper · Answer key is shared across the two language versions where applicable.</footer>
   <script>
     const files = ["Biology-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Biology-Class-12th-Chapter-1-question-paper-english.html","Biology-Class-12th-Chapter-1-question-paper-english.pdf","Biology-Class-12th-Chapter-1-question-paper.html","Biology-Class-12th-Chapter-1-question-paper.pdf","Biology-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.html","Biology-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Biology-Class-12th-Chapter-2-question-paper-english.html","Biology-Class-12th-Chapter-2-question-paper-english.pdf","Biology-Class-12th-Chapter-2-question-paper.html","Biology-Class-12th-Chapter-2-question-paper.pdf","Chemistry-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Chemistry-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Chemistry-Class-12th-Chapter-1-question-paper-english.html","Chemistry-Class-12th-Chapter-1-question-paper-english.pdf","Chemistry-Class-12th-Chapter-1-question-paper.html","Chemistry-Class-12th-Chapter-1-question-paper.pdf","Chemistry-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.html","Chemistry-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Chemistry-Class-12th-Chapter-2-question-paper-english.html","Chemistry-Class-12th-Chapter-2-question-paper-english.pdf","Chemistry-Class-12th-Chapter-2-question-paper.html","Chemistry-Class-12th-Chapter-2-question-paper.pdf","English-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","English-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","English-Class-12th-Chapter-1-question-paper.html","English-Class-12th-Chapter-1-question-paper.pdf","Hindi-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-1-question-paper.html","Hindi-Class-10th-Chapter-1-question-paper.pdf","Hindi-Class-10th-Chapter-2-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-2-question-paper.html","Hindi-Class-10th-Chapter-2-question-paper.pdf","Hindi-Class-10th-Chapter-3-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-3-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-3-question-paper.html","Hindi-Class-10th-Chapter-3-question-paper.pdf","Hindi-Class-10th-Chapter-4-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-4-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-4-question-paper.html","Hindi-Class-10th-Chapter-4-question-paper.pdf","Hindi-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-5-question-paper.html","Hindi-Class-10th-Chapter-5-question-paper.pdf","Hindi-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Hindi-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-12th-Chapter-1-question-paper.html","Hindi-Class-12th-Chapter-1-question-paper.pdf","Physics-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.html","Physics-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.pdf","Physics-Class-10th-Chapter-5-question-paper.html","Physics-Class-10th-Chapter-5-question-paper.pdf","Physics-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Physics-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Physics-Class-12th-Chapter-1-question-paper-english.html","Physics-Class-12th-Chapter-1-question-paper-english.pdf","Physics-Class-12th-Chapter-1-question-paper.html","Physics-Class-12th-Chapter-1-question-paper.pdf","Sanskrit-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.pdf","Sanskrit-Class-10th-All-Chapters-question-paper.html","Sanskrit-Class-10th-All-Chapters-question-paper.pdf","SHRI_Biology-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Biology-Class-12th-Chapter-1-question-paper.pdf","SHRI_Biology-Class-12th-Chapter-2-question-paper-english.pdf","SHRI_Biology-Class-12th-Chapter-2-question-paper.pdf","SHRI_Chemistry-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Chemistry-Class-12th-Chapter-1-question-paper.pdf","SHRI_Chemistry-Class-12th-Chapter-2-question-paper-english.pdf","SHRI_Chemistry-Class-12th-Chapter-2-question-paper.pdf","SHRI_English-Class-12th-Chapter-1-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-1-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-2-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-3-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-4-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-5-question-paper.pdf","SHRI_Hindi-Class-12th-Chapter-1-question-paper.pdf","SHRI_Physics-Class-10th-Chapter-5-question-paper.pdf","SHRI_Physics-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Physics-Class-12th-Chapter-1-question-paper.pdf","SHRI_Sanskrit-Class-10th-All-Chapters-question-paper.pdf","SHRI_Social-Science-Class-10th-All-Chapters-question-paper.pdf","Social-Science-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.html","Social-Science-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.pdf","Social-Science-Class-10th-All-Chapters-question-paper.html","Social-Science-Class-10th-All-Chapters-question-paper.pdf"];
-    const subjectOrder = ['Biology', 'Chemistry', 'Physics', 'English', 'Hindi', 'Sanskrit', 'Social Science'];
-    const niceSubject = value => ({ 'Social-Science': 'Social Science' }[value] || value);
-    function parseFile(name) {
+    const schedule = [
+      { date: '2026-10-13', weekday: 'Tuesday', today: true,
+        ten: [{ subject: 'Hindi', chapter: 'Chapter 5' }, { subject: 'Sanskrit', chapter: 'All Chapters' }],
+        twelve: [{ subject: 'Chemistry', chapter: 'Chapter 2', bilingual: true }] },
+      { date: '2026-10-12', weekday: 'Monday',
+        ten: [{ subject: 'Hindi', chapter: 'Chapter 4' }, { subject: 'Physics', chapter: 'Chapter 5' }],
+        twelve: [{ subject: 'Biology', chapter: 'Chapter 2', bilingual: true }] },
+      { date: '2026-10-11', weekday: 'Sunday', off: true, ten: [], twelve: [] },
+      { date: '2026-10-10', weekday: 'Saturday',
+        ten: [{ subject: 'Hindi', chapter: 'Chapter 3' }],
+        twelve: [{ subject: 'Hindi', chapter: 'Chapter 1' }] },
+      { date: '2026-10-09', weekday: 'Friday',
+        ten: [{ subject: 'Hindi', chapter: 'Chapter 2' }],
+        twelve: [{ subject: 'English', chapter: 'Chapter 1' }] },
+      { date: '2026-10-08', weekday: 'Thursday',
+        ten: [{ subject: 'Hindi', chapter: 'Chapter 1' }],
+        twelve: [{ subject: 'Physics', chapter: 'Chapter 1', bilingual: true }] },
+      { date: '2026-10-07', weekday: 'Wednesday',
+        ten: [], twelve: [{ subject: 'Chemistry', chapter: 'Chapter 1', bilingual: true }] },
+      { date: '2026-10-06', weekday: 'Tuesday',
+        ten: [], twelve: [{ subject: 'Biology', chapter: 'Chapter 1', bilingual: true }] }
+    ];
+    const subjectFrom = value => value === 'Social-Science' ? 'Social Science' : value;
+    function parse(name) {
       const branded = name.startsWith('SHRI_');
       const base = (branded ? name.slice(5) : name).replace(/\.(html|pdf)$/i, '');
       const key = base.includes('AnswerKey');
       const match = base.match(/^(.*?)-Class-(10th|12th)-(.*)$/);
       if (!match) return null;
-      const subject = niceSubject(match[1]);
-      const classNumber = match[2].slice(0, 2);
+      const subject = subjectFrom(match[1]);
       const tail = match[3].replace(/-AnswerKey.*$/, '').replace(/-question-paper.*$/, '');
       const chapterMatch = tail.match(/^(Chapter-\d+|All-Chapters)$/);
       if (!chapterMatch) return null;
-      const chapter = chapterMatch[1] === 'All-Chapters' ? 'All Chapters' : chapterMatch[1].replace('-', ' ');
-      const english = /-english(?:\.|$)/i.test(name);
-      const kind = name.endsWith('.html') ? 'html' : 'pdf';
-      return { name, branded, key, subject, classNumber, chapter, english, kind };
+      return {
+        name, branded, key, subject,
+        classNumber: match[2].slice(0, 2),
+        chapter: chapterMatch[1] === 'All-Chapters' ? 'All Chapters' : chapterMatch[1].replace('-', ' '),
+        english: /-english(?:\.|$)/i.test(name),
+        html: name.endsWith('.html')
+      };
     }
-    const records = files.map(parseFile).filter(Boolean);
-    const tests = new Map();
-    const sharedKeys = new Map();
-    for (const file of records) {
-      const baseId = [file.classNumber, file.subject, file.chapter].join('|');
-      if (file.key) {
-        if (!sharedKeys.has(baseId)) sharedKeys.set(baseId, []);
-        sharedKeys.get(baseId).push(file);
-        continue;
+    const records = files.map(parse).filter(Boolean);
+    const findFiles = spec => records.filter(file => file.classNumber === spec.classNumber && file.subject === spec.subject && file.chapter === spec.chapter);
+    const encodePath = name => encodeURI(name);
+    function link(file, label, cls) {
+      const a = document.createElement('a'); a.className = `action ${cls || ''}`.trim(); a.href = encodePath(file.name); a.textContent = label; a.setAttribute('aria-label', `${label}: ${file.name}`); return a;
+    }
+    function subjectCard(spec) {
+      const card = document.createElement('article'); card.className = 'subject-card';
+      const head = document.createElement('div'); head.className = 'subject-head';
+      const title = document.createElement('h3'); title.className = 'subject-name'; title.textContent = spec.subject;
+      const chapter = document.createElement('span'); chapter.className = 'chapter'; chapter.textContent = spec.chapter;
+      head.append(title, chapter); card.append(head);
+      const filesFor = findFiles({ ...spec, classNumber: spec.classNumber });
+      const mainActions = document.createElement('div'); mainActions.className = 'actions';
+      if (spec.bilingual) {
+        const hindi = filesFor.find(file => !file.key && file.branded && !file.english && !file.html);
+        const english = filesFor.find(file => !file.key && file.branded && file.english && !file.html);
+        if (hindi) mainActions.append(link(hindi, 'Branded paper · Hindi', 'paper'));
+        if (english) mainActions.append(link(english, 'Branded paper · English', 'english'));
+      } else {
+        const branded = filesFor.find(file => !file.key && file.branded && !file.html);
+        if (branded) mainActions.append(link(branded, 'Branded question paper', 'paper'));
       }
-      const language = file.subject === 'English' ? 'English subject' : (file.english ? 'English' : 'Hindi');
-      const id = [baseId, language].join('|');
-      if (!tests.has(id)) tests.set(id, { classNumber: file.classNumber, subject: file.subject, chapter: file.chapter, language, files: [] });
-      tests.get(id).files.push(file);
+      const keyPdf = filesFor.find(file => file.key && !file.html);
+      if (keyPdf) mainActions.append(link(keyPdf, 'Answer key', 'key'));
+      if (!mainActions.children.length) {
+        const missing = document.createElement('span'); missing.className = 'chapter'; missing.textContent = 'No branded PDF found'; mainActions.append(missing);
+      }
+      card.append(mainActions);
+      const secondary = filesFor.filter(file => file.html || (!file.key && !file.branded && !file.html) || (file.key && file.html));
+      if (secondary.length) {
+        const details = document.createElement('details'); details.className = 'more';
+        const summary = document.createElement('summary'); summary.textContent = 'Other files'; details.append(summary);
+        const links = document.createElement('div'); links.className = 'more-links';
+        for (const file of secondary) {
+          let label;
+          if (file.key) label = file.html ? 'Answer key · HTML' : 'Answer key · PDF';
+          else if (file.html) label = file.english ? 'English source · HTML' : 'HTML source';
+          else label = file.english ? 'English paper · PDF' : 'Unbranded paper · PDF';
+          links.append(link(file, label, 'quiet'));
+        }
+        details.append(links); card.append(details);
+      }
+      return card;
     }
-    for (const item of tests.values()) {
-      item.files.push(...(sharedKeys.get([item.classNumber, item.subject, item.chapter].join('|')) || []));
+    function sessionRow(classNumber, specs) {
+      const row = document.createElement('div'); row.className = 'class-row';
+      const label = document.createElement('div'); label.className = 'class-label';
+      const sub = document.createElement('span'); sub.textContent = 'Test series';
+      const main = document.createElement('strong'); main.textContent = `Class ${classNumber}`;
+      label.append(sub, main);
+      const list = document.createElement('div'); list.className = 'subject-list';
+      if (!specs.length) {
+        const off = document.createElement('div'); off.className = 'off'; off.textContent = classNumber === '10' && specs.noTests ? 'No test' : 'No test'; list.append(off);
+      } else {
+        for (const spec of specs) list.append(subjectCard({ ...spec, classNumber }));
+      }
+      row.append(label, list); return row;
     }
-    const items = [...tests.values()];
-    const classRank = n => n === '12' ? 0 : 1;
-    const chapterRank = value => value === 'All Chapters' ? 99 : Number((value.match(/\d+/) || [0])[0]);
-    const subjectRank = value => { const i = subjectOrder.indexOf(value); return i < 0 ? 99 : i; };
-    items.sort((a, b) => classRank(a.classNumber) - classRank(b.classNumber) || chapterRank(a.chapter) - chapterRank(b.chapter) || subjectRank(a.subject) - subjectRank(b.subject) || a.language.localeCompare(b.language));
-
-    const subjectFilter = document.getElementById('subject-filter');
-    [...new Set(items.map(item => item.subject))].sort((a,b) => subjectRank(a)-subjectRank(b)).forEach(subject => {
-      const option = document.createElement('option'); option.value = subject; option.textContent = subject; subjectFilter.append(option);
-    });
-    document.getElementById('test-count').textContent = items.length;
-    document.getElementById('paper-count').textContent = records.filter(f => !f.key).length;
-    document.getElementById('key-count').textContent = records.filter(f => f.key).length;
-
-    function fileLink(file, label, primary = false) {
-      const link = document.createElement('a');
-      link.className = `asset${primary ? ' primary' : ''}`;
-      link.href = encodeURI(file.name); link.textContent = label;
-      link.setAttribute('aria-label', `${label}: ${file.name}`);
-      return link;
+    const jump = document.getElementById('jump');
+    for (const day of schedule) {
+      const a = document.createElement('a'); a.href = `#day-${day.date}`; a.textContent = `${Number(day.date.slice(-2))} Oct`; jump.append(a);
     }
     function render() {
-      const query = document.getElementById('search').value.trim().toLocaleLowerCase();
-      const classValue = document.getElementById('class-filter').value;
-      const subjectValue = subjectFilter.value;
-      const filtered = items.filter(item => {
-        const haystack = `${item.subject} ${item.chapter} ${item.language} class ${item.classNumber}`.toLocaleLowerCase();
-        return (classValue === 'all' || item.classNumber === classValue) && (subjectValue === 'all' || item.subject === subjectValue) && (!query || haystack.includes(query));
-      });
-      const root = document.getElementById('catalog'); root.replaceChildren();
-      if (!filtered.length) { const empty = document.createElement('div'); empty.className = 'empty'; empty.textContent = 'No tests match those filters. Try a different search.'; root.append(empty); return; }
-      for (const classNumber of ['12', '10']) {
-        const group = filtered.filter(item => item.classNumber === classNumber);
-        if (!group.length) continue;
-        const section = document.createElement('section'); section.className = 'class-section';
-        const heading = document.createElement('div'); heading.className = 'class-heading';
-        const title = document.createElement('h2'); title.textContent = `Class ${classNumber}`;
-        const count = document.createElement('p'); count.textContent = `${group.length} ${group.length === 1 ? 'test' : 'tests'}`;
-        heading.append(title, count); section.append(heading);
-        const cards = document.createElement('div'); cards.className = 'cards';
-        for (const item of group) {
-          const card = document.createElement('article'); card.className = 'test-card';
-          const top = document.createElement('div'); top.className = 'card-top';
-          const copy = document.createElement('div');
-          const subject = document.createElement('h3'); subject.className = 'subject'; subject.textContent = item.subject;
-          const detail = document.createElement('p'); detail.className = 'detail'; detail.textContent = `${item.chapter} · ${item.language === 'shared' ? 'Shared answer key' : item.language === 'English subject' ? 'Subject paper' : item.language + ' medium'}`;
-          copy.append(subject, detail);
-          const badge = document.createElement('span'); badge.className = `badge${item.language === 'English' ? ' english' : ''}`; badge.textContent = item.language === 'shared' ? 'Answer key' : item.language;
-          top.append(copy, badge); card.append(top);
-          const assets = document.createElement('div'); assets.className = 'assets';
-          const paperHtml = item.files.find(f => !f.key && !f.branded && f.kind === 'html');
-          const paperPdf = item.files.find(f => !f.key && !f.branded && f.kind === 'pdf');
-          const printPdf = item.files.find(f => !f.key && f.branded && f.kind === 'pdf');
-          const keyHtml = item.files.find(f => f.key && f.kind === 'html');
-          const keyPdf = item.files.find(f => f.key && f.kind === 'pdf');
-          if (paperHtml) assets.append(fileLink(paperHtml, 'HTML source'));
-          if (paperPdf) assets.append(fileLink(paperPdf, 'Paper PDF', true));
-          if (printPdf) assets.append(fileLink(printPdf, 'Branded PDF'));
-          if (keyHtml) assets.append(fileLink(keyHtml, 'Answer key · HTML'));
-          if (keyPdf) assets.append(fileLink(keyPdf, 'Answer key · PDF'));
-          card.append(assets); cards.append(card);
-        }
-        section.append(cards); root.append(section);
+      const query = document.getElementById('search').value.trim().toLowerCase();
+      const timeline = document.getElementById('timeline'); timeline.replaceChildren();
+      let shown = 0;
+      for (const day of schedule) {
+        const entries = [...day.ten.map(x => ({ ...x, classNumber: '10' })), ...day.twelve.map(x => ({ ...x, classNumber: '12' }))];
+        const searchable = `${day.date} ${day.weekday} ${entries.map(x => `${x.classNumber} ${x.subject} ${x.chapter}`).join(' ')}`.toLowerCase();
+        if (query && !searchable.includes(query)) continue;
+        shown++;
+        const article = document.createElement('article'); article.className = 'day'; article.id = `day-${day.date}`;
+        const date = document.createElement('div'); date.className = 'date-col';
+        const month = document.createElement('span'); month.className = 'date-month'; month.textContent = 'October 2026';
+        const number = document.createElement('span'); number.className = 'date-number'; number.textContent = Number(day.date.slice(-2));
+        const weekday = document.createElement('span'); weekday.className = 'date-weekday'; weekday.textContent = day.weekday;
+        date.append(month, number, weekday);
+        if (day.today) { const tag = document.createElement('span'); tag.className = 'today-tag'; tag.textContent = 'Today'; date.append(tag); }
+        const sessions = document.createElement('div'); sessions.className = 'sessions';
+        sessions.append(sessionRow('10', day.ten), sessionRow('12', day.twelve));
+        article.append(date, sessions); timeline.append(article);
       }
+      if (!shown) { const empty = document.createElement('div'); empty.className = 'empty-result'; empty.textContent = 'No dates match that search.'; timeline.append(empty); }
     }
+    const allAssignedSpecs = [];
+    for (const day of schedule) for (const spec of [...day.ten.map(x => ({...x,classNumber:'10'})), ...day.twelve.map(x => ({...x,classNumber:'12'}))]) allAssignedSpecs.push(spec);
+    const assignedNames = new Set();
+    for (const spec of allAssignedSpecs) for (const file of findFiles(spec)) assignedNames.add(file.name);
+    const unassignedRecords = records.filter(file => !assignedNames.has(file.name));
+    const unassignedTests = new Map();
+    for (const file of unassignedRecords) {
+      const id = [file.classNumber, file.subject, file.chapter].join('|');
+      if (!unassignedTests.has(id)) unassignedTests.set(id, { classNumber: file.classNumber, subject: file.subject, chapter: file.chapter, bilingual: false });
+    }
+    for (const spec of unassignedTests.values()) {
+      const section = document.getElementById('unassigned-section'); section.hidden = false;
+      document.getElementById('unassigned').append(subjectCard(spec));
+    }
+    document.getElementById('paper-count').textContent = new Set(records.filter(file => !file.key && !file.html).map(file => [file.classNumber,file.subject,file.chapter,file.english ? 'English' : 'Hindi'].join('|'))).size;
+    document.getElementById('key-count').textContent = new Set(records.filter(file => file.key).map(file => [file.classNumber,file.subject,file.chapter].join('|'))).size;
     document.getElementById('search').addEventListener('input', render);
-    document.getElementById('class-filter').addEventListener('change', render);
-    subjectFilter.addEventListener('change', render);
     render();
   </script>
 </body>
