@@ -27,11 +27,12 @@
     a { color: inherit; }
     .wrap { width: min(1220px, calc(100% - 44px)); margin-inline: auto; }
     .masthead { padding: 32px 0 23px; border-bottom: 1px solid var(--line); }
-    .mast-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+    .mast-top { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; }
     .brand { display: flex; align-items: center; gap: 10px; font-size: .77rem; font-weight: 850; letter-spacing: .13em; text-transform: uppercase; }
     .brand-mark { display: grid; width: 30px; height: 30px; place-items: center; background: var(--green); color: white; font-size: .78rem; letter-spacing: 0; }
-    h1 { margin: 25px 0 7px; font-size: clamp(2.1rem, 5vw, 3.55rem); font-weight: 850; letter-spacing: -.06em; line-height: 1; }
-    .archive-period { display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px 14px; margin: 0; color: var(--sub); font-size: .92rem; }
+    .header-info { margin-left: auto; text-align: right; }
+    h1 { margin: 0 0 7px; font-size: clamp(2.1rem, 5vw, 3.55rem); font-weight: 850; letter-spacing: -.06em; line-height: 1; }
+    .archive-period { display: flex; flex-wrap: wrap; justify-content: flex-end; align-items: baseline; gap: 8px 14px; margin: 0; color: var(--sub); font-size: .92rem; }
     .archive-period strong { color: var(--ink); font-weight: 760; }
     .archive-period span { font-weight: 650; }
     .tools { position: sticky; top: 0; z-index: 10; border-bottom: 1px solid var(--line); background: rgba(243,240,232,.96); backdrop-filter: blur(10px); }
@@ -96,8 +97,9 @@
     }
     @media (max-width: 480px) {
       .wrap { width: calc(100% - 18px); }
-      .mast-top { align-items: flex-start; }
-      h1 { margin-top: 21px; }
+      .mast-top { flex-direction: column; align-items: stretch; }
+      .header-info { width: 100%; }
+      h1 { font-size: 2.2rem; }
       .tools-inner { display: block; }
       .search { width: 100%; }
       .jump { margin-top: 7px; padding-bottom: 2px; }
@@ -117,9 +119,11 @@
     <div class="wrap">
       <div class="mast-top">
         <div class="brand"><span class="brand-mark">S</span><span>Sri Classes · Test archive</span></div>
+        <div class="header-info">
+          <h1>Test Series</h1>
+          <p class="archive-period"><strong><span id="completed-count">14</span> completed tests</strong><span>6–13 October 2026</span></p>
+        </div>
       </div>
-      <h1>Test Series</h1>
-      <p class="archive-period"><strong><span id="completed-count">14</span> completed tests</strong><span>6–13 October 2026</span></p>
     </div>
   </header>
   <div class="tools">
