@@ -137,10 +137,6 @@
     <div class="timeline" id="timeline" aria-live="polite"></div>
   </main>
   <footer class="wrap footer"><strong>Sri Classes</strong> · `SHRI_` PDF = branded paper · Answer key is shared across the two language versions where applicable.</footer>
-  <script>
-const API='https://api.github.com/repos/rksiitd1/testseries/git/trees/main?recursive=1';
-const $=id=>document.getElementById(id),today=()=>{const p=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(x=>[x.type,x.value]));return p.year+'-'+p.month+'-'+p.day},dt=(d,o)=>new Date(d+'T00:00:00+05:30').toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',...o});
-function parse(name){const brandedMatch=name.match(/^SHRI_(\d{4}-\d\d-\d\d)-(.+)$/),datedMatch=name.match(/^(\d{4}-\d\d-\d\d)-(.+)$/),m=brandedMatch||datedMatch;if(!m)return null;const date=m[1],brand=!!brandedMatch,base=m[2].replace(/\.(html|pdf)$/i,''),p=base.match(/^(.*?)-Class-(10th|12th)-(.*)$/);if(!p)return null;const t=p[3],c=t.match(/^(Chapter-\d+|All-Chapters)(?:-question-paper(?:-english)?(?:-\d+)?|-AnswerKey-16-Up-Duplex(?:-\d+)?)?$/);if(!c)return null;return{name,date,brand,key:t.includes('-AnswerKey-'),subject:p[1]==='Social-Science'?'Social Science':p[1],cls:p[2].slice(0,2),chapter:c[1]==='All-Chapters'?'All Chapters':c[1].replace('-',' '),v:/(?:question-paper|AnswerKey-16-Up-Duplex)-2$/.test(t)?'2':'1',en:/-english(?:-\d+)?$/.test(t),html:/\.html$/i.test(name)}}
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>
