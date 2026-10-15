@@ -121,7 +121,7 @@
         <div class="brand"><span class="brand-mark">S</span><span>Sri Classes · Test archive</span></div>
         <div class="header-info">
           <h1>Test Series</h1>
-          <p class="archive-period"><strong><span id="completed-count">14</span> completed tests</strong><span>6–14 October 2026</span></p>
+          <p class="archive-period"><strong><span id="completed-count">…</span> completed tests</strong><span id="archive-range">Loading archive dates…</span></p>
         </div>
       </div>
     </div>
@@ -138,144 +138,14 @@
   </main>
   <footer class="wrap footer"><strong>Sri Classes</strong> · `SHRI_` PDF = branded paper · Answer key is shared across the two language versions where applicable.</footer>
   <script>
-    const files = ["Biology-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Biology-Class-12th-Chapter-1-question-paper-english.html","Biology-Class-12th-Chapter-1-question-paper-english.pdf","Biology-Class-12th-Chapter-1-question-paper.html","Biology-Class-12th-Chapter-1-question-paper.pdf","Biology-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.html","Biology-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Biology-Class-12th-Chapter-2-question-paper-english.html","Biology-Class-12th-Chapter-2-question-paper-english.pdf","Biology-Class-12th-Chapter-2-question-paper.html","Biology-Class-12th-Chapter-2-question-paper.pdf","Chemistry-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Chemistry-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Chemistry-Class-12th-Chapter-1-question-paper-english.html","Chemistry-Class-12th-Chapter-1-question-paper-english.pdf","Chemistry-Class-12th-Chapter-1-question-paper.html","Chemistry-Class-12th-Chapter-1-question-paper.pdf","Chemistry-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.html","Chemistry-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Chemistry-Class-12th-Chapter-2-question-paper-english.html","Chemistry-Class-12th-Chapter-2-question-paper-english.pdf","Chemistry-Class-12th-Chapter-2-question-paper.html","Chemistry-Class-12th-Chapter-2-question-paper.pdf","English-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","English-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","English-Class-12th-Chapter-1-question-paper.html","English-Class-12th-Chapter-1-question-paper.pdf","Hindi-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-1-question-paper.html","Hindi-Class-10th-Chapter-1-question-paper.pdf","Hindi-Class-10th-Chapter-2-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-2-question-paper.html","Hindi-Class-10th-Chapter-2-question-paper.pdf","Hindi-Class-10th-Chapter-3-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-3-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-3-question-paper.html","Hindi-Class-10th-Chapter-3-question-paper.pdf","Hindi-Class-10th-Chapter-4-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-4-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-4-question-paper.html","Hindi-Class-10th-Chapter-4-question-paper.pdf","Hindi-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-5-question-paper.html","Hindi-Class-10th-Chapter-5-question-paper.pdf","Hindi-Class-10th-Chapter-6-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-6-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-6-question-paper.html","Hindi-Class-10th-Chapter-6-question-paper.pdf","Hindi-Class-10th-Chapter-7-AnswerKey-16-Up-Duplex.html","Hindi-Class-10th-Chapter-7-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-10th-Chapter-7-question-paper.html","Hindi-Class-10th-Chapter-7-question-paper.pdf","Hindi-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Hindi-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Hindi-Class-12th-Chapter-1-question-paper.html","Hindi-Class-12th-Chapter-1-question-paper.pdf","Physics-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.html","Physics-Class-10th-Chapter-5-AnswerKey-16-Up-Duplex.pdf","Physics-Class-10th-Chapter-5-question-paper.html","Physics-Class-10th-Chapter-5-question-paper.pdf","Physics-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.html","Physics-Class-12th-Chapter-1-AnswerKey-16-Up-Duplex.pdf","Physics-Class-12th-Chapter-1-question-paper-english.html","Physics-Class-12th-Chapter-1-question-paper-english.pdf","Physics-Class-12th-Chapter-1-question-paper.html","Physics-Class-12th-Chapter-1-question-paper.pdf","Physics-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.html","Physics-Class-12th-Chapter-2-AnswerKey-16-Up-Duplex.pdf","Physics-Class-12th-Chapter-2-question-paper-english.html","Physics-Class-12th-Chapter-2-question-paper-english.pdf","Physics-Class-12th-Chapter-2-question-paper.html","Physics-Class-12th-Chapter-2-question-paper.pdf","SHRI_Biology-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Biology-Class-12th-Chapter-1-question-paper.pdf","SHRI_Biology-Class-12th-Chapter-2-question-paper-english.pdf","SHRI_Biology-Class-12th-Chapter-2-question-paper.pdf","SHRI_Chemistry-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Chemistry-Class-12th-Chapter-1-question-paper.pdf","SHRI_Chemistry-Class-12th-Chapter-2-question-paper-english.pdf","SHRI_Chemistry-Class-12th-Chapter-2-question-paper.pdf","SHRI_English-Class-12th-Chapter-1-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-1-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-2-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-3-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-4-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-5-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-6-question-paper.pdf","SHRI_Hindi-Class-10th-Chapter-7-question-paper.pdf","SHRI_Hindi-Class-12th-Chapter-1-question-paper.pdf","SHRI_Physics-Class-10th-Chapter-5-question-paper.pdf","SHRI_Physics-Class-12th-Chapter-1-question-paper-english.pdf","SHRI_Physics-Class-12th-Chapter-1-question-paper.pdf","SHRI_Physics-Class-12th-Chapter-2-question-paper-english.pdf","SHRI_Physics-Class-12th-Chapter-2-question-paper.pdf","SHRI_Sanskrit-Class-10th-All-Chapters-question-paper-2.pdf","SHRI_Sanskrit-Class-10th-All-Chapters-question-paper.pdf","SHRI_Social-Science-Class-10th-All-Chapters-question-paper.pdf","Sanskrit-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex-2.html","Sanskrit-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex-2.pdf","Sanskrit-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.pdf","Sanskrit-Class-10th-All-Chapters-question-paper-2.html","Sanskrit-Class-10th-All-Chapters-question-paper-2.pdf","Sanskrit-Class-10th-All-Chapters-question-paper.html","Sanskrit-Class-10th-All-Chapters-question-paper.pdf","Social-Science-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.html","Social-Science-Class-10th-All-Chapters-AnswerKey-16-Up-Duplex.pdf","Social-Science-Class-10th-All-Chapters-question-paper.html","Social-Science-Class-10th-All-Chapters-question-paper.pdf"];
-    const schedule = [
-      { date: '2026-10-15', weekday: 'Thursday', upcoming: true,
-        ten: [{ subject: 'Hindi', chapter: 'Chapter 7' }, { subject: 'Sanskrit', chapter: 'All Chapters', version: 2 }],
-        twelve: [{ subject: 'Physics', chapter: 'Chapter 2', bilingual: true }] },
-      { date: '2026-10-14', weekday: 'Wednesday', today: true,
-        ten: [{ subject: 'Hindi', chapter: 'Chapter 6' }, { subject: 'Social Science', chapter: 'All Chapters' }], twelve: [] },
-      { date: '2026-10-13', weekday: 'Tuesday',
-        ten: [{ subject: 'Hindi', chapter: 'Chapter 5' }, { subject: 'Sanskrit', chapter: 'All Chapters', version: 1 }],
-        twelve: [{ subject: 'Chemistry', chapter: 'Chapter 2', bilingual: true }] },
-      { date: '2026-10-12', weekday: 'Monday',
-        ten: [{ subject: 'Hindi', chapter: 'Chapter 4' }, { subject: 'Physics', chapter: 'Chapter 5' }],
-        twelve: [{ subject: 'Biology', chapter: 'Chapter 2', bilingual: true }] },
-      { date: '2026-10-11', weekday: 'Sunday', off: true, ten: [], twelve: [] },
-      { date: '2026-10-10', weekday: 'Saturday',
-        ten: [{ subject: 'Hindi', chapter: 'Chapter 3' }],
-        twelve: [{ subject: 'Hindi', chapter: 'Chapter 1' }] },
-      { date: '2026-10-09', weekday: 'Friday',
-        ten: [{ subject: 'Hindi', chapter: 'Chapter 2' }],
-        twelve: [{ subject: 'English', chapter: 'Chapter 1' }] },
-      { date: '2026-10-08', weekday: 'Thursday',
-        ten: [{ subject: 'Hindi', chapter: 'Chapter 1' }],
-        twelve: [{ subject: 'Physics', chapter: 'Chapter 1', bilingual: true }] },
-      { date: '2026-10-07', weekday: 'Wednesday',
-        ten: [], twelve: [{ subject: 'Chemistry', chapter: 'Chapter 1', bilingual: true }] },
-      { date: '2026-10-06', weekday: 'Tuesday',
-        ten: [], twelve: [{ subject: 'Biology', chapter: 'Chapter 1', bilingual: true }] }
-    ];
-    const subjectFrom = value => value === 'Social-Science' ? 'Social Science' : value;
-    function parse(name) {
-      const branded = name.startsWith('SHRI_');
-      const base = (branded ? name.slice(5) : name).replace(/\.(html|pdf)$/i, '');
-      const key = base.includes('AnswerKey');
-      const match = base.match(/^(.*?)-Class-(10th|12th)-(.*)$/);
-      if (!match) return null;
-      const subject = subjectFrom(match[1]);
-      const tail = match[3].replace(/-AnswerKey.*$/, '').replace(/-question-paper.*$/, '');
-      const chapterMatch = tail.match(/^(Chapter-\d+|All-Chapters)$/);
-      if (!chapterMatch) return null;
-      return {
-        name, branded, key, subject,
-        classNumber: match[2].slice(0, 2),
-        chapter: chapterMatch[1] === 'All-Chapters' ? 'All Chapters' : chapterMatch[1].replace('-', ' '),
-        version: /-2\.(?:html|pdf)$/i.test(name) ? '2' : '1',
-        english: /-english(?:\.|$)/i.test(name),
-        html: name.endsWith('.html')
-      };
-    }
-    const records = files.map(parse).filter(Boolean);
-    const findFiles = spec => records.filter(file => file.classNumber === spec.classNumber && file.subject === spec.subject && file.chapter === spec.chapter && (!spec.version || file.version === String(spec.version)));
-    const encodePath = name => encodeURI(name);
-    function link(file, label, cls) {
-      const a = document.createElement('a'); a.className = `action ${cls || ''}`.trim(); a.href = encodePath(file.name); a.textContent = label; a.setAttribute('aria-label', `${label}: ${file.name}`); return a;
-    }
-    function subjectCard(spec) {
-      const card = document.createElement('article'); card.className = 'subject-card';
-      const head = document.createElement('div'); head.className = 'subject-head';
-      const title = document.createElement('h3'); title.className = 'subject-name'; title.textContent = spec.subject;
-      const chapter = document.createElement('span'); chapter.className = 'chapter'; chapter.textContent = spec.chapter;
-      head.append(title, chapter); card.append(head);
-      const filesFor = findFiles({ ...spec, classNumber: spec.classNumber });
-      const mainActions = document.createElement('div'); mainActions.className = 'actions';
-      let paperPdf = null;
-      let keyPdf = null;
-      if (spec.bilingual) {
-        const hindi = filesFor.find(file => !file.key && file.branded && !file.english && !file.html);
-        const english = filesFor.find(file => !file.key && file.branded && file.english && !file.html);
-        if (hindi) mainActions.append(link(hindi, 'Branded paper · Hindi', 'paper'));
-        if (english) mainActions.append(link(english, 'Branded paper · English', 'english'));
-      } else {
-        paperPdf = filesFor.find(file => !file.key && file.branded && !file.html) || filesFor.find(file => !file.key && !file.html);
-        if (paperPdf) mainActions.append(link(paperPdf, paperPdf.branded ? 'Branded question paper' : 'Question paper', 'paper'));
-      }
-      keyPdf = filesFor.find(file => file.key && !file.html);
-      if (keyPdf) mainActions.append(link(keyPdf, 'Answer key', 'key'));
-      if (!mainActions.children.length) {
-        const missing = document.createElement('span'); missing.className = 'chapter'; missing.textContent = 'No branded PDF found'; mainActions.append(missing);
-      }
-      card.append(mainActions);
-      const secondary = filesFor.filter(file => file !== paperPdf && file !== keyPdf && (file.html || (!file.key && !file.branded && !file.html) || (file.key && file.html)));
-      if (secondary.length) {
-        const details = document.createElement('details'); details.className = 'more';
-        const summary = document.createElement('summary'); summary.textContent = 'Other files'; details.append(summary);
-        const links = document.createElement('div'); links.className = 'more-links';
-        for (const file of secondary) {
-          let label;
-          if (file.key) label = file.html ? 'Answer key · HTML' : 'Answer key · PDF';
-          else if (file.html) label = file.english ? 'English source · HTML' : 'HTML source';
-          else label = file.english ? 'English paper · PDF' : 'Unbranded paper · PDF';
-          links.append(link(file, label, 'quiet'));
-        }
-        details.append(links); card.append(details);
-      }
-      return card;
-    }
-    function sessionRow(classNumber, specs) {
-      const row = document.createElement('div'); row.className = 'class-row';
-      const label = document.createElement('div'); label.className = 'class-label';
-      const sub = document.createElement('span'); sub.textContent = 'Test series';
-      const main = document.createElement('strong'); main.textContent = `Class ${classNumber}`;
-      label.append(sub, main);
-      const list = document.createElement('div'); list.className = 'subject-list';
-      if (!specs.length) {
-        const off = document.createElement('div'); off.className = 'off'; off.textContent = classNumber === '10' && specs.noTests ? 'No test' : 'No test'; list.append(off);
-      } else {
-        for (const spec of specs) list.append(subjectCard({ ...spec, classNumber }));
-      }
-      row.append(label, list); return row;
-    }
-    const jump = document.getElementById('jump');
-    for (const day of schedule) {
-      const a = document.createElement('a'); a.href = `#day-${day.date}`; a.textContent = `${Number(day.date.slice(-2))} Oct`; jump.append(a);
-    }
-    function render() {
-      const query = document.getElementById('search').value.trim().toLowerCase();
-      const timeline = document.getElementById('timeline'); timeline.replaceChildren();
-      let shown = 0;
-      for (const day of schedule) {
-        const entries = [...day.ten.map(x => ({ ...x, classNumber: '10' })), ...day.twelve.map(x => ({ ...x, classNumber: '12' }))];
-        const searchable = `${day.date} ${day.weekday} ${entries.map(x => `${x.classNumber} ${x.subject} ${x.chapter}`).join(' ')}`.toLowerCase();
-        if (query && !searchable.includes(query)) continue;
-        shown++;
-        const article = document.createElement('article'); article.className = 'day'; article.id = `day-${day.date}`;
-        const date = document.createElement('div'); date.className = 'date-col';
-        const month = document.createElement('span'); month.className = 'date-month'; month.textContent = 'October 2026';
-        const number = document.createElement('span'); number.className = 'date-number'; number.textContent = Number(day.date.slice(-2));
-        const weekday = document.createElement('span'); weekday.className = 'date-weekday'; weekday.textContent = day.weekday;
-        date.append(month, number, weekday);
-        if (day.today || day.upcoming) { const tag = document.createElement('span'); tag.className = 'today-tag'; tag.textContent = day.upcoming ? 'Tomorrow' : 'Today'; date.append(tag); }
-        const sessions = document.createElement('div'); sessions.className = 'sessions';
-        sessions.append(sessionRow('10', day.ten), sessionRow('12', day.twelve));
-        article.append(date, sessions); timeline.append(article);
-      }
-      if (!shown) { const empty = document.createElement('div'); empty.className = 'empty-result'; empty.textContent = 'No dates match that search.'; timeline.append(empty); }
-    }
-    document.getElementById('completed-count').textContent = schedule.reduce((count, day) => count + (day.upcoming ? 0 : day.ten.length + day.twelve.length), 0);
-    document.getElementById('search').addEventListener('input', render);
-    render();
+const API='https://api.github.com/repos/rksiitd1/testseries/git/trees/main?recursive=1';
+const $=id=>document.getElementById(id),today=()=>{const p=Object.fromEntries(new Intl.DateTimeFormat('en-CA',{timeZone:'Asia/Kolkata',year:'numeric',month:'2-digit',day:'2-digit'}).formatToParts(new Date()).map(x=>[x.type,x.value]));return p.year+'-'+p.month+'-'+p.day},dt=(d,o)=>new Date(d+'T00:00:00+05:30').toLocaleDateString('en-IN',{timeZone:'Asia/Kolkata',...o});
+function parse(name){const m=name.match(/^(\d{4}-\d\d-\d\d)-(.+)$/);if(!m)return null;const date=m[1],n=m[2],brand=n.startsWith('SHRI_'),base=(brand?n.slice(5):n).replace(/\.(html|pdf)$/i,''),p=base.match(/^(.*?)-Class-(10th|12th)-(.*)$/);if(!p)return null;const t=p[3],c=t.match(/^(Chapter-\d+|All-Chapters)(?:-question-paper(?:-english)?(?:-\d+)?|-AnswerKey-16-Up-Duplex(?:-\d+)?)?$/);if(!c)return null;return{name,date,brand,key:t.includes('-AnswerKey-'),subject:p[1]==='Social-Science'?'Social Science':p[1],cls:p[2].slice(0,2),chapter:c[1]==='All-Chapters'?'All Chapters':c[1].replace('-',' '),v:/(?:question-paper|AnswerKey-16-Up-Duplex)-2$/.test(t)?'2':'1',en:/-english(?:-\d+)?$/.test(t),html:/\.html$/i.test(name)}}
+function link(f,text,cls){const a=document.createElement('a');a.className='action '+cls;a.href=encodeURI(f.name);a.textContent=text;return a}
+async function init(){const tl=$('timeline');tl.textContent='Loading papers from GitHub…';try{const r=await fetch(API);if(!r.ok)throw Error('GitHub returned '+r.status);const rs=(await r.json()).tree.filter(x=>x.type==='blob').map(x=>parse(x.path)).filter(Boolean),gm=new Map;for(const f of rs){const k=[f.date,f.cls,f.subject,f.chapter,f.v].join('|');if(!gm.has(k))gm.set(k,{date:f.date,cls:f.cls,subject:f.subject,chapter:f.chapter,v:f.v,items:[]});gm.get(k).items.push(f)}const dm=new Map;for(const g of gm.values()){if(!dm.has(g.date))dm.set(g.date,{date:g.date,ten:[],twelve:[]});(g.cls==='10'?dm.get(g.date).ten:dm.get(g.date).twelve).push(g)}const days=[...dm.values()].sort((a,b)=>b.date.localeCompare(a.date)),now=today();$('completed-count').textContent=days.filter(d=>d.date<=now).reduce((n,d)=>n+d.ten.length+d.twelve.length,0);$('archive-range').textContent=days.length?dt(days.at(-1).date,{day:'numeric',month:'short'})+'–'+dt(days[0].date,{day:'numeric',month:'short',year:'numeric'}):'No papers found';const nav=$('jump');nav.replaceChildren();for(const d of days){const a=document.createElement('a');a.href='#day-'+d.date;a.textContent=Number(d.date.slice(-2))+' '+dt(d.date,{month:'short'});nav.append(a)}
+function card(g){const c=document.createElement('article');c.className='subject-card';const h=document.createElement('div');h.className='subject-head';const title=document.createElement('h3');title.className='subject-name';title.textContent=g.subject;const ch=document.createElement('span');ch.className='chapter';ch.textContent=g.chapter+(g.v==='2'?' · Paper 2':'');h.append(title,ch);c.append(h);const act=document.createElement('div');act.className='actions';const main=g.items.filter(f=>!f.html&&!f.key),langs=g.items.some(f=>f.en);for(const en of(langs?[false,true]:[false])){const xs=main.filter(f=>f.en===en),f=xs.find(x=>x.brand)||xs[0];if(f)act.append(link(f,(f.brand?'Branded ':'')+'Question paper'+(langs?' · '+(en?'English':'Hindi'):''),en?'english':'paper'))}const key=g.items.find(f=>f.key&&!f.html);if(key)act.append(link(key,'Answer key','key'));c.append(act);const rest=g.items.filter(f=>f!==key&&(f.html||!main.includes(f)||main.some(x=>x.en!==f.en)));if(rest.length){const d=document.createElement('details');d.className='more';const s=document.createElement('summary');s.textContent='Other files';d.append(s);const links=document.createElement('div');links.className='more-links';for(const f of rest)links.append(link(f,f.key?'Answer key · HTML':f.html?(f.en?'English paper · HTML':'HTML source'):(f.en?'English':'Hindi')+' paper · '+(f.brand?'Branded':'Unbranded')+' PDF','quiet'));d.append(links);c.append(d)}return c}
+function render(){const q=$('search').value.trim().toLowerCase();tl.replaceChildren();let count=0;for(const d of days){const all=[...d.ten,...d.twelve];if(q&&!(d.date+' '+dt(d.date,{weekday:'long'})+' '+all.map(g=>g.cls+' '+g.subject+' '+g.chapter).join(' ')).toLowerCase().includes(q))continue;count++;const art=document.createElement('article');art.className='day';art.id='day-'+d.date;const date=document.createElement('div');date.className='date-col';for(const [cl,text] of [['date-month',dt(d.date,{month:'long',year:'numeric'})],['date-number',String(Number(d.date.slice(-2)))],['date-weekday',dt(d.date,{weekday:'long'})]]){const e=document.createElement('span');e.className=cl;e.textContent=text;date.append(e)}if(d.date>=now){const tag=document.createElement('span');tag.className='today-tag';tag.textContent=d.date===now?'Today':'Upcoming';date.append(tag)}const sessions=document.createElement('div');sessions.className='sessions';for(const cls of ['10','12']){const specs=cls==='10'?d.ten:d.twelve,row=document.createElement('div');row.className='class-row';const label=document.createElement('div');label.className='class-label';label.innerHTML='<span>Test series</span><strong>Class '+cls+'</strong>';const list=document.createElement('div');list.className='subject-list';if(!specs.length){const off=document.createElement('div');off.className='off';off.textContent='No test listed';list.append(off)}else specs.forEach(g=>list.append(card(g)));row.append(label,list);sessions.append(row)}art.append(date,sessions);tl.append(art)}if(!count)tl.textContent='No dates match that search.'}render();$('search').addEventListener('input',render)}catch(e){tl.textContent='Could not load GitHub papers: '+e.message+'. The repository must be public and reachable.'}}
+init();
   </script>
 </body>
 </html>
