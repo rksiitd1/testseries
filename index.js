@@ -30,7 +30,7 @@
       subject: classMatch[1] === 'Social-Science' ? 'Social Science' : classMatch[1],
       classNumber: classMatch[2].slice(0, 2),
       chapter: chapterMatch[1] === 'All-Chapters' ? 'All Chapters' : chapterMatch[1].replace('-', ' '),
-      version: /(?:question-paper|AnswerKey-16-Up-Duplex)-2$/.test(tail) ? '2' : '1',
+      version: /(?:question-paper|AnswerKey-16-Up-Duplex)-(\d+)$/.exec(tail)?.[1] || '1',
       english: /-english(?:-\d+)?$/.test(tail),
       html: /\.html$/i.test(name)
     };
@@ -55,7 +55,7 @@
     subject.textContent = group.subject;
     const chapter = document.createElement('span');
     chapter.className = 'chapter';
-    chapter.textContent = `${group.chapter}${group.version === '2' ? ' · Paper 2' : ''}`;
+    chapter.textContent = `${group.chapter}${group.version !== '1' ? ` · Paper ${group.version}` : ''}`;
     heading.append(subject, chapter);
     card.append(heading);
 
