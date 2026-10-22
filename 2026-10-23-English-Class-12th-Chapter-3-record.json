@@ -1,0 +1,1419 @@
+{
+  "title": "A Pinch of Snuff",
+  "subject": "English",
+  "class": 12,
+  "chapter": 3,
+  "testDate": "2026-10-23",
+  "marks": 100,
+  "items": [
+    {
+      "number": 1,
+      "question": "Nanukaka was coming to Delhi to ________ (Choose the correct option)",
+      "options": [
+        "see some people",
+        "see some minister",
+        "see his sister",
+        "see some relatives"
+      ],
+      "answer": "B",
+      "answerText": "see some minister",
+      "provenance": "PYQ",
+      "year": "2021",
+      "sourceId": "obj_70"
+    },
+    {
+      "number": 2,
+      "question": "Who travelled free with Nanukaka ?",
+      "options": [
+        "Dog",
+        "Rabbit",
+        "Hen",
+        "Kitten"
+      ],
+      "answer": "D",
+      "answerText": "Kitten",
+      "provenance": "PYQ",
+      "year": "2021",
+      "sourceId": "obj_87"
+    },
+    {
+      "number": 3,
+      "question": "The narrator in “A Pinch of Snuff” was a/an ________ on probation.",
+      "options": [
+        "Secretary",
+        "Clerk",
+        "Under-Secretary",
+        "Bank Officer"
+      ],
+      "answer": "C",
+      "answerText": "Under-Secretary",
+      "provenance": "PYQ",
+      "year": "2022",
+      "sourceId": "obj_67"
+    },
+    {
+      "number": 4,
+      "question": "For what purpose had Nanukaka come to Delhi ?",
+      "options": [
+        "For paying the debt",
+        "Attend Zamindar convention",
+        "To take rest",
+        "To see some Minister"
+      ],
+      "answer": "D",
+      "answerText": "To see some Minister",
+      "provenance": "PYQ",
+      "year": "2022",
+      "sourceId": "obj_92"
+    },
+    {
+      "number": 5,
+      "question": "Manohar Malgaonkar's story is full of wit and________",
+      "options": [
+        "Humour",
+        "Tragedy",
+        "Adventure",
+        "Irony"
+      ],
+      "answer": "C",
+      "answerText": "Adventure",
+      "provenance": "PYQ",
+      "year": "2023",
+      "sourceId": "obj_67"
+    },
+    {
+      "number": 6,
+      "question": "“Nanukaka opened his silver snuffbox and took a ________ ”",
+      "options": [
+        "coat",
+        "kurta",
+        "pinch",
+        "pitch"
+      ],
+      "answer": "C",
+      "answerText": "pinch",
+      "provenance": "PYQ",
+      "year": "2024",
+      "sourceId": "obj_62"
+    },
+    {
+      "number": 7,
+      "question": "Nanukaka went to visit the ________ Minister.",
+      "options": [
+        "Finance",
+        "Welfare",
+        "Railway",
+        "Home"
+      ],
+      "answer": "B",
+      "answerText": "Welfare",
+      "provenance": "PYQ",
+      "year": "2024",
+      "sourceId": "obj_67"
+    },
+    {
+      "number": 8,
+      "question": "Nanukaka managed to travel in 2nd class on a ________ ticket.",
+      "options": [
+        "1st class",
+        "General class",
+        "3rd class",
+        "Sleeper class"
+      ],
+      "answer": "C",
+      "answerText": "3rd class",
+      "provenance": "PYQ",
+      "year": "2025",
+      "sourceId": "obj_73"
+    },
+    {
+      "number": 9,
+      "question": "Nanukaka went to the ________ Auto Dealers.",
+      "options": [
+        "Sikka",
+        "Alankar",
+        "Rikka",
+        "Kia"
+      ],
+      "answer": "A",
+      "answerText": "Sikka",
+      "provenance": "PYQ",
+      "year": "2025",
+      "sourceId": "obj_82"
+    },
+    {
+      "number": 10,
+      "question": "The chapter introduction describes Manohar Malgaonkar as a:",
+      "options": [
+        "poet and playwright",
+        "historian and critic",
+        "journalist and painter",
+        "novelist and short story writer"
+      ],
+      "answer": "D",
+      "answerText": "novelist and short story writer",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 11,
+      "question": "In which year was Manohar Malgaonkar born, according to the introduction?",
+      "options": [
+        "1903",
+        "1913",
+        "1923",
+        "1931"
+      ],
+      "answer": "B",
+      "answerText": "1913",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 12,
+      "question": "How many publications does the introduction say Malgaonkar had to his credit?",
+      "options": [
+        "Fewer than 10",
+        "Over 25",
+        "Exactly 12",
+        "About 5"
+      ],
+      "answer": "B",
+      "answerText": "Over 25",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 13,
+      "question": "A Pinch of Snuff is taken from which collection?",
+      "options": [
+        "Distant Drum",
+        "The Princes",
+        "A Bend in the Ganges",
+        "Contemporary Indian Short Stories in English"
+      ],
+      "answer": "D",
+      "answerText": "Contemporary Indian Short Stories in English",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 14,
+      "question": "Which of the following is listed as one of Malgaonkar's important works?",
+      "options": [
+        "The Tiger King",
+        "Bombay Beware",
+        "The Last Lesson",
+        "Lost Spring"
+      ],
+      "answer": "B",
+      "answerText": "Bombay Beware",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 15,
+      "question": "The introduction praises the story's narrative for its accuracy and profound:",
+      "options": [
+        "sorrow",
+        "comedy",
+        "mystery",
+        "romance"
+      ],
+      "answer": "B",
+      "answerText": "comedy",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 16,
+      "question": "What announcement from Mother disturbed the narrator?",
+      "options": [
+        "Ratiram was leaving Delhi",
+        "A minister was visiting",
+        "Nanukaka was coming",
+        "The narrator was being transferred"
+      ],
+      "answer": "C",
+      "answerText": "Nanukaka was coming",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 17,
+      "question": "What did the narrator suggest sending Nanukaka by wire?",
+      "options": [
+        "That the minister was unavailable",
+        "That the kitten was missing",
+        "That the family was leaving or he had been transferred",
+        "That the train was cancelled"
+      ],
+      "answer": "C",
+      "answerText": "That the family was leaving or he had been transferred",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 18,
+      "question": "How long did Nanukaka say he could stay?",
+      "options": [
+        "A week or two",
+        "Two or three days",
+        "One month",
+        "Only one night"
+      ],
+      "answer": "B",
+      "answerText": "Two or three days",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 19,
+      "question": "Why was the narrator uneasy about Nanukaka's visit?",
+      "options": [
+        "He disliked the kitten",
+        "He had no place to stay in Delhi",
+        "He expected a ministerial visit to take a long time to arrange",
+        "He had to travel abroad"
+      ],
+      "answer": "C",
+      "answerText": "He expected a ministerial visit to take a long time to arrange",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 20,
+      "question": "What did the narrator fear was more than his job's worth?",
+      "options": [
+        "Asking a Minister for an interview appointment",
+        "Taking two days off work",
+        "Driving to the North Block",
+        "Looking after the kitten"
+      ],
+      "answer": "A",
+      "answerText": "Asking a Minister for an interview appointment",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 21,
+      "question": "In the narrator's view, how far above God were Ministers?",
+      "options": [
+        "One step",
+        "Three steps",
+        "They were not above God",
+        "Two steps"
+      ],
+      "answer": "D",
+      "answerText": "Two steps",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 22,
+      "question": "What was Nanukaka's relationship to Mother?",
+      "options": [
+        "Her father",
+        "Her cousin",
+        "Her son",
+        "Her brother"
+      ],
+      "answer": "D",
+      "answerText": "Her brother",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 23,
+      "question": "What did Nanukaka wear over his shoulders?",
+      "options": [
+        "A white angocha",
+        "A black shawl",
+        "A red scarf",
+        "A yellow coat"
+      ],
+      "answer": "A",
+      "answerText": "A white angocha",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 24,
+      "question": "What kind of coat did Nanukaka wear at the station?",
+      "options": [
+        "An old-fashioned knee-length black coat",
+        "A short white coat",
+        "A close-collar blue coat",
+        "A long orange coat"
+      ],
+      "answer": "A",
+      "answerText": "An old-fashioned knee-length black coat",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 25,
+      "question": "What did Nanukaka wear on his head when he arrived?",
+      "options": [
+        "A white cap",
+        "A red silk pugree",
+        "A black turban",
+        "A yellow scarf"
+      ],
+      "answer": "B",
+      "answerText": "A red silk pugree",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 26,
+      "question": "What did Nanukaka hand the narrator at the station?",
+      "options": [
+        "A basket",
+        "A suitcase",
+        "A letter",
+        "A snuffbox"
+      ],
+      "answer": "A",
+      "answerText": "A basket",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 27,
+      "question": "What was inside the basket?",
+      "options": [
+        "A puppy",
+        "A hen",
+        "A kitten",
+        "A rabbit"
+      ],
+      "answer": "C",
+      "answerText": "A kitten",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 28,
+      "question": "With which group did the narrator pass through the station gate?",
+      "options": [
+        "A school group",
+        "A Sikh marriage party",
+        "A group of soldiers",
+        "A party of zamindars"
+      ],
+      "answer": "B",
+      "answerText": "A Sikh marriage party",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 29,
+      "question": "Who escorted Nanukaka from the station yard?",
+      "options": [
+        "A Deputy-Secretary",
+        "A chauffeur",
+        "A ticket inspector",
+        "A minister"
+      ],
+      "answer": "C",
+      "answerText": "A ticket inspector",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 30,
+      "question": "Why did the narrator duck and run through the station?",
+      "options": [
+        "A train guard had called him",
+        "The kitten's protests from the basket had drawn attention",
+        "He had missed the last tonga",
+        "Nanukaka had asked him to fetch the car"
+      ],
+      "answer": "B",
+      "answerText": "The kitten's protests from the basket had drawn attention",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 31,
+      "question": "What did Nanukaka say about the ticket inspector who escorted him?",
+      "options": [
+        "He refused to issue any ticket",
+        "He had travelled with Nanukaka",
+        "He was a nice young man",
+        "He asked the narrator for a job"
+      ],
+      "answer": "C",
+      "answerText": "He was a nice young man",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 32,
+      "question": "What did the narrator say about the kitten when Nanukaka asked how it was?",
+      "options": [
+        "It was very quiet",
+        "It was hungry",
+        "It had escaped",
+        "It was asleep on Mother's lap"
+      ],
+      "answer": "A",
+      "answerText": "It was very quiet",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 33,
+      "question": "What had the last tonga done by the time Nanukaka came out?",
+      "options": [
+        "It had returned",
+        "It was waiting at the platform",
+        "It had gone",
+        "It had taken the kitten away"
+      ],
+      "answer": "C",
+      "answerText": "It had gone",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 34,
+      "question": "Where did Mother put Nanukaka?",
+      "options": [
+        "In the narrator's bedroom",
+        "In the back verandah",
+        "In the kitchen",
+        "In the guest room at the station"
+      ],
+      "answer": "A",
+      "answerText": "In the narrator's bedroom",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 35,
+      "question": "Where did the narrator sleep while Nanukaka stayed?",
+      "options": [
+        "On a charpoy in the back verandah",
+        "On the floor in the kitchen",
+        "In the car",
+        "At the North Block"
+      ],
+      "answer": "A",
+      "answerText": "On a charpoy in the back verandah",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 36,
+      "question": "How much leave did the narrator take from the office?",
+      "options": [
+        "One day",
+        "Three days",
+        "Two days",
+        "A week"
+      ],
+      "answer": "C",
+      "answerText": "Two days",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 37,
+      "question": "Where did the narrator drive Nanukaka for the first ministerial visit?",
+      "options": [
+        "The railway station",
+        "Sikka Auto Dealers",
+        "Lala Sohanlal's house",
+        "The North Block"
+      ],
+      "answer": "D",
+      "answerText": "The North Block",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 38,
+      "question": "How long did Nanukaka spend being passed from one chaprasi to another?",
+      "options": [
+        "One hour",
+        "Two hours",
+        "Three hours",
+        "Half an hour"
+      ],
+      "answer": "B",
+      "answerText": "Two hours",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 39,
+      "question": "What appointment did Nanukaka finally get?",
+      "options": [
+        "An immediate meeting with the Minister",
+        "An appointment with a Deputy-Secretary three days later",
+        "A meeting with Ratiram that evening",
+        "An appointment with Sohanlal the next week"
+      ],
+      "answer": "B",
+      "answerText": "An appointment with a Deputy-Secretary three days later",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 40,
+      "question": "In which language did Nanukaka use swearwords when angry?",
+      "options": [
+        "Hindi",
+        "English",
+        "Punjabi",
+        "Marathi"
+      ],
+      "answer": "D",
+      "answerText": "Marathi",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 41,
+      "question": "What kind of car flashed past the narrator and Nanukaka?",
+      "options": [
+        "A black taxi",
+        "A white train carriage",
+        "A yellow sports car",
+        "A red tonga"
+      ],
+      "answer": "C",
+      "answerText": "A yellow sports car",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 42,
+      "question": "Where did Ratiram work?",
+      "options": [
+        "At Sikka Auto Dealers",
+        "In the North Block ticket office",
+        "In the same Ministry as the narrator",
+        "At the Zamindars' Convention"
+      ],
+      "answer": "C",
+      "answerText": "In the same Ministry as the narrator",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 43,
+      "question": "Who was Ratiram's father?",
+      "options": [
+        "Lala Sohanlal Ratiram",
+        "Hajrat Barkat Ali",
+        "The Welfare Minister",
+        "Maharaja Sutkatta"
+      ],
+      "answer": "A",
+      "answerText": "Lala Sohanlal Ratiram",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 44,
+      "question": "According to the narrator, what did getting a foreign assignment require?",
+      "options": [
+        "A train reservation",
+        "Pull",
+        "A minister's written exam",
+        "A zamindar's title"
+      ],
+      "answer": "B",
+      "answerText": "Pull",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 45,
+      "question": "What role did Nanukaka ask the narrator to play at Sohanlal's house?",
+      "options": [
+        "A ticket inspector",
+        "A Deputy-Secretary",
+        "An astrologer's assistant",
+        "A sort of A.D.C."
+      ],
+      "answer": "D",
+      "answerText": "A sort of A.D.C.",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 46,
+      "question": "What did the narrator wear to accompany Nanukaka to Sohanlal's house?",
+      "options": [
+        "A Jodhpur coat and an orange turban",
+        "A black coat and red pugree",
+        "A white uniform and cap",
+        "A suit and a red scarf"
+      ],
+      "answer": "A",
+      "answerText": "A Jodhpur coat and an orange turban",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 47,
+      "question": "What did Nanukaka claim had brought him to Delhi when speaking to Sohanlal's secretary?",
+      "options": [
+        "A car exhibition",
+        "A meeting of ticket inspectors",
+        "A family wedding",
+        "A Zamindars' Convention"
+      ],
+      "answer": "D",
+      "answerText": "A Zamindars' Convention",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 48,
+      "question": "Who had supposedly sent Nanukaka a cable and wanted to see him?",
+      "options": [
+        "Ratiram",
+        "V.P.",
+        "The narrator",
+        "The ticket inspector"
+      ],
+      "answer": "B",
+      "answerText": "V.P.",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 49,
+      "question": "Where did Nanukaka claim he had been on Sunday?",
+      "options": [
+        "Washington",
+        "Beirut",
+        "Geneva",
+        "Bombay"
+      ],
+      "answer": "B",
+      "answerText": "Beirut",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 50,
+      "question": "What did Nanukaka call Hajrat Barkat Ali?",
+      "options": [
+        "Old H.B.",
+        "Lala ji",
+        "Sutkatta",
+        "V.P."
+      ],
+      "answer": "A",
+      "answerText": "Old H.B.",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 51,
+      "question": "What position did Hajrat Barkat Ali hold?",
+      "options": [
+        "Ambassador",
+        "Welfare Minister",
+        "Party Boss",
+        "Deputy-Secretary"
+      ],
+      "answer": "A",
+      "answerText": "Ambassador",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 52,
+      "question": "How did Nanukaka say he knew Hajrat Barkat Ali?",
+      "options": [
+        "They were brothers",
+        "They had been at school together",
+        "They worked at Sikka Auto Dealers",
+        "They had met at the railway station"
+      ],
+      "answer": "B",
+      "answerText": "They had been at school together",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 53,
+      "question": "What job had Sohanlal's son been due to take?",
+      "options": [
+        "Ticket inspector at the station",
+        "Deputy-Secretary in North Block",
+        "Hereditary astrologer to Ninnore",
+        "Trade Commissioner to Hajrat Barkat Ali"
+      ],
+      "answer": "D",
+      "answerText": "Trade Commissioner to Hajrat Barkat Ali",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 54,
+      "question": "What matter had allegedly harmed Sohanlal's son's prospects?",
+      "options": [
+        "A transaction concerning evacuee property",
+        "A dispute over the kitten",
+        "A failed train reservation",
+        "A disagreement about the car"
+      ],
+      "answer": "A",
+      "answerText": "A transaction concerning evacuee property",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 55,
+      "question": "What did Nanukaka promise to do for Sohanlal?",
+      "options": [
+        "Arrange a meeting with Ratiram",
+        "Buy the yellow sports car",
+        "Write to Hajrat Barkat Ali",
+        "Ask the narrator to resign"
+      ],
+      "answer": "C",
+      "answerText": "Write to Hajrat Barkat Ali",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 56,
+      "question": "Before discussing business, what topics did Nanukaka and Sohanlal talk about?",
+      "options": [
+        "Kittens, trains and snuff",
+        "Zamindars, votes and the weather",
+        "Cars, coats and turban styles",
+        "Books, schools and holidays"
+      ],
+      "answer": "B",
+      "answerText": "Zamindars, votes and the weather",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 57,
+      "question": "When Sohanlal asked whether Nanukaka knew him, what did Nanukaka reply?",
+      "options": [
+        "They had been at school together",
+        "Of course not.",
+        "They were close relatives",
+        "They had met at the railway station"
+      ],
+      "answer": "B",
+      "answerText": "Of course not.",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 58,
+      "question": "What did Nanukaka casually mention while taking snuff at Sohanlal's house?",
+      "options": [
+        "The ticket inspector's name",
+        "The narrator's mother's name",
+        "The Sikka dealer's name",
+        "The Welfare Minister's name"
+      ],
+      "answer": "D",
+      "answerText": "The Welfare Minister's name",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 59,
+      "question": "How did Sohanlal and the Welfare Minister get along?",
+      "options": [
+        "They were close friends",
+        "They had never met",
+        "They were at daggers drawn",
+        "They were business partners"
+      ],
+      "answer": "C",
+      "answerText": "They were at daggers drawn",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 60,
+      "question": "Why had the Minister and Sohanlal fallen out?",
+      "options": [
+        "The Minister refused to consider Sohanlal's son's marriage to his daughter",
+        "Sohanlal refused to sell him a car",
+        "The Minister rejected his Zamindars' Convention",
+        "Sohanlal refused to lend him a snuffbox"
+      ],
+      "answer": "A",
+      "answerText": "The Minister refused to consider Sohanlal's son's marriage to his daughter",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 61,
+      "question": "What did the Minister want for his daughter, according to Sohanlal?",
+      "options": [
+        "A Trade Commissioner",
+        "A prince",
+        "A ticket inspector",
+        "A zamindar's secretary"
+      ],
+      "answer": "B",
+      "answerText": "A prince",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 62,
+      "question": "Which place was named as the prince's state?",
+      "options": [
+        "Beirut",
+        "Geneva",
+        "Washington",
+        "Ninnore"
+      ],
+      "answer": "D",
+      "answerText": "Ninnore",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 63,
+      "question": "What had not yet been exchanged by the two families?",
+      "options": [
+        "Letters of appointment",
+        "Train tickets",
+        "Car keys",
+        "Horoscopes"
+      ],
+      "answer": "D",
+      "answerText": "Horoscopes",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 64,
+      "question": "How did Sohanlal and his secretary see Nanukaka off?",
+      "options": [
+        "They bowed to him from the porch",
+        "They followed him to the station",
+        "They handed him a letter",
+        "They refused to say goodbye"
+      ],
+      "answer": "A",
+      "answerText": "They bowed to him from the porch",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 65,
+      "question": "What type of car did Nanukaka want for the next visit?",
+      "options": [
+        "A small taxi",
+        "A large private car with a liveried chauffeur",
+        "A yellow sports car driven by Ratiram",
+        "A tonga with a ticket inspector"
+      ],
+      "answer": "B",
+      "answerText": "A large private car with a liveried chauffeur",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 66,
+      "question": "Who was to act as the chauffeur?",
+      "options": [
+        "The narrator",
+        "The dhobi",
+        "Sohanlal's secretary",
+        "The ticket inspector"
+      ],
+      "answer": "A",
+      "answerText": "The narrator",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 67,
+      "question": "What was the value of the cheque Nanukaka placed in his old coat?",
+      "options": [
+        "Two rupees",
+        "One hundred rupees",
+        "Ten thousand rupees",
+        "One thousand rupees"
+      ],
+      "answer": "D",
+      "answerText": "One thousand rupees",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 68,
+      "question": "Who brought the coat and cheque to the auto dealers?",
+      "options": [
+        "The Minister",
+        "Ratiram",
+        "The dhobi",
+        "The secretary"
+      ],
+      "answer": "C",
+      "answerText": "The dhobi",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 69,
+      "question": "What reward did Nanukaka give the dhobi?",
+      "options": [
+        "A thousand-rupee cheque",
+        "A two-rupee note",
+        "A new coat",
+        "A train ticket"
+      ],
+      "answer": "B",
+      "answerText": "A two-rupee note",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 70,
+      "question": "What did Nanukaka say about the bearer cheque when the dhobi returned it?",
+      "options": [
+        "It had already been paid",
+        "It was only a receipt",
+        "It did not belong to him",
+        "Anyone could have cashed it"
+      ],
+      "answer": "D",
+      "answerText": "Anyone could have cashed it",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 71,
+      "question": "How was the large car described?",
+      "options": [
+        "As if made for a railway platform",
+        "As if built for a sports race",
+        "As if built for a court procession",
+        "As if designed for a school parade"
+      ],
+      "answer": "C",
+      "answerText": "As if built for a court procession",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 72,
+      "question": "What did Nanukaka ask for at the Minister's residence?",
+      "options": [
+        "The visitors' book",
+        "A train timetable",
+        "A cheque book",
+        "A Zamindars' Convention list"
+      ],
+      "answer": "A",
+      "answerText": "The visitors' book",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 73,
+      "question": "What title did Nanukaka write after his name in the visitors' book?",
+      "options": [
+        "Hereditary Astrologer to the Maharaja of Ninnore",
+        "Under-Secretary to the Welfare Minister",
+        "Trade Commissioner to Hajrat Barkat Ali",
+        "Ticket Inspector at North Block"
+      ],
+      "answer": "A",
+      "answerText": "Hereditary Astrologer to the Maharaja of Ninnore",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 74,
+      "question": "What reason did Nanukaka give for making a formal call?",
+      "options": [
+        "He had lost his train ticket",
+        "He wanted to return a car",
+        "He had come to deliver a kitten",
+        "It was a courtesy observed by people from old princely states"
+      ],
+      "answer": "D",
+      "answerText": "It was a courtesy observed by people from old princely states",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 75,
+      "question": "Where did Nanukaka loudly say he had to go next?",
+      "options": [
+        "The station yard",
+        "Maharaja Sutkatta's palace",
+        "Sikka Auto Dealers",
+        "The Zamindars' Convention"
+      ],
+      "answer": "B",
+      "answerText": "Maharaja Sutkatta's palace",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 76,
+      "question": "What did Nanukaka say he had to return to the Maharaja?",
+      "options": [
+        "Horoscopes",
+        "A silver snuffbox",
+        "A thousand-rupee cheque",
+        "A kitten"
+      ],
+      "answer": "A",
+      "answerText": "Horoscopes",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 77,
+      "question": "What did the narrator see looking at them from an upper-story window?",
+      "options": [
+        "A ticket inspector with a basket",
+        "A man in an orange turban",
+        "A kitten on a charpoy",
+        "A large dark, khaddar-clad figure"
+      ],
+      "answer": "D",
+      "answerText": "A large dark, khaddar-clad figure",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 78,
+      "question": "What were the family trying to do with the new kitten when the car arrived?",
+      "options": [
+        "Teach it to travel by train",
+        "Give it to the dhobi",
+        "Take it to Sohanlal",
+        "House-break it"
+      ],
+      "answer": "D",
+      "answerText": "House-break it",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 79,
+      "question": "What had the narrator never found out?",
+      "options": [
+        "Where the kitten came from",
+        "What Nanukaka wanted to see the Minister about",
+        "Who owned the yellow sports car",
+        "How the narrator got his leave"
+      ],
+      "answer": "B",
+      "answerText": "What Nanukaka wanted to see the Minister about",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 80,
+      "question": "How far from Ninnore had Nanukaka ever been, according to the narrator?",
+      "options": [
+        "He had lived there for years",
+        "He had visited it the previous week",
+        "He had travelled there by train",
+        "He had never been within a hundred miles of it"
+      ],
+      "answer": "D",
+      "answerText": "He had never been within a hundred miles of it",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 81,
+      "question": "Where did the narrator wish to be when the Minister discovered the truth about Ninnore?",
+      "options": [
+        "Somewhere far out of range",
+        "At the Minister's office",
+        "At Sikka Auto Dealers",
+        "At the railway platform"
+      ],
+      "answer": "A",
+      "answerText": "Somewhere far out of range",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 82,
+      "question": "Which word in the glossary means “oily, greasy”?",
+      "options": [
+        "fawning",
+        "chirpy",
+        "auspicious",
+        "legitimate"
+      ],
+      "answer": "A",
+      "answerText": "fawning",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 83,
+      "question": "In the story, Nanukaka puckers his eyebrows as if in deep thought. The glossary gives “puckering” as:",
+      "options": [
+        "waving about",
+        "knitting together",
+        "strolling slowly",
+        "speaking loudly"
+      ],
+      "answer": "B",
+      "answerText": "knitting together",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 84,
+      "question": "What does “wreathed” mean in the glossary?",
+      "options": [
+        "transferred",
+        "reserved",
+        "adorned",
+        "departed"
+      ],
+      "answer": "C",
+      "answerText": "adorned",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 85,
+      "question": "The glossary defines “tramping” as:",
+      "options": [
+        "marching or slogging",
+        "whispering or murmuring",
+        "laughing or smiling",
+        "waiting or resting"
+      ],
+      "answer": "A",
+      "answerText": "marching or slogging",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 86,
+      "question": "What does the glossary say “expletives” means?",
+      "options": [
+        "sweetmeats",
+        "formal greetings",
+        "bad language",
+        "foreign assignments"
+      ],
+      "answer": "C",
+      "answerText": "bad language",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 87,
+      "question": "In the glossary, “garnish” is explained as:",
+      "options": [
+        "pretty",
+        "unusual",
+        "favourable",
+        "lawful"
+      ],
+      "answer": "A",
+      "answerText": "pretty",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 88,
+      "question": "The glossary gives “convention” as a:",
+      "options": [
+        "ticket or reservation",
+        "coat or turban",
+        "conference or meeting",
+        "promise or reward"
+      ],
+      "answer": "C",
+      "answerText": "conference or meeting",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 89,
+      "question": "If a speaker “trailed off,” the speaker:",
+      "options": [
+        "became louder and angrier",
+        "started running quickly",
+        "changed the subject at once",
+        "grew faint or weakened"
+      ],
+      "answer": "D",
+      "answerText": "grew faint or weakened",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 90,
+      "question": "The glossary meaning of “ingratiating” is:",
+      "options": [
+        "marching",
+        "careless",
+        "unusual",
+        "flattering"
+      ],
+      "answer": "D",
+      "answerText": "flattering",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 91,
+      "question": "Which suffix completes the noun formed from “arrange” in the chapter's word-formation exercise?",
+      "options": [
+        "-ment",
+        "-ness",
+        "-ful",
+        "-ist"
+      ],
+      "answer": "A",
+      "answerText": "-ment",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 92,
+      "question": "Which noun is formed from “impress” in the chapter's word-formation exercise?",
+      "options": [
+        "impressive",
+        "impression",
+        "impressing",
+        "impressful"
+      ],
+      "answer": "B",
+      "answerText": "impression",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 93,
+      "question": "Which is the correct tag question for “It is amazing” as used in the lesson?",
+      "options": [
+        "doesn't it?",
+        "wasn't it?",
+        "aren't they?",
+        "isn't it?"
+      ],
+      "answer": "D",
+      "answerText": "isn't it?",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 94,
+      "question": "In the phrase “try out the car,” what does “try out” mean?",
+      "options": [
+        "test",
+        "return",
+        "repair",
+        "hide"
+      ],
+      "answer": "A",
+      "answerText": "test",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 95,
+      "question": "In the story, “at daggers drawn” describes people who are:",
+      "options": [
+        "celebrating together",
+        "travelling together",
+        "quarrelling",
+        "meeting for the first time"
+      ],
+      "answer": "C",
+      "answerText": "quarrelling",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 96,
+      "question": "In the glossary, “liveried” means:",
+      "options": [
+        "unusually large",
+        "favourable",
+        "careless",
+        "uniformed"
+      ],
+      "answer": "D",
+      "answerText": "uniformed",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 97,
+      "question": "What does the glossary say “outlandish” means?",
+      "options": [
+        "lawful and fair",
+        "cheerful and happy",
+        "extremely strange and unusual",
+        "polite and flattering"
+      ],
+      "answer": "C",
+      "answerText": "extremely strange and unusual",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 98,
+      "question": "Which meaning does the glossary give for “blandly”?",
+      "options": [
+        "quickly",
+        "angrily",
+        "unexcitingly",
+        "carefully"
+      ],
+      "answer": "C",
+      "answerText": "unexcitingly",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 99,
+      "question": "A person described as a “stickler” is a:",
+      "options": [
+        "ticket seller",
+        "foreign visitor",
+        "story writer",
+        "perfectionist or hard taskmaster"
+      ],
+      "answer": "D",
+      "answerText": "perfectionist or hard taskmaster",
+      "provenance": "generated",
+      "year": null
+    },
+    {
+      "number": 100,
+      "question": "What does “auspicious” mean in the chapter glossary?",
+      "options": [
+        "strange and unusual",
+        "careless or foolish",
+        "favourable or promising",
+        "oily or greasy"
+      ],
+      "answer": "C",
+      "answerText": "favourable or promising",
+      "provenance": "generated",
+      "year": null
+    }
+  ]
+}
