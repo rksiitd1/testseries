@@ -175,23 +175,6 @@ def save_public_forms(data):
     PUBLIC_FORMS.write_text(json.dumps({"forms": forms}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
-def refresh_papers_manifest():
-    """Include newly generated HTML/PDF assets in the test archive index."""
-    manifest_script = ROOT / "scripts" / "build_papers_manifest.py"
-    result = subprocess.run(
-        [sys.executable, str(manifest_script)],
-        cwd=ROOT,
-        text=True,
-        encoding="utf-8",
-        errors="replace",
-        capture_output=True,
-    )
-    if result.returncode:
-        raise RuntimeError((result.stderr or result.stdout).strip() or "Could not refresh papers.json")
-    if result.stdout.strip():
-        print(result.stdout.strip(), flush=True)
-
-
 def title_for(paper):
     stem = paper.stem.lower()
     grade = re.search(r"class[-_ ]?(\d+)", stem)
@@ -288,8 +271,6 @@ def main():
                 continue
 
     report = load_report()
-    if args.create:
-        refresh_papers_manifest()
     failed = 0
     for paper, key in pairs:
         job_id = f"{paper.name}|{key.name}"
@@ -372,6 +353,25 @@ def main():
         report["jobs"][job_id] = record
         save_report(report)
         save_public_forms(report)
+
+    if args.create and pairs:
+        if failed:
+            print("PUBLISH SKIPPED: at least one pair failed; fix or rerun the failed pair(s) before publishing.", flush=True)
+        else:
+            publisher = ROOT / "scripts" / "publish_test_archive.py"
+            result = subprocess.run(
+                [sys.executable, str(publisher)],
+                cwd=ROOT,
+                text=True,
+                encoding="utf-8",
+                errors="replace",
+                capture_output=True,
+            )
+            if result.stdout.strip():
+                print(result.stdout.strip(), flush=True)
+            if result.returncode:
+                failed += 1
+                print(f"PUBLISH ERROR: {(result.stderr or result.stdout).strip()}", file=sys.stderr, flush=True)
 
     print(f"Processed {len(pairs)} pair(s); errors: {failed}; report: {REPORT.name}")
     return 1 if failed else 0

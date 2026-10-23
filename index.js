@@ -1,5 +1,7 @@
 (() => {
   const $ = id => document.getElementById(id);
+  const githubRoot = 'https://github.com/rksiitd1/testseries/blob/main/';
+  const githubRawRoot = 'https://raw.githubusercontent.com/rksiitd1/testseries/main/';
   const today = () => {
     const parts = Object.fromEntries(new Intl.DateTimeFormat('en-CA', {
       timeZone: 'Asia/Kolkata', year: 'numeric', month: '2-digit', day: '2-digit'
@@ -39,10 +41,38 @@
   function makeLink(file, label, style) {
     const link = document.createElement('a');
     link.className = `action ${style}`;
-    link.href = encodeURI(file.name);
+    link.href = file.url || encodeURI(file.name);
     link.textContent = label;
     link.setAttribute('aria-label', `${label}: ${file.name}`);
     return link;
+  }
+
+  async function loadArchiveData() {
+    const embedded = $('archive-data');
+    if (embedded) {
+      try {
+        const snapshot = JSON.parse(embedded.textContent);
+        if (Array.isArray(snapshot.files) && Array.isArray(snapshot.forms)) return snapshot;
+      } catch {}
+    }
+
+    const [papersResponse, formsResponse] = await Promise.all([
+      fetch(`${githubRawRoot}papers.json`),
+      fetch(`${githubRawRoot}forms.json`).catch(() => null)
+    ]);
+    if (!papersResponse.ok) throw new Error(`GitHub paper manifest request failed (${papersResponse.status})`);
+    const papers = await papersResponse.json();
+    let forms = { forms: [] };
+    if (formsResponse?.ok) {
+      try { forms = await formsResponse.json(); } catch {}
+    }
+    return {
+      files: (papers.files || []).map(name => ({
+        name,
+        url: `${githubRoot}${encodeURIComponent(name)}`
+      })),
+      forms: Array.isArray(forms.forms) ? forms.forms : []
+    };
   }
 
   function makeFormLink(file, label) {
@@ -163,16 +193,9 @@
     const timeline = $('timeline');
     timeline.textContent = 'Loading papers…';
     try {
-      const [response, formsData] = await Promise.all([
-        fetch('papers.json'),
-        fetch('forms.json')
-          .then(formsResponse => formsResponse.ok ? formsResponse.json() : { forms: [] })
-          .catch(() => ({ forms: [] }))
-      ]);
-      if (!response.ok) throw new Error(`Manifest request failed (${response.status})`);
-      const manifest = await response.json();
+      const archive = await loadArchiveData();
       const formsByPaper = new Map();
-      for (const form of Array.isArray(formsData.forms) ? formsData.forms : []) {
+      for (const form of archive.forms) {
         if (typeof form.paper !== 'string' || typeof form.studentUrl !== 'string') continue;
         try {
           const url = new URL(form.studentUrl);
@@ -181,9 +204,14 @@
           }
         } catch {}
       }
-      const files = (manifest.files || []).map(name => {
+      const files = archive.files.map(entry => {
+        const name = typeof entry === 'string' ? entry : entry?.name;
+        if (!name) return null;
         const file = parse(name);
-        if (file && formsByPaper.has(name)) file.formUrl = formsByPaper.get(name);
+        if (file) {
+          file.url = typeof entry === 'object' && entry.url ? entry.url : encodeURI(name);
+          if (formsByPaper.has(name)) file.formUrl = formsByPaper.get(name);
+        }
         return file;
       }).filter(Boolean);
       const days = makeSchedule(files);
