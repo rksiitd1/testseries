@@ -41,7 +41,7 @@
   function makeLink(file, label, style) {
     const link = document.createElement('a');
     link.className = `action ${style}`;
-    link.href = file.url || encodeURI(file.name);
+    link.href = file.url || file.fallbackUrl || encodeURI(file.name);
     link.textContent = label;
     link.setAttribute('aria-label', `${label}: ${file.name}`);
     return link;
@@ -209,7 +209,7 @@
         if (!name) return null;
         const file = parse(name);
         if (file) {
-          file.url = typeof entry === 'object' && entry.url ? entry.url : encodeURI(name);
+          file.url = typeof entry === 'object' ? (entry.url || entry.fallbackUrl || encodeURI(name)) : encodeURI(name);
           if (formsByPaper.has(name)) file.formUrl = formsByPaper.get(name);
         }
         return file;
