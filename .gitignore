@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+
+# Local Apps Script project/auth configuration
+.clasp.json
+clasp-oauth.json
+
+# Internal form metadata includes editable Google Forms URLs
+google_forms_report.json
+
+# Generated scripts embed question and answer data
+/generated_gs/
+
+# Internal working records
+/audits/
+/records/

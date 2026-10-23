@@ -45,6 +45,17 @@
     return link;
   }
 
+  function makeFormLink(file, label) {
+    const link = document.createElement('a');
+    link.className = 'action form';
+    link.href = file.formUrl;
+    link.textContent = label;
+    link.target = '_blank';
+    link.rel = 'noopener noreferrer';
+    link.setAttribute('aria-label', `${label}: ${file.name}`);
+    return link;
+  }
+
   function makePaperCard(group) {
     const card = document.createElement('article');
     card.className = 'subject-card';
@@ -71,6 +82,11 @@
       primaryFiles.push(selected);
       const label = `${selected.branded ? 'Branded ' : ''}Question paper${bilingual ? ` · ${english ? 'English' : 'Hindi'}` : ''}`;
       actions.append(makeLink(selected, label, english ? 'english' : 'paper'));
+    }
+
+    const formFiles = group.files.filter(file => file.formUrl && file.html && !file.key);
+    for (const file of formFiles) {
+      actions.append(makeFormLink(file, bilingual ? `Take quiz · ${file.english ? 'English' : 'Hindi'}` : 'Take quiz'));
     }
 
     const answerKey = group.files.find(file => file.key && !file.html);
@@ -147,10 +163,29 @@
     const timeline = $('timeline');
     timeline.textContent = 'Loading papers…';
     try {
-      const response = await fetch('papers.json');
+      const [response, formsData] = await Promise.all([
+        fetch('papers.json'),
+        fetch('forms.json')
+          .then(formsResponse => formsResponse.ok ? formsResponse.json() : { forms: [] })
+          .catch(() => ({ forms: [] }))
+      ]);
       if (!response.ok) throw new Error(`Manifest request failed (${response.status})`);
       const manifest = await response.json();
-      const files = (manifest.files || []).map(parse).filter(Boolean);
+      const formsByPaper = new Map();
+      for (const form of Array.isArray(formsData.forms) ? formsData.forms : []) {
+        if (typeof form.paper !== 'string' || typeof form.studentUrl !== 'string') continue;
+        try {
+          const url = new URL(form.studentUrl);
+          if (url.protocol === 'https:' && url.hostname === 'docs.google.com' && /^\/forms\/d\/e\/[^/]+\/viewform\/?$/.test(url.pathname)) {
+            formsByPaper.set(form.paper, url.href);
+          }
+        } catch {}
+      }
+      const files = (manifest.files || []).map(name => {
+        const file = parse(name);
+        if (file && formsByPaper.has(name)) file.formUrl = formsByPaper.get(name);
+        return file;
+      }).filter(Boolean);
       const days = makeSchedule(files);
       const currentDate = today();
 
