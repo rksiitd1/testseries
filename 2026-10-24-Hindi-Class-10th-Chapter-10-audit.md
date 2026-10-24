@@ -1,0 +1,12 @@
+# Audit: मछली, कक्षा 10 हिन्दी, अध्याय 10
+
+- Test date: 2026-10-24. Filename stems and both date subtitles match; paper maximum time is 60 minutes.
+- The saved question paper and answer-key HTML were reopened and parsed. Per-question final-file check: 100/100 passed; every one of the 100 stems, four delivered options, recorded correct-answer text, final option position, and key letter matches.
+- Count/structure: exactly 100 consecutively numbered questions, each with four unique options.
+- Source coverage: all 20 supplied PYQ records appear first, in source year/file order, followed by 80 generated questions. Repeated PYQ topics/stems are retained because they are distinct supplied records with their own source IDs/years, including two versions of Santू’s reason for carrying the fish.
+- Corrections: `obj_45` university options were expanded to full names from the supplied chapter introduction; answer is इंदिरा गाँधी कृषि विश्वविद्यालय. `obj_69` option “मकान के नीचे” is preserved as the bank’s keyed answer, though the prose scene describes Santू near the well; this phrasing is from the source bank and may be ambiguous. Other PYQ stems/options are preserved apart from punctuation normalization.
+- Generated coverage: opening and purchase of fish; fish kept in the bucket and life/death/eye reflection; mother’s cooking preparation and father’s food preference; Didi’s care and distress; Bhaggu cutting fish; Santू’s attempt to save one; family conflict and narrator’s reactions; chapter glossary and story themes/characterization. Generated items stay within the supplied chapter.
+- Key distribution: A=25, B=25, C=25, D=25. Longest identical-letter run is 2; no three identical answers consecutively.
+- Answer-key metadata: exactly 100 A-D entries, chapter 10, class 10, date 2026-10-24; split logic gives 1–50 front and 51–100 back.
+- Template check: canonical paper/key CSS unchanged; answer-key code below `DO NOT CHANGE BELOW THIS LINE` is byte-for-byte unchanged. Titles match the respective paired PDF stems (without extensions). No placeholders or sample items remain.
+- Programmatic source and final-file checks performed. Browser rendering and PDF export were not performed. Google Forms validation passed (100 questions/options/answers). The first creation attempt hit a temporary OAuth DNS failure; the later retry found the same paper/key pair already created (duplicate-safe skip) and completed the archive publication. Student and edit URLs are recorded in `google_forms_report.json`.
