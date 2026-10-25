@@ -1,6 +1,6 @@
 # Audit: नौबतखाने में इबादत, कक्षा 10 हिन्दी, अध्याय 11
 
-- Test date: 2026-10-25. Both filename stems and subtitles match; the paper states a 60-minute maximum.
+- Test date: 2026-10-26. Both filename stems and subtitles match; the paper states a 60-minute maximum.
 - Reopened final HTML files and verified each against the answer record and key: 100/100 passed. Every question has four unique options; the key letter selects the recorded correct answer text.
 - Structure/count: 100 numbered questions in order; exactly four options each.
 - PYQs: all 16 supplied target-chapter records are included first in source year/order, followed by 84 generated questions. No PYQ exclusions or duplicate records were identified.
@@ -9,4 +9,4 @@
 - Answer distribution: A=25, B=25, C=25, D=25. Longest same-letter run: 2; no three identical letters in succession.
 - Key has 100 valid A-D entries in order; chapter/class/date metadata match, with the template’s 1–50 front / 51–100 back split.
 - Template verification: paper/key CSS unchanged from canonical project templates; key code after `DO NOT CHANGE BELOW THIS LINE` is unchanged. Both titles equal their matching dated PDF stems (without extensions). No placeholders or sample questions remain.
-- Programmatic final-file and source comparisons performed. Browser rendering and PDF export not performed.
+- Programmatic final-file and source comparisons performed. Browser rendering and PDF export not performed. The existing Google Form contains the same question set; its title does not display a test date. The student URL is retained in `forms.json` under the corrected 2026-10-26 paper filename.
