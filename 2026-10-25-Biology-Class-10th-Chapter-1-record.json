@@ -1,0 +1,1866 @@
+{
+  "metadata": {
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "Life Processes and Nutrition",
+    "chapter_number": 1,
+    "test_date": "2026-10-25",
+    "total_questions": 100,
+    "source_counts": {
+      "unique PYQ wordings": 59,
+      "PYQ repeat appearances retained in provenance": 3,
+      "screenshot-adapted MCQs": 35,
+      "generated MCQs": 6
+    }
+  },
+  "questions": [
+    {
+      "text": "प्रकाश संश्लेषण क्रिया में ऑक्सीजन बाहर निकलता है",
+      "options": [
+        "$CO_2$ से",
+        "ग्लूकोज से",
+        "जल से",
+        "डिक्टियोजोम से"
+      ],
+      "correct": "जल से",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 1,
+      "source_years": [
+        "2013"
+      ],
+      "source_ids": [
+        "obj_3"
+      ]
+    },
+    {
+      "text": "दाँत की सबसे ऊपरी परत है",
+      "options": [
+        "अस्थि",
+        "क्राउन",
+        "इनामेल",
+        "डेटाइन"
+      ],
+      "correct": "इनामेल",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 2,
+      "source_years": [
+        "2014"
+      ],
+      "source_ids": [
+        "obj_26"
+      ]
+    },
+    {
+      "text": "मानव आहार नाल का सबसे लम्बा भाग है",
+      "options": [
+        "छोटा आँत",
+        "ग्रासनली",
+        "बड़ी आँत",
+        "आमाशय"
+      ],
+      "correct": "छोटा आँत",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 3,
+      "source_years": [
+        "2014",
+        "2021",
+        "2026"
+      ],
+      "source_ids": [
+        "obj_27",
+        "obj_27",
+        "obj_42"
+      ]
+    },
+    {
+      "text": "स्वपोषी पोषण के लिए आवश्यक है",
+      "options": [
+        "सूर्य का प्रकाश",
+        "इनमें से सभी",
+        "क्लोरोफिल",
+        "कार्बन डाइऑक्साइड तथा जल"
+      ],
+      "correct": "इनमें से सभी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 4,
+      "source_years": [
+        "2014",
+        "2016"
+      ],
+      "source_ids": [
+        "obj_55",
+        "obj_18"
+      ]
+    },
+    {
+      "text": "स्वपोषी पोषण के लिए आवश्यक है",
+      "options": [
+        "क्लोरोफिल",
+        "सौर प्रकाश",
+        "$CO_2$",
+        "इनमें से सभी"
+      ],
+      "correct": "इनमें से सभी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 5,
+      "source_years": [
+        "2016"
+      ],
+      "source_ids": [
+        "obj_18"
+      ]
+    },
+    {
+      "text": "एक वयस्क मनुष्य के कितने दाँत होते हैं?",
+      "options": [
+        "34",
+        "30",
+        "28",
+        "32"
+      ],
+      "correct": "32",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 6,
+      "source_years": [
+        "2017"
+      ],
+      "source_ids": [
+        "obj_20"
+      ]
+    },
+    {
+      "text": "एक वयस्क मनुष्य के कितने दाँत होते हैं?",
+      "options": [
+        "30",
+        "32",
+        "34",
+        "28"
+      ],
+      "correct": "32",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 7,
+      "source_years": [
+        "2017"
+      ],
+      "source_ids": [
+        "obj_20"
+      ]
+    },
+    {
+      "text": "कवक में पोषण की कौन-सी विधि पाई जाती है?",
+      "options": [
+        "इनमें से कोई नहीं",
+        "स्वपोषी",
+        "सम्भोजी",
+        "मृतजीवी"
+      ],
+      "correct": "मृतजीवी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 8,
+      "source_years": [
+        "2019"
+      ],
+      "source_ids": [
+        "obj_23"
+      ]
+    },
+    {
+      "text": "पित्त रस कहाँ से स्रावित होता है -",
+      "options": [
+        "यकृत से",
+        "इनमें से कोई नहीं",
+        "छोटी आँत से",
+        "अग्नाशय से"
+      ],
+      "correct": "यकृत से",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 9,
+      "source_years": [
+        "2019"
+      ],
+      "source_ids": [
+        "obj_28"
+      ]
+    },
+    {
+      "text": "स्वपोषी पोषण के लिए आवश्यक है -",
+      "options": [
+        "पर्णहरित",
+        "कार्बन डाइऑक्साइड",
+        "सूर्य का प्रकाश",
+        "इनमें से सभी"
+      ],
+      "correct": "इनमें से सभी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 10,
+      "source_years": [
+        "2019"
+      ],
+      "source_ids": [
+        "obj_34"
+      ]
+    },
+    {
+      "text": "स्टोमाटा के खुलने और बंद होने की क्रिया को कौन नियंत्रित करता है ?",
+      "options": [
+        "सहचर कोशिकाएं",
+        "द्वार कोशिकाएं",
+        "चालनी नलिकाएं",
+        "मूल रोम"
+      ],
+      "correct": "द्वार कोशिकाएं",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 11,
+      "source_years": [
+        "2020"
+      ],
+      "source_ids": [
+        "obj_37"
+      ]
+    },
+    {
+      "text": "अमीबा अपना भोजन कैसे पकड़ता है ?",
+      "options": [
+        "जीभ द्वारा",
+        "मुँह द्वारा",
+        "कूटपाद द्वारा",
+        "स्पर्शक द्वारा"
+      ],
+      "correct": "कूटपाद द्वारा",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 12,
+      "source_years": [
+        "2020"
+      ],
+      "source_ids": [
+        "obj_45"
+      ]
+    },
+    {
+      "text": "कौन-सा एन्जाइम वसा पर क्रिया करता है ?",
+      "options": [
+        "लाइपेज",
+        "ट्रिप्सीन",
+        "पेप्सीन",
+        "एमाइलेन"
+      ],
+      "correct": "लाइपेज",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 13,
+      "source_years": [
+        "2020"
+      ],
+      "source_ids": [
+        "obj_46"
+      ]
+    },
+    {
+      "text": "प्रकाश संश्लेषण की क्रिया होती है",
+      "options": [
+        "हरे पौधों में",
+        "कवकों में",
+        "परजीवियों में",
+        "जन्तुओं में"
+      ],
+      "correct": "हरे पौधों में",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 14,
+      "source_years": [
+        "2020"
+      ],
+      "source_ids": [
+        "obj_23"
+      ]
+    },
+    {
+      "text": "अमीबा में पोषण ग्रहण करने की विधि क्या कहलाती?",
+      "options": [
+        "शाकाहारी पोषण",
+        "अंतर्ग्रहण",
+        "सर्वाहारी पोषण",
+        "स्वपोषी पोषण"
+      ],
+      "correct": "अंतर्ग्रहण",
+      "source": "PYQ",
+      "note": "मूल item में nutrition type पूछा गया था जबकि विकल्पों में “अंतर्ग्रहण” था; wording सुधारी।",
+      "answer": "B",
+      "number": 15,
+      "source_years": [
+        "2020"
+      ],
+      "source_ids": [
+        "obj_28"
+      ]
+    },
+    {
+      "text": "दाँत की सबसे ऊपरी परत है",
+      "options": [
+        "इनामेल",
+        "क्राउन",
+        "अस्थि",
+        "डेटाइन"
+      ],
+      "correct": "इनामेल",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 16,
+      "source_years": [
+        "2021"
+      ],
+      "source_ids": [
+        "obj_26"
+      ]
+    },
+    {
+      "text": "स्वपोषी पोषण के लिए आवश्यक है",
+      "options": [
+        "क्लोरोफिल",
+        "कार्बन डाइऑक्साइड तथा जल",
+        "सूर्य का प्रकाश",
+        "इनमें से सभी"
+      ],
+      "correct": "इनमें से सभी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 17,
+      "source_years": [
+        "2021"
+      ],
+      "source_ids": [
+        "obj_55"
+      ]
+    },
+    {
+      "text": "पित्त रस कहाँ से स्रावित होता है?",
+      "options": [
+        "छोटी आँत",
+        "मुख गुहा",
+        "यकृत",
+        "आमाशय"
+      ],
+      "correct": "यकृत",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 18,
+      "source_years": [
+        "2021"
+      ],
+      "source_ids": [
+        "obj_40"
+      ]
+    },
+    {
+      "text": "मनुष्य के आहारनाल में अवशेषी अंग है",
+      "options": [
+        "कोलन",
+        "सीकम",
+        "एपेंडिक्स",
+        "रेक्टम"
+      ],
+      "correct": "एपेंडिक्स",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 19,
+      "source_years": [
+        "2021"
+      ],
+      "source_ids": [
+        "obj_43"
+      ]
+    },
+    {
+      "text": "निम्नांकित में कौन 'ट्रिप्सिन' एंजाइम का कार्य है ?",
+      "options": [
+        "वसा का पाचन",
+        "प्रोटीन का पाचन",
+        "इनमें से सभी",
+        "कार्बोहाइड्रेट का पाचन"
+      ],
+      "correct": "प्रोटीन का पाचन",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 20,
+      "source_years": [
+        "2021"
+      ],
+      "source_ids": [
+        "obj_44"
+      ]
+    },
+    {
+      "text": "मुख गुहा में आहार का कौन-सा भाग का पाचन होता है।",
+      "options": [
+        "प्रोटीन",
+        "वसा",
+        "न्यूक्लिक अम्ल",
+        "काबोहाइड्रेट"
+      ],
+      "correct": "काबोहाइड्रेट",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 21,
+      "source_years": [
+        "2021"
+      ],
+      "source_ids": [
+        "obj_45"
+      ]
+    },
+    {
+      "text": "निम्न में स्वपोषी कौन है?",
+      "options": [
+        "हरे पौधे",
+        "कीट",
+        "अमीबा",
+        "मछली"
+      ],
+      "correct": "हरे पौधे",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 22,
+      "source_years": [
+        "2021"
+      ],
+      "source_ids": [
+        "obj_72"
+      ]
+    },
+    {
+      "text": "स्वपोषी पोषण होता है",
+      "options": [
+        "पौधों में",
+        "कुछ प्रोटिस्टा और प्रोकेरियोट्स में",
+        "(A) और (C) दोनों",
+        "कवक में"
+      ],
+      "correct": "(A) और (C) दोनों",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 23,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_21"
+      ]
+    },
+    {
+      "text": "कौन-सा एन्जाइम वसा पर क्रिया करता है ?",
+      "options": [
+        "ट्रिप्सीन",
+        "पेप्सीन",
+        "एमाइलेज",
+        "लाइपेज"
+      ],
+      "correct": "लाइपेज",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 24,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_24"
+      ]
+    },
+    {
+      "text": "किस पौधे में रंध्र अनुपस्थित रहते हैं ?",
+      "options": [
+        "हाइड्रिला",
+        "नागफनी",
+        "कनेर",
+        "आम"
+      ],
+      "correct": "हाइड्रिला",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 25,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_67"
+      ]
+    },
+    {
+      "text": "प्रकाशसंश्लेषण सामान्यतः किस समय होता है?",
+      "options": [
+        "रात में",
+        "इनमें से कोई नहीं",
+        "दिन और रात दोनों में समान रूप से",
+        "दिन में"
+      ],
+      "correct": "दिन में",
+      "source": "PYQ",
+      "note": "OCR-सुधार।",
+      "answer": "D",
+      "number": 26,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_16"
+      ]
+    },
+    {
+      "text": "एक वयस्क मनुष्य के स्थायी दाँतों की संख्या कितनी होती है?",
+      "options": [
+        "32",
+        "28",
+        "34",
+        "30"
+      ],
+      "correct": "32",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 27,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_25"
+      ]
+    },
+    {
+      "text": "पाचन में जटिल भोजन सरल पदार्थों में टूटता है। यह किस प्रकार की प्रक्रिया है?",
+      "options": [
+        "उपचयन",
+        "अपघटन",
+        "विस्थापन",
+        "संयोजन"
+      ],
+      "correct": "अपघटन",
+      "source": "PYQ",
+      "note": "OCR/विकल्प सुधार: पाचन अपघटन प्रक्रिया है।",
+      "answer": "B",
+      "number": 28,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_28"
+      ]
+    },
+    {
+      "text": "मृतोपजीवी का उदाहरण कौन-सा है?",
+      "options": [
+        "अभीफा",
+        "उडहुर",
+        "अभयफेर",
+        "गोफयछत्ता"
+      ],
+      "correct": "गोफयछत्ता",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 29,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_31"
+      ]
+    },
+    {
+      "text": "द्विबीजपत्री पौधों की रक्षक कोशिका की कौन-सी भित्ति मोटी होती है?",
+      "options": [
+        "बाहरी",
+        "पार्श्व",
+        "भीतरी",
+        "सभी समान"
+      ],
+      "correct": "भीतरी",
+      "source": "PYQ",
+      "note": "OCR-सुधार।",
+      "answer": "C",
+      "number": 30,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_32"
+      ]
+    },
+    {
+      "text": "पौधों में प्रकाशसंश्लेषण का स्थान कौन-सा कोशिकांग है?",
+      "options": [
+        "इनभें से कोई नहीॊ",
+        "क्रोयोप्रास्ट",
+        "ल्मकू ोप्रास्ट",
+        "भाइटोकॉजनिमा"
+      ],
+      "correct": "क्रोयोप्रास्ट",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 31,
+      "source_years": [
+        "2022"
+      ],
+      "source_ids": [
+        "obj_61"
+      ]
+    },
+    {
+      "text": "क्लोरोफिल वर्णक का रंग होता है।",
+      "options": [
+        "नीला",
+        "पीला",
+        "काला",
+        "हरा"
+      ],
+      "correct": "हरा",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 32,
+      "source_years": [
+        "2023"
+      ],
+      "source_ids": [
+        "obj_10"
+      ]
+    },
+    {
+      "text": "दाँत का कठोरतम भाग है",
+      "options": [
+        "केनाइन",
+        "डैंटाइन",
+        "इनामेल",
+        "मज्जा गुहा"
+      ],
+      "correct": "इनामेल",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 33,
+      "source_years": [
+        "2023"
+      ],
+      "source_ids": [
+        "obj_11"
+      ]
+    },
+    {
+      "text": "गोबरछत्ता है",
+      "options": [
+        "एक परजीवी",
+        "एक शैवाल",
+        "एक मृतजीवी",
+        "एक स्वपोषी"
+      ],
+      "correct": "एक मृतजीवी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 34,
+      "source_years": [
+        "2023"
+      ],
+      "source_ids": [
+        "obj_26"
+      ]
+    },
+    {
+      "text": "कवक में पोषण की कौन-सी विधि है ?",
+      "options": [
+        "समभोजी",
+        "मृतजीवी",
+        "स्वपोषी",
+        "इनमें से कोई नहीं"
+      ],
+      "correct": "मृतजीवी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 35,
+      "source_years": [
+        "2023"
+      ],
+      "source_ids": [
+        "obj_28"
+      ]
+    },
+    {
+      "text": "निम्नलिखित में से किससे रंध्र के छिद्र घिरे रहते हैं ?",
+      "options": [
+        "इनमें से कोई नहीं",
+        "क्यूटिकल से",
+        "गार्ड कोशिका से",
+        "वात रंध्रों से"
+      ],
+      "correct": "गार्ड कोशिका से",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 36,
+      "source_years": [
+        "2023"
+      ],
+      "source_ids": [
+        "obj_41"
+      ]
+    },
+    {
+      "text": "प्रकाश संश्लेषण की दर निम्न में से किन कारकों पर निर्भर करती है?",
+      "options": [
+        "प्रकाश के गुण पर",
+        "(A) और (B) दोनों",
+        "प्रकाश की मात्रा पर",
+        "इनमें से कोई नहीं"
+      ],
+      "correct": "(A) और (B) दोनों",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 37,
+      "source_years": [
+        "2023"
+      ],
+      "source_ids": [
+        "obj_48"
+      ]
+    },
+    {
+      "text": "पित्त रस का स्राव होता है",
+      "options": [
+        "ग्रहणी द्वारा",
+        "छोटी आँत द्वारा",
+        "यकृत द्वारा",
+        "अग्न्याशय द्वारा"
+      ],
+      "correct": "यकृत द्वारा",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 38,
+      "source_years": [
+        "2023"
+      ],
+      "source_ids": [
+        "obj_77"
+      ]
+    },
+    {
+      "text": "कवक में पोषण की कौन-सी विधि है ?",
+      "options": [
+        "समभोजी",
+        "स्वपोषी",
+        "इनमें से कोई नहीं",
+        "मृतोपजीवी"
+      ],
+      "correct": "मृतोपजीवी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 39,
+      "source_years": [
+        "2024"
+      ],
+      "source_ids": [
+        "obj_24"
+      ]
+    },
+    {
+      "text": "मुख गुहा में आहार का कौन-सा भाग का पाचन होता है ?",
+      "options": [
+        "कार्बोहाइड्रेट",
+        "वसा",
+        "न्यूक्लिक अम्ल",
+        "प्रोटीन"
+      ],
+      "correct": "कार्बोहाइड्रेट",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 40,
+      "source_years": [
+        "2024"
+      ],
+      "source_ids": [
+        "obj_40"
+      ]
+    },
+    {
+      "text": "परजीवी पौधा का एक उदाहरण है",
+      "options": [
+        "चीड़",
+        "गोबरछत्ता",
+        "अमरबेल",
+        "ब्रायोफिलम"
+      ],
+      "correct": "अमरबेल",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 41,
+      "source_years": [
+        "2024"
+      ],
+      "source_ids": [
+        "obj_58"
+      ]
+    },
+    {
+      "text": "ग्रसनी से भोजन को आमाशय तक पहुँचाने वाली क्रमाकुंचन गति किस भाग में होती है?",
+      "options": [
+        "अग्न्याशय",
+        "ग्रासनली",
+        "कोलन",
+        "छोटी आँत"
+      ],
+      "correct": "ग्रासनली",
+      "source": "PYQ",
+      "note": "मूल item में कई विकल्पों में क्रमाकुंचन पाया जा सकता है; प्रश्न स्पष्ट किया।",
+      "answer": "B",
+      "number": 42,
+      "source_years": [
+        "2024"
+      ],
+      "source_ids": [
+        "obj_28"
+      ]
+    },
+    {
+      "text": "प्रकाशसंश्लेषण के लिए सबसे कम प्रभावी दृश्य प्रकाश कौन-सा है?",
+      "options": [
+        "नीला",
+        "हरा",
+        "लाल",
+        "पीला"
+      ],
+      "correct": "हरा",
+      "source": "PYQ",
+      "note": "मूल अस्पष्ट “सबसे प्रभावी” के बजाय निर्विवाद रूप से कम प्रभावी विकल्प पूछा।",
+      "answer": "B",
+      "number": 43,
+      "source_years": [
+        "2024"
+      ],
+      "source_ids": [
+        "obj_32"
+      ]
+    },
+    {
+      "text": "प्रकाशसंश्लेषण किस समय होता है?",
+      "options": [
+        "दिन-रात समान रूप से",
+        "सुबह-शाम के प्रकाश में",
+        "केवल रात में",
+        "केवल दिन के प्रकाश में"
+      ],
+      "correct": "केवल दिन के प्रकाश में",
+      "source": "PYQ",
+      "note": "दिन-रात विकल्प की अस्पष्टता हटाई।",
+      "answer": "D",
+      "number": 44,
+      "source_years": [
+        "2024"
+      ],
+      "source_ids": [
+        "obj_50"
+      ]
+    },
+    {
+      "text": "पित्त रस स्रावित होता है",
+      "options": [
+        "मुखगुहा से",
+        "छोटी आँत से",
+        "यकृत से",
+        "आमाशय से"
+      ],
+      "correct": "यकृत से",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 45,
+      "source_years": [
+        "2025"
+      ],
+      "source_ids": [
+        "obj_9"
+      ]
+    },
+    {
+      "text": "क्षुद्रांत्र में स्थित रसांकुर का क्या कार्य होता है ?",
+      "options": [
+        "अवशोषण का सतही क्षेत्रफल घटाना",
+        "अवशोषण अवरुद्ध करना",
+        "इनमें से कोई नहीं",
+        "अवशोषण का सतही क्षेत्रफल बढ़ाना"
+      ],
+      "correct": "अवशोषण का सतही क्षेत्रफल बढ़ाना",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 46,
+      "source_years": [
+        "2025"
+      ],
+      "source_ids": [
+        "obj_10"
+      ]
+    },
+    {
+      "text": "मुख गुहा का पिछला भाग है",
+      "options": [
+        "ग्रहनी",
+        "ग्रासनली",
+        "अग्न्याशय",
+        "ग्रसनी"
+      ],
+      "correct": "ग्रसनी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 47,
+      "source_years": [
+        "2025"
+      ],
+      "source_ids": [
+        "obj_11"
+      ]
+    },
+    {
+      "text": "प्रकाश-संश्लेषण में ऑक्सीजन का मूल स्रोत है",
+      "options": [
+        "सौर ऊर्जा",
+        "जल",
+        "$CO_2$",
+        "पर्णहरित"
+      ],
+      "correct": "जल",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 48,
+      "source_years": [
+        "2025"
+      ],
+      "source_ids": [
+        "obj_13"
+      ]
+    },
+    {
+      "text": "निम्न में से कौन मनुष्य के आहार नाल में एक अवशेषी अंग है ?",
+      "options": [
+        "सीकम",
+        "रेक्टम",
+        "कोलन",
+        "एपेंडिक्स"
+      ],
+      "correct": "एपेंडिक्स",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 49,
+      "source_years": [
+        "2025"
+      ],
+      "source_ids": [
+        "obj_65"
+      ]
+    },
+    {
+      "text": "शाकाहारी जीवों में छोटी आँत की लंबाई होती है",
+      "options": [
+        "इनमें से कोई नहीं",
+        "मध्यम",
+        "छोटी",
+        "अधिक लंबी"
+      ],
+      "correct": "अधिक लंबी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 50,
+      "source_years": [
+        "2025"
+      ],
+      "source_ids": [
+        "obj_66"
+      ]
+    },
+    {
+      "text": "छोटी आँत में पचे भोजन के अवशोषण से बनने वाले दूधिया द्रव को क्या कहते हैं?",
+      "options": [
+        "काइल",
+        "इनमें से कोई नहीं",
+        "काइम",
+        "काइलोमाइक्रॉन"
+      ],
+      "correct": "काइल",
+      "source": "PYQ",
+      "note": "प्रश्न/शब्दावली स्पष्ट की।",
+      "answer": "A",
+      "number": 51,
+      "source_years": [
+        "2025"
+      ],
+      "source_ids": [
+        "obj_67"
+      ]
+    },
+    {
+      "text": "अमीबा अपना भोजन ग्रहण करता है",
+      "options": [
+        "कूटपाद द्वारा",
+        "भोजन रसधानी द्वारा",
+        "केन्द्रक द्वारा",
+        "दाँत द्वारा"
+      ],
+      "correct": "कूटपाद द्वारा",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 52,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_24"
+      ]
+    },
+    {
+      "text": "मुख गुहा में किस पोषक तत्व का पाचन होता है ?",
+      "options": [
+        "प्रोटीन",
+        "न्यूक्लिक अम्ल",
+        "कार्बोहाइड्रेट",
+        "वसा"
+      ],
+      "correct": "कार्बोहाइड्रेट",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 53,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_41"
+      ]
+    },
+    {
+      "text": "मृतोपजीवी का उदाहरण है",
+      "options": [
+        "अमरबेल",
+        "अमीबा",
+        "उड़हुल",
+        "गोबरछत्ता"
+      ],
+      "correct": "गोबरछत्ता",
+      "source": "PYQ",
+      "note": "",
+      "answer": "D",
+      "number": 54,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_42"
+      ]
+    },
+    {
+      "text": "द्विबीजपत्री पौधों की गार्ड कोशिका की कौन-सी भित्ति मोटी होती है ?",
+      "options": [
+        "इनमें से कोई नहीं",
+        "बाहरी",
+        "भीतरी",
+        "पार्श्व"
+      ],
+      "correct": "भीतरी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "C",
+      "number": 55,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_43"
+      ]
+    },
+    {
+      "text": "दंत क्षरण का कारण है",
+      "options": [
+        "इनमें से सभी",
+        "मीठी चीज का खाना",
+        "दाँतों की सफाई न करना",
+        "बैक्टीरिया द्वारा अम्ल का निर्माण होना"
+      ],
+      "correct": "इनमें से सभी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 56,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_15"
+      ]
+    },
+    {
+      "text": "निम्नलिखित में से क्या स्वपोषी पोषण के लिए आवश्यक नहीं है ?",
+      "options": [
+        "ऑक्सीजन",
+        "क्लोरोफिल",
+        "$CO_2$ तथा जल",
+        "सूर्यप्रकाश"
+      ],
+      "correct": "ऑक्सीजन",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 57,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_16"
+      ]
+    },
+    {
+      "text": "मुख गुहा में किस पोषक तत्व का पाचन होता है ?",
+      "options": [
+        "न्यूक्लिक अम्ल",
+        "कार्बोहाइड्रेट",
+        "वसा",
+        "प्रोटीन"
+      ],
+      "correct": "कार्बोहाइड्रेट",
+      "source": "PYQ",
+      "note": "",
+      "answer": "B",
+      "number": 58,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_41"
+      ]
+    },
+    {
+      "text": "द्विबीजपत्री पौधों की गार्ड कोशिका की कौन-सी भित्ति मोटी होती है ?",
+      "options": [
+        "भीतरी",
+        "बाहरी",
+        "इनमें से कोई नहीं",
+        "पार्श्व"
+      ],
+      "correct": "भीतरी",
+      "source": "PYQ",
+      "note": "",
+      "answer": "A",
+      "number": 59,
+      "source_years": [
+        "2026"
+      ],
+      "source_ids": [
+        "obj_43"
+      ]
+    },
+    {
+      "text": "जैव प्रक्रम किसे कहते हैं?",
+      "options": [
+        "केवल उत्सर्जन करना",
+        "केवल श्वसन करना",
+        "केवल भोजन ग्रहण करना",
+        "जीवों के अनुरक्षण में सहायक सभी आवश्यक क्रियाएँ"
+      ],
+      "correct": "जीवों के अनुरक्षण में सहायक सभी आवश्यक क्रियाएँ",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_1",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "D",
+      "number": 60
+    },
+    {
+      "text": "बहुकोशिकीय जीवों में ऑक्सीजन की आवश्यकता केवल विसरण से पूरी क्यों नहीं हो पाती?",
+      "options": [
+        "विसरण केवल पौधों में होता है",
+        "ऑक्सीजन पानी में अघुलनशील है",
+        "सभी कोशिकाएँ बाहरी वातावरण के संपर्क में नहीं होतीं",
+        "कोशिकाओं को ऑक्सीजन की आवश्यकता नहीं होती"
+      ],
+      "correct": "सभी कोशिकाएँ बाहरी वातावरण के संपर्क में नहीं होतीं",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_2",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 61
+    },
+    {
+      "text": "जीवों में पोषण की दो प्रमुख विधियाँ कौन-सी हैं?",
+      "options": [
+        "वायवीय और अवायवीय",
+        "स्वपोषी और परपोषी",
+        "अंतर्ग्रहण और उत्सर्जन",
+        "पाचन और श्वसन"
+      ],
+      "correct": "स्वपोषी और परपोषी",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_3",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 62
+    },
+    {
+      "text": "हरे पौधों में सामान्यतः किस प्रकार का पोषण पाया जाता है?",
+      "options": [
+        "स्वपोषी",
+        "परजीवी",
+        "मृतजीवी",
+        "प्राणिसम"
+      ],
+      "correct": "स्वपोषी",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_4",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 63
+    },
+    {
+      "text": "जंतुओं में सामान्यतः किस प्रकार का पोषण पाया जाता है?",
+      "options": [
+        "प्रकाशसंश्लेषी",
+        "परपोषी",
+        "स्वपोषी",
+        "रासायनिक स्वपोषी"
+      ],
+      "correct": "परपोषी",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_5",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 64
+    },
+    {
+      "text": "परपोषी पोषण के तीन प्रमुख प्रकार कौन-से हैं?",
+      "options": [
+        "अंतर्ग्रहण, श्वसन और उत्सर्जन",
+        "परजीवी, मृतजीवी और प्राणिसम",
+        "वायवीय, अवायवीय और प्राणिसम",
+        "स्वपोषी, परजीवी और प्रकाशसंश्लेषी"
+      ],
+      "correct": "परजीवी, मृतजीवी और प्राणिसम",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_6",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 65
+    },
+    {
+      "text": "प्रकाशसंश्लेषण का संतुलित समीकरण कौन-सा है?",
+      "options": [
+        "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (प्रकाश/क्लोरोफिल)",
+        "CO₂ + O₂ → ग्लूकोज़",
+        "C₆H₁₂O₆ + O₂ → CO₂ + H₂O",
+        "6O₂ + 6H₂O → C₆H₁₂O₆ + 6CO₂"
+      ],
+      "correct": "6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂ (प्रकाश/क्लोरोफिल)",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_7",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 66
+    },
+    {
+      "text": "प्रकाशसंश्लेषण के लिए पौधे कार्बन डाइऑक्साइड कहाँ से लेते हैं?",
+      "options": [
+        "केवल रात में पत्तियों से",
+        "फ्लोएम से",
+        "मिट्टी से जड़ों द्वारा",
+        "वायुमंडल से, पत्तियों के रंध्रों द्वारा"
+      ],
+      "correct": "वायुमंडल से, पत्तियों के रंध्रों द्वारा",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_8",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "D",
+      "number": 67
+    },
+    {
+      "text": "कवक सामान्यतः प्रकाशसंश्लेषण क्यों नहीं करते?",
+      "options": [
+        "उनमें जल नहीं होता",
+        "उनमें कोशिका नहीं होती",
+        "उनमें क्लोरोफिल नहीं होता",
+        "वे सभी एककोशिकीय होते हैं"
+      ],
+      "correct": "उनमें क्लोरोफिल नहीं होता",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_9",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 68
+    },
+    {
+      "text": "पोषण की दृष्टि से अमीबा और पैरामीशियम किस प्रकार के जीव हैं?",
+      "options": [
+        "मृतजीवी",
+        "प्राणिसम पोषण करने वाले",
+        "स्वपोषी",
+        "परजीवी"
+      ],
+      "correct": "प्राणिसम पोषण करने वाले",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_10",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 69
+    },
+    {
+      "text": "मनुष्य की आहारनाल के मुख्य भागों का सही क्रम कौन-सा है?",
+      "options": [
+        "मुख, हृदय, आमाशय, मलाशय",
+        "मुख, श्वासनली, फेफड़े, आमाशय",
+        "मुख, ग्रसनी, ग्रासनली, आमाशय, छोटी आँत, बड़ी आँत, मलाशय",
+        "मुख, यकृत, वृक्क, छोटी आँत"
+      ],
+      "correct": "मुख, ग्रसनी, ग्रासनली, आमाशय, छोटी आँत, बड़ी आँत, मलाशय",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_11",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 70
+    },
+    {
+      "text": "ग्रसनी में भोजन और वायु के मार्ग से जुड़े छिद्र कौन-से हैं?",
+      "options": [
+        "मुखद्वार और गुदाद्वार",
+        "मूत्रवाहिनी और मूत्रमार्ग",
+        "निगलद्वार और कंठद्वार",
+        "रंध्र और वातरंध्र"
+      ],
+      "correct": "निगलद्वार और कंठद्वार",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_12",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 71
+    },
+    {
+      "text": "मनुष्य में पाचन की शुरुआत कहाँ से होती है?",
+      "options": [
+        "बड़ी आँत से",
+        "मुखगुहा से",
+        "छोटी आँत से",
+        "आमाशय से"
+      ],
+      "correct": "मुखगुहा से",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_13",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 72
+    },
+    {
+      "text": "पचे हुए भोजन का अधिकांश अवशोषण कहाँ होता है?",
+      "options": [
+        "छोटी आँत में",
+        "मुखगुहा में",
+        "आमाशय में",
+        "ग्रासनली में"
+      ],
+      "correct": "छोटी आँत में",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_14",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 73
+    },
+    {
+      "text": "क्लोरोफिल वर्णक किस कोशिकांग में पाया जाता है?",
+      "options": [
+        "हरितलवक में",
+        "केन्द्रक में",
+        "रिक्तिका में",
+        "माइटोकॉन्ड्रिया में"
+      ],
+      "correct": "हरितलवक में",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_15",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 74
+    },
+    {
+      "text": "प्रकाशसंश्लेषण द्वारा पौधे मुख्यतः क्या बनाते हैं?",
+      "options": [
+        "कार्बन डाइऑक्साइड",
+        "प्रोटीन ही",
+        "मूत्र",
+        "कार्बोहाइड्रेट"
+      ],
+      "correct": "कार्बोहाइड्रेट",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_16",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "D",
+      "number": 75
+    },
+    {
+      "text": "मृत और सड़े-गले पदार्थों से भोजन पाने वाले जीव क्या कहलाते हैं?",
+      "options": [
+        "मृतजीवी",
+        "परजीवी",
+        "प्राणिसम",
+        "स्वपोषी"
+      ],
+      "correct": "मृतजीवी",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_17",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 76
+    },
+    {
+      "text": "परजीवी जिस जीव से भोजन प्राप्त करता है, वह जीव क्या कहलाता है?",
+      "options": [
+        "पोषी या मेज़बान",
+        "स्वपोषी",
+        "उत्पादक",
+        "अपघटक"
+      ],
+      "correct": "पोषी या मेज़बान",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_18",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 77
+    },
+    {
+      "text": "गोबरछत्ता (मशरूम) में किस प्रकार का पोषण होता है?",
+      "options": [
+        "प्रकाशसंश्लेषी",
+        "प्राणिसम",
+        "मृतजीवी",
+        "स्वपोषी"
+      ],
+      "correct": "मृतजीवी",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_19",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 78
+    },
+    {
+      "text": "पत्तियों में गैसीय आदान-प्रदान के लिए मुख्य सूक्ष्म छिद्र कौन-से हैं?",
+      "options": [
+        "रंध्र",
+        "जाइलम",
+        "चालनी नलिकाएँ",
+        "मूलरोम"
+      ],
+      "correct": "रंध्र",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_20",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 79
+    },
+    {
+      "text": "पोषण की दृष्टि से अधिकांश जंतु क्या कहलाते हैं?",
+      "options": [
+        "स्वपोषी",
+        "उत्पादक",
+        "परपोषी",
+        "प्रकाशसंश्लेषी"
+      ],
+      "correct": "परपोषी",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_21",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 80
+    },
+    {
+      "text": "अमीबा में भोजन का पाचन कहाँ होता है?",
+      "options": [
+        "कोशिका भित्ति में",
+        "खाद्य रिक्तिका में",
+        "केन्द्रक में",
+        "क्लोरोप्लास्ट में"
+      ],
+      "correct": "खाद्य रिक्तिका में",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_22",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 81
+    },
+    {
+      "text": "मनुष्य में भोजन के पाचन से जुड़े अंगों के समूह को क्या कहते हैं?",
+      "options": [
+        "उत्सर्जन तंत्र",
+        "श्वसन तंत्र",
+        "परिसंचरण तंत्र",
+        "पाचन तंत्र"
+      ],
+      "correct": "पाचन तंत्र",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_23",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "D",
+      "number": 82
+    },
+    {
+      "text": "जीभ की ऊपरी सतह पर स्वाद पहचानने वाली संरचनाएँ क्या कहलाती हैं?",
+      "options": [
+        "दंतवल्क",
+        "रसांकुर",
+        "रंध्र",
+        "स्वाद कलिकाएँ"
+      ],
+      "correct": "स्वाद कलिकाएँ",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_24",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "D",
+      "number": 83
+    },
+    {
+      "text": "मुखगुहा से भोजन सबसे पहले किस भाग में पहुँचता है?",
+      "options": [
+        "आमाशय में",
+        "ग्रसनी में",
+        "बड़ी आँत में",
+        "यकृत में"
+      ],
+      "correct": "ग्रसनी में",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_25",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 84
+    },
+    {
+      "text": "ग्रासनली में भोजन को आगे बढ़ाने वाली तरंग जैसी पेशीय गति क्या कहलाती है?",
+      "options": [
+        "परासरण",
+        "वाष्पोत्सर्जन",
+        "विसरण",
+        "क्रमाकुंचन"
+      ],
+      "correct": "क्रमाकुंचन",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_26",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "D",
+      "number": 85
+    },
+    {
+      "text": "आमाशय में प्रोटीन को पेप्टोन में बदलने वाला एंजाइम कौन-सा है?",
+      "options": [
+        "एमाइलेज",
+        "पेप्सिन",
+        "माल्टेज",
+        "लाइपेज"
+      ],
+      "correct": "पेप्सिन",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_27",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 86
+    },
+    {
+      "text": "मनुष्य की आहारनाल का सबसे लंबा भाग कौन-सा है?",
+      "options": [
+        "छोटी आँत",
+        "बड़ी आँत",
+        "आमाशय",
+        "ग्रासनली"
+      ],
+      "correct": "छोटी आँत",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_28",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 87
+    },
+    {
+      "text": "मनुष्य के शरीर की सबसे बड़ी ग्रंथि कौन-सी है?",
+      "options": [
+        "यकृत",
+        "थायरॉइड",
+        "लार ग्रंथि",
+        "अग्न्याशय"
+      ],
+      "correct": "यकृत",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_29",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 88
+    },
+    {
+      "text": "मनुष्य में भोजन का पाचन सामान्यतः कहाँ पूरा होता है?",
+      "options": [
+        "ग्रासनली में",
+        "छोटी आँत में",
+        "बड़ी आँत में",
+        "मुखगुहा में"
+      ],
+      "correct": "छोटी आँत में",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_30",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "B",
+      "number": 89
+    },
+    {
+      "text": "छोटी और बड़ी आँत के संधि-स्थल पर स्थित कृमिरूप अवशेषी अंग कौन-सा है?",
+      "options": [
+        "अपेंडिक्स",
+        "अग्न्याशय",
+        "यकृत",
+        "पित्ताशय"
+      ],
+      "correct": "अपेंडिक्स",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_31",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 90
+    },
+    {
+      "text": "मलत्याग से पहले अपचा भोजन अस्थायी रूप से कहाँ जमा होता है?",
+      "options": [
+        "छोटी आँत में",
+        "ग्रासनली में",
+        "मलाशय में",
+        "आमाशय में"
+      ],
+      "correct": "मलाशय में",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_32",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 91
+    },
+    {
+      "text": "जीवों के लिए पोषण अनिवार्य क्यों है?",
+      "options": [
+        "ऊर्जा, वृद्धि और शरीर की मरम्मत के लिए पदार्थ पाने हेतु",
+        "केवल शरीर का रंग बदलने के लिए",
+        "केवल गति रोकने के लिए",
+        "केवल जल बाहर निकालने के लिए"
+      ],
+      "correct": "ऊर्जा, वृद्धि और शरीर की मरम्मत के लिए पदार्थ पाने हेतु",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_33",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "A",
+      "number": 92
+    },
+    {
+      "text": "पोषण की सही परिभाषा कौन-सी है?",
+      "options": [
+        "केवल भोजन चबाना",
+        "केवल भोजन को बाहर निकालना",
+        "भोजन ग्रहण कर उसका अवशोषण और शरीर में उपयोग करना",
+        "केवल ऑक्सीजन लेना"
+      ],
+      "correct": "भोजन ग्रहण कर उसका अवशोषण और शरीर में उपयोग करना",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_34",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 93
+    },
+    {
+      "text": "प्रकाशसंश्लेषण के उपोत्पाद के रूप में कौन-सी गैस निकलती है?",
+      "options": [
+        "मीथेन",
+        "हाइड्रोजन",
+        "ऑक्सीजन",
+        "नाइट्रोजन"
+      ],
+      "correct": "ऑक्सीजन",
+      "source": "Bharti Bhawan screenshot",
+      "source_year": null,
+      "source_id": "screenshot_question_35",
+      "note": "Wording adapted into an MCQ from the supplied screenshots.",
+      "answer": "C",
+      "number": 94
+    },
+    {
+      "text": "प्रकाश ऊर्जा को रासायनिक ऊर्जा में बदलने में पौधों का कौन-सा वर्णक सहायक है?",
+      "options": [
+        "कैरोटीन ही",
+        "हीमोग्लोबिन",
+        "मेलेनिन",
+        "क्लोरोफिल"
+      ],
+      "correct": "क्लोरोफिल",
+      "source": "generated",
+      "source_year": null,
+      "source_id": "generated_1",
+      "note": "Added to reach 100 questions.",
+      "answer": "D",
+      "number": 95
+    },
+    {
+      "text": "लार में उपस्थित कौन-सा एंजाइम स्टार्च के पाचन की शुरुआत करता है?",
+      "options": [
+        "ट्रिप्सिन",
+        "पेप्सिन",
+        "लाइपेज",
+        "लार एमाइलेज (टायलिन)"
+      ],
+      "correct": "लार एमाइलेज (टायलिन)",
+      "source": "generated",
+      "source_year": null,
+      "source_id": "generated_2",
+      "note": "Added to reach 100 questions.",
+      "answer": "D",
+      "number": 96
+    },
+    {
+      "text": "प्राणिसम पोषण की घटनाओं का सही क्रम कौन-सा है?",
+      "options": [
+        "स्वांगीकरण → श्वसन → पाचन → अंतर्ग्रहण",
+        "अंतर्ग्रहण → पाचन → अवशोषण → स्वांगीकरण → बहिष्करण",
+        "अवशोषण → अंतर्ग्रहण → उत्सर्जन → पाचन",
+        "पाचन → श्वसन → उत्सर्जन → अवशोषण"
+      ],
+      "correct": "अंतर्ग्रहण → पाचन → अवशोषण → स्वांगीकरण → बहिष्करण",
+      "source": "generated",
+      "source_year": null,
+      "source_id": "generated_3",
+      "note": "Added to reach 100 questions.",
+      "answer": "B",
+      "number": 97
+    },
+    {
+      "text": "यदि पत्ती के अधिकांश रंध्र लंबे समय तक बंद रहें, तो प्रकाशसंश्लेषण पर सीधा प्रभाव क्या होगा?",
+      "options": [
+        "क्लोरोफिल नष्ट होकर ऑक्सीजन बनेगी",
+        "CO₂ का पत्ती में प्रवेश घटेगा",
+        "जड़ों में पाचन शुरू होगा",
+        "ग्लूकोज़ का अवशोषण बढ़ेगा"
+      ],
+      "correct": "CO₂ का पत्ती में प्रवेश घटेगा",
+      "source": "generated",
+      "source_years": [],
+      "source_ids": [
+        "generated_4"
+      ],
+      "note": "New question added after PYQs and textbook-derived questions.",
+      "answer": "B",
+      "number": 98
+    },
+    {
+      "text": "अवशोषित पोषक पदार्थों को ऊर्जा और वृद्धि के लिए कोशिकाओं द्वारा उपयोग करना क्या कहलाता है?",
+      "options": [
+        "बहिष्करण",
+        "अंतर्ग्रहण",
+        "स्वांगीकरण",
+        "क्रमाकुंचन"
+      ],
+      "correct": "स्वांगीकरण",
+      "source": "generated",
+      "source_years": [],
+      "source_ids": [
+        "generated_5"
+      ],
+      "note": "New question added after PYQs and textbook-derived questions.",
+      "answer": "C",
+      "number": 99
+    },
+    {
+      "text": "प्रोटीन के पूर्ण पाचन के बाद मुख्यतः कौन-सी छोटी इकाइयाँ प्राप्त होती हैं?",
+      "options": [
+        "ग्लूकोज़",
+        "अमीनो अम्ल",
+        "ग्लिसरॉल",
+        "वसा अम्ल"
+      ],
+      "correct": "अमीनो अम्ल",
+      "source": "generated",
+      "source_years": [],
+      "source_ids": [
+        "generated_6"
+      ],
+      "note": "New question added after PYQs and textbook-derived questions.",
+      "answer": "B",
+      "number": 100
+    }
+  ]
+}
