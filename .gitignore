@@ -11,3 +11,5 @@ google_forms_report.json
 # Internal working records
 /audits/
 /records/
+
+.vercel
