@@ -1,0 +1,1616 @@
+{
+  "source_file": "C:\\Users\\RATNESH\\0\\gurukulam\\bihar-10th-pyqs\\science_pro_type_chapters\\objective_chapters\\chapter-6.json",
+  "scope": "Biology Chapter 1: Life Processes and Nutrition subset; respiration, circulation/transport, and excretion excluded. Original JSON chapter metadata is broader (Life Processes).",
+  "matching_source_records": 62,
+  "unique_bilingual_question_wordings": 59,
+  "questions": [
+    {
+      "question_en": "In the process of photosynthesis, oxygen is released from",
+      "question_hi": "प्रकाश संश्लेषण क्रिया में ऑक्सीजन बाहर निकलता है",
+      "options_en": {
+        "A": "Water",
+        "B": "$CO_2$",
+        "C": "Glucose",
+        "D": "Dictyosomes"
+      },
+      "options_hi": {
+        "A": "जल से",
+        "B": "$CO_2$ से",
+        "C": "ग्लूकोज से",
+        "D": "डिक्टियोजोम से"
+      },
+      "years": [
+        "2013"
+      ],
+      "source_ids": [
+        {
+          "year": "2013",
+          "id": "obj_3"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The uppermost layer of a tooth is",
+      "question_hi": "दाँत की सबसे ऊपरी परत है",
+      "options_en": {
+        "A": "Dentine",
+        "B": "Enamel",
+        "C": "Bone",
+        "D": "Crown"
+      },
+      "options_hi": {
+        "A": "डेटाइन",
+        "B": "इनामेल",
+        "C": "अस्थि",
+        "D": "क्राउन"
+      },
+      "years": [
+        "2014"
+      ],
+      "source_ids": [
+        {
+          "year": "2014",
+          "id": "obj_26"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The longest part of the human alimentary canal is",
+      "question_hi": "मानव आहार नाल का सबसे लम्बा भाग है",
+      "options_en": {
+        "A": "Stomach",
+        "B": "Small Intestine",
+        "C": "Oesophagus",
+        "D": "Large Intestine"
+      },
+      "options_hi": {
+        "A": "आमाशय",
+        "B": "छोटा आँत",
+        "C": "ग्रासनली",
+        "D": "बड़ी आँत"
+      },
+      "years": [
+        "2014",
+        "2021",
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2014",
+          "id": "obj_27"
+        },
+        {
+          "year": "2021",
+          "id": "obj_27"
+        },
+        {
+          "year": "2026",
+          "id": "obj_42"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Essential for autotrophic nutrition is",
+      "question_hi": "स्वपोषी पोषण के लिए आवश्यक है",
+      "options_en": {
+        "A": "Chlorophyll",
+        "B": "Carbon dioxide and water",
+        "C": "Sunlight",
+        "D": "All of these"
+      },
+      "options_hi": {
+        "A": "क्लोरोफिल",
+        "B": "कार्बन डाइऑक्साइड तथा जल",
+        "C": "सूर्य का प्रकाश",
+        "D": "इनमें से सभी"
+      },
+      "years": [
+        "2014",
+        "2016"
+      ],
+      "source_ids": [
+        {
+          "year": "2014",
+          "id": "obj_55"
+        },
+        {
+          "year": "2016",
+          "id": "obj_18"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Necessary for autotrophic nutrition is:",
+      "question_hi": "स्वपोषी पोषण के लिए आवश्यक है",
+      "options_en": {
+        "A": "$CO_2$",
+        "B": "Chlorophyll",
+        "C": "Sunlight",
+        "D": "All of these"
+      },
+      "options_hi": {
+        "A": "$CO_2$",
+        "B": "क्लोरोफिल",
+        "C": "सौर प्रकाश",
+        "D": "इनमें से सभी"
+      },
+      "years": [
+        "2016"
+      ],
+      "source_ids": [
+        {
+          "year": "2016",
+          "id": "obj_18"
+        }
+      ],
+      "confidence": null,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "An adult human has .............. teeth in mouth.",
+      "question_hi": "एक वयस्क मनुष्य के कितने दाँत होते हैं?",
+      "options_en": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "34"
+      },
+      "options_hi": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "34"
+      },
+      "years": [
+        "2017"
+      ],
+      "source_ids": [
+        {
+          "year": "2017",
+          "id": "obj_20"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "How many teeth does an adult human have?",
+      "question_hi": "एक वयस्क मनुष्य के कितने दाँत होते हैं?",
+      "options_en": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "34"
+      },
+      "options_hi": {
+        "A": "28",
+        "B": "30",
+        "C": "32",
+        "D": "34"
+      },
+      "years": [
+        "2017"
+      ],
+      "source_ids": [
+        {
+          "year": "2017",
+          "id": "obj_20"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which type of mode of nutrition is found in fungi?",
+      "question_hi": "कवक में पोषण की कौन-सी विधि पाई जाती है?",
+      "options_en": {
+        "A": "Saprophytic",
+        "B": "Holozoic",
+        "C": "Autotrophic",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "मृतजीवी",
+        "B": "सम्भोजी",
+        "C": "स्वपोषी",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2019"
+      ],
+      "source_ids": [
+        {
+          "year": "2019",
+          "id": "obj_23"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Bile juice is secreted from -",
+      "question_hi": "पित्त रस कहाँ से स्रावित होता है -",
+      "options_en": {
+        "A": "Pancreas",
+        "B": "Liver",
+        "C": "Small intestine",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "अग्नाशय से",
+        "B": "यकृत से",
+        "C": "छोटी आँत से",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2019"
+      ],
+      "source_ids": [
+        {
+          "year": "2019",
+          "id": "obj_28"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The autotrophic mode of nutrition requires -",
+      "question_hi": "स्वपोषी पोषण के लिए आवश्यक है -",
+      "options_en": {
+        "A": "Chlorophyll",
+        "B": "Sunlight",
+        "C": "Carbon dioxide",
+        "D": "All of these"
+      },
+      "options_hi": {
+        "A": "पर्णहरित",
+        "B": "सूर्य का प्रकाश",
+        "C": "कार्बन डाइऑक्साइड",
+        "D": "इनमें से सभी"
+      },
+      "years": [
+        "2019"
+      ],
+      "source_ids": [
+        {
+          "year": "2019",
+          "id": "obj_34"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Opening and closing of stomata is controlled by",
+      "question_hi": "स्टोमाटा के खुलने और बंद होने की क्रिया को कौन नियंत्रित करता है ?",
+      "options_en": {
+        "A": "guard cells",
+        "B": "companion cells",
+        "C": "sieve tubes",
+        "D": "root hair"
+      },
+      "options_hi": {
+        "A": "द्वार कोशिकाएं",
+        "B": "सहचर कोशिकाएं",
+        "C": "चालनी नलिकाएं",
+        "D": "मूल रोम"
+      },
+      "years": [
+        "2020"
+      ],
+      "source_ids": [
+        {
+          "year": "2020",
+          "id": "obj_37"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "How does amoeba catch its food?",
+      "question_hi": "अमीबा अपना भोजन कैसे पकड़ता है ?",
+      "options_en": {
+        "A": "By tentacles",
+        "B": "By tongue",
+        "C": "By pseudopodia",
+        "D": "By mouth"
+      },
+      "options_hi": {
+        "A": "स्पर्शक द्वारा",
+        "B": "जीभ द्वारा",
+        "C": "कूटपाद द्वारा",
+        "D": "मुँह द्वारा"
+      },
+      "years": [
+        "2020"
+      ],
+      "source_ids": [
+        {
+          "year": "2020",
+          "id": "obj_45"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which enzyme acts upon fat?",
+      "question_hi": "कौन-सा एन्जाइम वसा पर क्रिया करता है ?",
+      "options_en": {
+        "A": "Pepsin",
+        "B": "Trypsin",
+        "C": "Lipase",
+        "D": "Amylase"
+      },
+      "options_hi": {
+        "A": "पेप्सीन",
+        "B": "ट्रिप्सीन",
+        "C": "लाइपेज",
+        "D": "एमाइलेन"
+      },
+      "years": [
+        "2020"
+      ],
+      "source_ids": [
+        {
+          "year": "2020",
+          "id": "obj_46"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Photosynthesis takes place in",
+      "question_hi": "प्रकाश संश्लेषण की क्रिया होती है",
+      "options_en": {
+        "A": "Fungi",
+        "B": "Animals",
+        "C": "Green plants",
+        "D": "Parasites"
+      },
+      "options_hi": {
+        "A": "कवकों में",
+        "B": "जन्तुओं में",
+        "C": "हरे पौधों में",
+        "D": "परजीवियों में"
+      },
+      "years": [
+        "2020"
+      ],
+      "source_ids": [
+        {
+          "year": "2020",
+          "id": "obj_23"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Most of the nutrition in an amoeba is",
+      "question_hi": "अमीबा में अधिकांश पोषण कैसा होता है ?",
+      "options_en": {
+        "A": "Herbivores",
+        "B": "Holozoic",
+        "C": "Omnivores",
+        "D": "Autotrophic"
+      },
+      "options_hi": {
+        "A": "शाकाहारी",
+        "B": "अंतर्ग्रहण",
+        "C": "सर्वाहारी",
+        "D": "स्वपोषी"
+      },
+      "years": [
+        "2020"
+      ],
+      "source_ids": [
+        {
+          "year": "2020",
+          "id": "obj_28"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The uppermost layer of the tooth is",
+      "question_hi": "दाँत की सबसे ऊपरी परत है",
+      "options_en": {
+        "A": "Dentine",
+        "B": "Enamel",
+        "C": "Bone",
+        "D": "Crown"
+      },
+      "options_hi": {
+        "A": "डेटाइन",
+        "B": "इनामेल",
+        "C": "अस्थि",
+        "D": "क्राउन"
+      },
+      "years": [
+        "2021"
+      ],
+      "source_ids": [
+        {
+          "year": "2021",
+          "id": "obj_26"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Necessary for autotrophic nutrition is",
+      "question_hi": "स्वपोषी पोषण के लिए आवश्यक है",
+      "options_en": {
+        "A": "Chlorophyll",
+        "B": "Carbon dioxide and water",
+        "C": "Sunlight",
+        "D": "All of these"
+      },
+      "options_hi": {
+        "A": "क्लोरोफिल",
+        "B": "कार्बन डाइऑक्साइड तथा जल",
+        "C": "सूर्य का प्रकाश",
+        "D": "इनमें से सभी"
+      },
+      "years": [
+        "2021"
+      ],
+      "source_ids": [
+        {
+          "year": "2021",
+          "id": "obj_55"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Where is bile juice secreted from?",
+      "question_hi": "पित्त रस कहाँ से स्रावित होता है?",
+      "options_en": {
+        "A": "Liver",
+        "B": "Oral cavity",
+        "C": "Stomach",
+        "D": "Small intestine"
+      },
+      "options_hi": {
+        "A": "यकृत",
+        "B": "मुख गुहा",
+        "C": "आमाशय",
+        "D": "छोटी आँत"
+      },
+      "years": [
+        "2021"
+      ],
+      "source_ids": [
+        {
+          "year": "2021",
+          "id": "obj_40"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which is a vestigial organ in the human alimentary canal?",
+      "question_hi": "मनुष्य के आहारनाल में अवशेषी अंग है",
+      "options_en": {
+        "A": "Colon",
+        "B": "Appendix",
+        "C": "Caecum",
+        "D": "Rectum"
+      },
+      "options_hi": {
+        "A": "कोलन",
+        "B": "एपेंडिक्स",
+        "C": "सीकम",
+        "D": "रेक्टम"
+      },
+      "years": [
+        "2021"
+      ],
+      "source_ids": [
+        {
+          "year": "2021",
+          "id": "obj_43"
+        }
+      ],
+      "confidence": 0.56,
+      "raw_choice": "6. Life Processes (जैव प्रक्रम)"
+    },
+    {
+      "question_en": "Which of the following is the function of the 'Trypsin' enzyme?",
+      "question_hi": "निम्नांकित में कौन 'ट्रिप्सिन' एंजाइम का कार्य है ?",
+      "options_en": {
+        "A": "Digestion of fats",
+        "B": "Digestion of carbohydrates",
+        "C": "Digestion of proteins",
+        "D": "All of these"
+      },
+      "options_hi": {
+        "A": "वसा का पाचन",
+        "B": "कार्बोहाइड्रेट का पाचन",
+        "C": "प्रोटीन का पाचन",
+        "D": "इनमें से सभी"
+      },
+      "years": [
+        "2021"
+      ],
+      "source_ids": [
+        {
+          "year": "2021",
+          "id": "obj_44"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which part of food is digested in the oral cavity?",
+      "question_hi": "मुख गुहा में आहार का कौन-सा भाग का पाचन होता है।",
+      "options_en": {
+        "A": "Protein",
+        "B": "Carbohydrate",
+        "C": "Fat",
+        "D": "Nucleic acid"
+      },
+      "options_hi": {
+        "A": "प्रोटीन",
+        "B": "काबोहाइड्रेट",
+        "C": "वसा",
+        "D": "न्यूक्लिक अम्ल"
+      },
+      "years": [
+        "2021"
+      ],
+      "source_ids": [
+        {
+          "year": "2021",
+          "id": "obj_45"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Who is an autotroph among the following?",
+      "question_hi": "निम्न में स्वपोषी कौन है?",
+      "options_en": {
+        "A": "Green plants",
+        "B": "Fish",
+        "C": "Insects",
+        "D": "Amoeba"
+      },
+      "options_hi": {
+        "A": "हरे पौधे",
+        "B": "मछली",
+        "C": "कीट",
+        "D": "अमीबा"
+      },
+      "years": [
+        "2021"
+      ],
+      "source_ids": [
+        {
+          "year": "2021",
+          "id": "obj_72"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Autotrophic nutrition occurs in",
+      "question_hi": "स्वपोषी पोषण होता है",
+      "options_en": {
+        "A": "Plant",
+        "B": "Fungi",
+        "C": "Some protista and prokaryotes",
+        "D": "Both (A) and (C)"
+      },
+      "options_hi": {
+        "A": "पौधों में",
+        "B": "कवक में",
+        "C": "कुछ प्रोटिस्टा और प्रोकेरियोट्स में",
+        "D": "(A) और (C) दोनों"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_21"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which enzyme acts on fat ?",
+      "question_hi": "कौन-सा एन्जाइम वसा पर क्रिया करता है ?",
+      "options_en": {
+        "A": "Amylase",
+        "B": "Trypsin",
+        "C": "Pepsin",
+        "D": "Lipase"
+      },
+      "options_hi": {
+        "A": "एमाइलेज",
+        "B": "ट्रिप्सीन",
+        "C": "पेप्सीन",
+        "D": "लाइपेज"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_24"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "In which plants are stomata absent ?",
+      "question_hi": "किस पौधे में रंध्र अनुपस्थित रहते हैं ?",
+      "options_en": {
+        "A": "Mango",
+        "B": "Hydrilla",
+        "C": "Opuntia",
+        "D": "Nerium"
+      },
+      "options_hi": {
+        "A": "आम",
+        "B": "हाइड्रिला",
+        "C": "नागफनी",
+        "D": "कनेर"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_67"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Photosynthesis occurs in",
+      "question_hi": "प्रकाश सॊश्रेषर् होता है",
+      "options_en": {
+        "A": "Day",
+        "B": "Night",
+        "C": "Both day and night",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "ददन भें",
+        "B": "यात भें",
+        "C": "ददन औय यात दोनों भें",
+        "D": "इनभें से कोई नहीॊ"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_16"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "How many teeth does an adult human have?",
+      "question_hi": "एक िमस्क भनष्ु म के ककतने दाॉत होते ह?ैं",
+      "options_en": {
+        "A": "30",
+        "B": "32",
+        "C": "34",
+        "D": "28"
+      },
+      "options_hi": {
+        "A": "30",
+        "B": "32",
+        "C": "34",
+        "D": "28"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_25"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Digestion of food in the body is which type of reaction?",
+      "question_hi": "शयीय भें बोजन का ऩचना ककस प्रकाय की अमबकक्रमा है?",
+      "options_en": {
+        "A": "Combination",
+        "B": "Reduction",
+        "C": "Oxidation",
+        "D": "Displacement"
+      },
+      "options_hi": {
+        "A": "सॊमोजन",
+        "B": "अऩचमन",
+        "C": "उऩचमन",
+        "D": "विस्थाऩन"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_28"
+        }
+      ],
+      "confidence": 0.5,
+      "raw_choice": "6. Life Processes (जैव प्रक्रम)"
+    },
+    {
+      "question_en": "An example of a saprophyte is",
+      "question_hi": "भतृ ोऩजीिी का उदाहयर् है।",
+      "options_en": {
+        "A": "Amoeba",
+        "B": "Mushroom",
+        "C": "Hibiscus",
+        "D": "Cuscuta"
+      },
+      "options_hi": {
+        "A": "अभीफा",
+        "B": "गोफयछत्ता",
+        "C": "उडहुर",
+        "D": "अभयफेर"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_31"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which wall of the guard cell is thick?",
+      "question_hi": "गाडथ कोमशका की कौन-सी मबवत्त भोटी होती है ?",
+      "options_en": {
+        "A": "Inner",
+        "B": "Outer",
+        "C": "Lateral",
+        "D": "All of these"
+      },
+      "options_hi": {
+        "A": "बीतयी",
+        "B": "फाहयी",
+        "C": "ऩाश्िथ",
+        "D": "इनभें से सबी"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_32"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The site of photosynthesis in plants is",
+      "question_hi": "ऩौधे भें प्रकाश सॊश्रेषर् का स्थान है।",
+      "options_en": {
+        "A": "Mitochondria",
+        "B": "Chloroplast",
+        "C": "Leucoplast",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "भाइटोकॉजनिमा",
+        "B": "क्रोयोप्रास्ट",
+        "C": "ल्मकू ोप्रास्ट",
+        "D": "इनभें से कोई नहीॊ"
+      },
+      "years": [
+        "2022"
+      ],
+      "source_ids": [
+        {
+          "year": "2022",
+          "id": "obj_61"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The colour of chlorophyll pigment is",
+      "question_hi": "क्लोरोफिल वर्णक का रंग होता है।",
+      "options_en": {
+        "A": "black",
+        "B": "yellow",
+        "C": "blue",
+        "D": "green"
+      },
+      "options_hi": {
+        "A": "काला",
+        "B": "पीला",
+        "C": "नीला",
+        "D": "हरा"
+      },
+      "years": [
+        "2023"
+      ],
+      "source_ids": [
+        {
+          "year": "2023",
+          "id": "obj_10"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The hardest part of the teeth is",
+      "question_hi": "दाँत का कठोरतम भाग है",
+      "options_en": {
+        "A": "dentine",
+        "B": "enamel",
+        "C": "pulp cavity",
+        "D": "canine"
+      },
+      "options_hi": {
+        "A": "डैंटाइन",
+        "B": "इनामेल",
+        "C": "मज्जा गुहा",
+        "D": "केनाइन"
+      },
+      "years": [
+        "2023"
+      ],
+      "source_ids": [
+        {
+          "year": "2023",
+          "id": "obj_11"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Mushroom is",
+      "question_hi": "गोबरछत्ता है",
+      "options_en": {
+        "A": "a saprophyte",
+        "B": "a parasite",
+        "C": "an autotroph",
+        "D": "an algae"
+      },
+      "options_hi": {
+        "A": "एक मृतजीवी",
+        "B": "एक परजीवी",
+        "C": "एक स्वपोषी",
+        "D": "एक शैवाल"
+      },
+      "years": [
+        "2023"
+      ],
+      "source_ids": [
+        {
+          "year": "2023",
+          "id": "obj_26"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which mode of nutrition is found in fungi?",
+      "question_hi": "कवक में पोषण की कौन-सी विधि है ?",
+      "options_en": {
+        "A": "Autotrophic",
+        "B": "Holozoic",
+        "C": "Saprophytic",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "स्वपोषी",
+        "B": "समभोजी",
+        "C": "मृतजीवी",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2023"
+      ],
+      "source_ids": [
+        {
+          "year": "2023",
+          "id": "obj_28"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The pores of the stomata are surrounded by which of the following?",
+      "question_hi": "निम्नलिखित में से किससे रंध्र के छिद्र घिरे रहते हैं ?",
+      "options_en": {
+        "A": "Cuticle",
+        "B": "Guard cells",
+        "C": "Lenticels",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "क्यूटिकल से",
+        "B": "गार्ड कोशिका से",
+        "C": "वात रंध्रों से",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2023"
+      ],
+      "source_ids": [
+        {
+          "year": "2023",
+          "id": "obj_41"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Rate of photosynthesis is dependent on which factors?",
+      "question_hi": "प्रकाश संश्लेषण की दर निम्न में से किन कारकों पर निर्भर करती है?",
+      "options_en": {
+        "A": "Properties of light",
+        "B": "The amount of light",
+        "C": "Both (A) and (B)",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "प्रकाश के गुण पर",
+        "B": "प्रकाश की मात्रा पर",
+        "C": "(A) और (B) दोनों",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2023"
+      ],
+      "source_ids": [
+        {
+          "year": "2023",
+          "id": "obj_48"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Bile juice is secreted by",
+      "question_hi": "पित्त रस का स्राव होता है",
+      "options_en": {
+        "A": "small intestine",
+        "B": "liver",
+        "C": "pancreas",
+        "D": "duodenum"
+      },
+      "options_hi": {
+        "A": "छोटी आँत द्वारा",
+        "B": "यकृत द्वारा",
+        "C": "अग्न्याशय द्वारा",
+        "D": "ग्रहणी द्वारा"
+      },
+      "years": [
+        "2023"
+      ],
+      "source_ids": [
+        {
+          "year": "2023",
+          "id": "obj_77"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which mode of nutrition is found in fungi ?",
+      "question_hi": "कवक में पोषण की कौन-सी विधि है ?",
+      "options_en": {
+        "A": "Holozoic",
+        "B": "Saprophytic",
+        "C": "Autotrophic",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "समभोजी",
+        "B": "मृतोपजीवी",
+        "C": "स्वपोषी",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2024"
+      ],
+      "source_ids": [
+        {
+          "year": "2024",
+          "id": "obj_24"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which part of the food is digested in buccal cavity ?",
+      "question_hi": "मुख गुहा में आहार का कौन-सा भाग का पाचन होता है ?",
+      "options_en": {
+        "A": "Carbohydrate",
+        "B": "Protein",
+        "C": "Fat",
+        "D": "Nucleic acid"
+      },
+      "options_hi": {
+        "A": "कार्बोहाइड्रेट",
+        "B": "प्रोटीन",
+        "C": "वसा",
+        "D": "न्यूक्लिक अम्ल"
+      },
+      "years": [
+        "2024"
+      ],
+      "source_ids": [
+        {
+          "year": "2024",
+          "id": "obj_40"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "An example of parasitic plant is",
+      "question_hi": "परजीवी पौधा का एक उदाहरण है",
+      "options_en": {
+        "A": "Mushroom",
+        "B": "Bryophyllum",
+        "C": "Cuscuta",
+        "D": "Pinus"
+      },
+      "options_hi": {
+        "A": "गोबरछत्ता",
+        "B": "ब्रायोफिलम",
+        "C": "अमरबेल",
+        "D": "चीड़"
+      },
+      "years": [
+        "2024"
+      ],
+      "source_ids": [
+        {
+          "year": "2024",
+          "id": "obj_58"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Peristalsis movement is found in",
+      "question_hi": "क्रमाकुंचन गति पाई जाती है",
+      "options_en": {
+        "A": "Colon",
+        "B": "Oesophagus",
+        "C": "Pancreas",
+        "D": "Small intestine"
+      },
+      "options_hi": {
+        "A": "कोलन में",
+        "B": "ग्रासनली में",
+        "C": "अग्न्याशय में",
+        "D": "छोटी आँत में"
+      },
+      "years": [
+        "2024"
+      ],
+      "source_ids": [
+        {
+          "year": "2024",
+          "id": "obj_28"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The most effective colour of visible light spectrum for photosynthesis is",
+      "question_hi": "प्रकाश संश्लेषण के लिए दृश्य-प्रकाश स्पेक्ट्रम का सबसे प्रभावी रंग है",
+      "options_en": {
+        "A": "red",
+        "B": "blue",
+        "C": "yellow",
+        "D": "green"
+      },
+      "options_hi": {
+        "A": "लाल",
+        "B": "नीला",
+        "C": "पीला",
+        "D": "हरा"
+      },
+      "years": [
+        "2024"
+      ],
+      "source_ids": [
+        {
+          "year": "2024",
+          "id": "obj_32"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Photosynthesis takes place during",
+      "question_hi": "प्रकाश संश्लेषण होता है",
+      "options_en": {
+        "A": "Morning-evening",
+        "B": "Day only",
+        "C": "Day-night",
+        "D": "Night only"
+      },
+      "options_hi": {
+        "A": "सुबह-शाम",
+        "B": "केवल दिन में",
+        "C": "दिन-रात",
+        "D": "केवल रात में"
+      },
+      "years": [
+        "2024"
+      ],
+      "source_ids": [
+        {
+          "year": "2024",
+          "id": "obj_50"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Bile juice is secreted by",
+      "question_hi": "पित्त रस स्रावित होता है",
+      "options_en": {
+        "A": "Oral cavity",
+        "B": "Liver",
+        "C": "Small intestine",
+        "D": "Stomach"
+      },
+      "options_hi": {
+        "A": "मुखगुहा से",
+        "B": "यकृत से",
+        "C": "छोटी आँत से",
+        "D": "आमाशय से"
+      },
+      "years": [
+        "2025"
+      ],
+      "source_ids": [
+        {
+          "year": "2025",
+          "id": "obj_9"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "What is the function of the villi located in small intestine?",
+      "question_hi": "क्षुद्रांत्र में स्थित रसांकुर का क्या कार्य होता है ?",
+      "options_en": {
+        "A": "Blocking absorption",
+        "B": "Reducing the surface area of absorption",
+        "C": "Increasing the surface area of absorption",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "अवशोषण अवरुद्ध करना",
+        "B": "अवशोषण का सतही क्षेत्रफल घटाना",
+        "C": "अवशोषण का सतही क्षेत्रफल बढ़ाना",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2025"
+      ],
+      "source_ids": [
+        {
+          "year": "2025",
+          "id": "obj_10"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The posterior part of the oral cavity is",
+      "question_hi": "मुख गुहा का पिछला भाग है",
+      "options_en": {
+        "A": "Esophagus",
+        "B": "Pharynx",
+        "C": "Duodenum",
+        "D": "Pancreas"
+      },
+      "options_hi": {
+        "A": "ग्रासनली",
+        "B": "ग्रसनी",
+        "C": "ग्रहनी",
+        "D": "अग्न्याशय"
+      },
+      "years": [
+        "2025"
+      ],
+      "source_ids": [
+        {
+          "year": "2025",
+          "id": "obj_11"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The basic source of oxygen in photosynthesis is",
+      "question_hi": "प्रकाश-संश्लेषण में ऑक्सीजन का मूल स्रोत है",
+      "options_en": {
+        "A": "Chlorophyll",
+        "B": "$CO_2$",
+        "C": "Water",
+        "D": "Solar energy"
+      },
+      "options_hi": {
+        "A": "पर्णहरित",
+        "B": "$CO_2$",
+        "C": "जल",
+        "D": "सौर ऊर्जा"
+      },
+      "years": [
+        "2025"
+      ],
+      "source_ids": [
+        {
+          "year": "2025",
+          "id": "obj_13"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which of the following is vestigial organ in the human alimentary canal ?",
+      "question_hi": "निम्न में से कौन मनुष्य के आहार नाल में एक अवशेषी अंग है ?",
+      "options_en": {
+        "A": "Appendix",
+        "B": "Colon",
+        "C": "Caecum",
+        "D": "Rectum"
+      },
+      "options_hi": {
+        "A": "एपेंडिक्स",
+        "B": "कोलन",
+        "C": "सीकम",
+        "D": "रेक्टम"
+      },
+      "years": [
+        "2025"
+      ],
+      "source_ids": [
+        {
+          "year": "2025",
+          "id": "obj_65"
+        }
+      ],
+      "confidence": 0.53,
+      "raw_choice": "6. Life Processes (जैव प्रक्रम)"
+    },
+    {
+      "question_en": "The length of the small intestine in herbivorous animals is",
+      "question_hi": "शाकाहारी जीवों में छोटी आँत की लंबाई होती है",
+      "options_en": {
+        "A": "Small",
+        "B": "Medium",
+        "C": "Longer",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "छोटी",
+        "B": "मध्यम",
+        "C": "अधिक लंबी",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2025"
+      ],
+      "source_ids": [
+        {
+          "year": "2025",
+          "id": "obj_66"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "The completely digested food in the small intestine is called",
+      "question_hi": "छोटी आँत में पूर्ण रूप से पचा भोजन कहलाता है",
+      "options_en": {
+        "A": "Chyme",
+        "B": "Chile",
+        "C": "Chylomicron",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "काइम",
+        "B": "चाइल",
+        "C": "काइलोमाइक्रॉन",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2025"
+      ],
+      "source_ids": [
+        {
+          "year": "2025",
+          "id": "obj_67"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Amoeba takes in its food by",
+      "question_hi": "अमीबा अपना भोजन ग्रहण करता है",
+      "options_en": {
+        "A": "teeth",
+        "B": "food vacuole",
+        "C": "pseudopodia",
+        "D": "the nucleus"
+      },
+      "options_hi": {
+        "A": "दाँत द्वारा",
+        "B": "भोजन रसधानी द्वारा",
+        "C": "कूटपाद द्वारा",
+        "D": "केन्द्रक द्वारा"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_24"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "In which part of the alimentary canal is the digestion process completed ?",
+      "question_hi": "आहारनाल के किस भाग में पाचन क्रिया पूर्ण होती है ?",
+      "options_en": {
+        "A": "In the stomach",
+        "B": "In the colon",
+        "C": "In the oesophagus",
+        "D": "In the small intestine"
+      },
+      "options_hi": {
+        "A": "आमाशय में",
+        "B": "कोलोन में",
+        "C": "ग्रासनली में",
+        "D": "छोटी आँत में"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_41"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "An example of saprophyte is",
+      "question_hi": "मृतोपजीवी का उदाहरण है",
+      "options_en": {
+        "A": "Amoeba",
+        "B": "Amarbel",
+        "C": "Hibiscus",
+        "D": "Mushroom"
+      },
+      "options_hi": {
+        "A": "अमीबा",
+        "B": "अमरबेल",
+        "C": "उड़हुल",
+        "D": "गोबरछत्ता"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_42"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Bile juice is secreted from",
+      "question_hi": "पित्त रस किससे स्रावित होता है ?",
+      "options_en": {
+        "A": "Pancreas",
+        "B": "Stomach",
+        "C": "Liver",
+        "D": "Salivary gland"
+      },
+      "options_hi": {
+        "A": "अग्न्याशय",
+        "B": "आमाशय",
+        "C": "यकृत",
+        "D": "लार ग्रंथि"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_43"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Dental caries is caused by",
+      "question_hi": "दंत क्षरण का कारण है",
+      "options_en": {
+        "A": "Eating sweet things",
+        "B": "Not cleaning the teeth",
+        "C": "Acid formation by bacteria",
+        "D": "All of these"
+      },
+      "options_hi": {
+        "A": "मीठी चीज का खाना",
+        "B": "दाँतों की सफाई न करना",
+        "C": "बैक्टीरिया द्वारा अम्ल का निर्माण होना",
+        "D": "इनमें से सभी"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_15"
+        }
+      ],
+      "confidence": 0.62,
+      "raw_choice": "6. Life Processes (जैव प्रक्रम)"
+    },
+    {
+      "question_en": "Which of the following is not required for autotrophic nutrition ?",
+      "question_hi": "निम्नलिखित में से क्या स्वपोषी पोषण के लिए आवश्यक नहीं है ?",
+      "options_en": {
+        "A": "$CO_2$ and water",
+        "B": "Chlorophyll",
+        "C": "Sunlight",
+        "D": "Oxygen"
+      },
+      "options_hi": {
+        "A": "$CO_2$ तथा जल",
+        "B": "क्लोरोफिल",
+        "C": "सूर्यप्रकाश",
+        "D": "ऑक्सीजन"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_16"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which nutrient is digested in the oral cavity ?",
+      "question_hi": "मुख गुहा में किस पोषक तत्व का पाचन होता है ?",
+      "options_en": {
+        "A": "Protein",
+        "B": "Carbohydrate",
+        "C": "Fat",
+        "D": "Nucleic acid"
+      },
+      "options_hi": {
+        "A": "प्रोटीन",
+        "B": "कार्बोहाइड्रेट",
+        "C": "वसा",
+        "D": "न्यूक्लिक अम्ल"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_41"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    },
+    {
+      "question_en": "Which wall of guard cell of dicotyledonous plants is thick ?",
+      "question_hi": "द्विबीजपत्री पौधों की गार्ड कोशिका की कौन-सी भित्ति मोटी होती है ?",
+      "options_en": {
+        "A": "Inner",
+        "B": "External",
+        "C": "Lateral",
+        "D": "None of these"
+      },
+      "options_hi": {
+        "A": "भीतरी",
+        "B": "बाहरी",
+        "C": "पार्श्व",
+        "D": "इनमें से कोई नहीं"
+      },
+      "years": [
+        "2026"
+      ],
+      "source_ids": [
+        {
+          "year": "2026",
+          "id": "obj_43"
+        }
+      ],
+      "confidence": 0.95,
+      "raw_choice": ""
+    }
+  ]
+}

@@ -1,0 +1,3123 @@
+{
+  "date": "2026-10-26",
+  "class": "10",
+  "subject": "Hindi",
+  "board": "Bihar Board",
+  "chapter": "12",
+  "chapterName": "महात्मा गाँधी (शिक्षा और संस्कृति)",
+  "sourceChapterFile": "C:\\Users\\RATNESH\\Downloads\\गोधूलि-अध्याय-12-महात्मा-गाँधी.md",
+  "sourceQuestionBank": "C:\\Users\\RATNESH\\0\\gurukulam\\bihar-10th-pyqs\\hindi_pro_type_chapters\\objective_chapters\\Godhuli\\chapter-12.json",
+  "questionCount": 100,
+  "pyqCount": 17,
+  "generatedCount": 83,
+  "questions": [
+    {
+      "question": "आध्यात्मिक शिक्षा से गांधीजी का क्या अभिप्राय है?",
+      "originalOptions": [
+        "पुस्तक की शिक्षा",
+        "मंत्रों की शिक्षा",
+        "बुद्धि की शिक्षा",
+        "हृदय की शिक्षा"
+      ],
+      "answerText": "हृदय की शिक्षा",
+      "source": "PYQ",
+      "year": "2018",
+      "sourceId": "obj_26",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 1,
+      "options": [
+        "बुद्धि की शिक्षा",
+        "हृदय की शिक्षा",
+        "मंत्रों की शिक्षा",
+        "पुस्तक की शिक्षा"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गांधी जी का दक्षिण अफ्रीका प्रवास कब से कब तक था?",
+      "originalOptions": [
+        "1893 ई० से 1914 ई. तक",
+        "1892 ई० से 1913 ई० तक",
+        "1894 ई० से 1914 ई. तक",
+        "1893 ई० से 1913 ई० तक"
+      ],
+      "answerText": "1893 ई० से 1914 ई. तक",
+      "source": "PYQ",
+      "year": "2018",
+      "sourceId": "obj_38",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 2,
+      "options": [
+        "1893 ई० से 1913 ई० तक",
+        "1893 ई० से 1914 ई. तक",
+        "1892 ई० से 1913 ई० तक",
+        "1894 ई० से 1914 ई. तक"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "आध्यात्मिक शिक्षा से गाँधी जी का क्या तात्पर्य है ?",
+      "originalOptions": [
+        "हृदय की शिक्षा",
+        "व्यावहारिक शिक्षा",
+        "तकनीकी शिक्षा",
+        "व्यापारिक शिक्षा"
+      ],
+      "answerText": "हृदय की शिक्षा",
+      "source": "PYQ",
+      "year": "2020",
+      "sourceId": "obj_10",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 3,
+      "options": [
+        "व्यावहारिक शिक्षा",
+        "तकनीकी शिक्षा",
+        "व्यापारिक शिक्षा",
+        "हृदय की शिक्षा"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "'शिक्षा और संस्कृति' किसकी रचना है ?",
+      "originalOptions": [
+        "भीमराव अंबेडकर",
+        "महात्मा गाँधी",
+        "नलिन विलोचन शर्मा",
+        "यतीन्द्र मिश्र"
+      ],
+      "answerText": "महात्मा गाँधी",
+      "source": "PYQ",
+      "year": "2020",
+      "sourceId": "obj_11",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 4,
+      "options": [
+        "महात्मा गाँधी",
+        "नलिन विलोचन शर्मा",
+        "यतीन्द्र मिश्र",
+        "भीमराव अंबेडकर"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "दक्षिण अफ्रीका से गाँधी जी भारत कब लौटे ?",
+      "originalOptions": [
+        "1914 ई० में",
+        "1915 ई० में",
+        "1918 ई० में",
+        "1916 ई० में"
+      ],
+      "answerText": "1915 ई० में",
+      "source": "PYQ",
+      "year": "2020",
+      "sourceId": "obj_40",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 5,
+      "options": [
+        "1916 ई० में",
+        "1914 ई० में",
+        "1915 ई० में",
+        "1918 ई० में"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "महात्मा गाँधी के पिता का क्या नाम था ?",
+      "originalOptions": [
+        "धरमचंद गाँधी",
+        "मीरचंद गाँधी",
+        "हरचंद गाँधी",
+        "करमचंद गाँधी"
+      ],
+      "answerText": "करमचंद गाँधी",
+      "source": "PYQ",
+      "year": "2020",
+      "sourceId": "obj_46",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 6,
+      "options": [
+        "करमचंद गाँधी",
+        "धरमचंद गाँधी",
+        "हरचंद गाँधी",
+        "मीरचंद गाँधी"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "कौन चाहते थे कि सभी देशों की संस्कृति की हवा उनके घर के पास बहती रहे ?",
+      "originalOptions": [
+        "राजेन्द्र प्रसाद",
+        "नेहरू",
+        "महात्मा गाँधी",
+        "सरदार पटेल"
+      ],
+      "answerText": "महात्मा गाँधी",
+      "source": "PYQ",
+      "year": "2020",
+      "sourceId": "obj_51",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 7,
+      "options": [
+        "राजेन्द्र प्रसाद",
+        "सरदार पटेल",
+        "नेहरू",
+        "महात्मा गाँधी"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "किनके जन्म दिवस को अहिंसा दिवस के रूप में मनाया जाता है?",
+      "originalOptions": [
+        "महात्मा गाँधी",
+        "डॉ० राजेन्द्र प्रसाद",
+        "जवाहरलाल नेहरू",
+        "बाल गंगाधर तिलक"
+      ],
+      "answerText": "महात्मा गाँधी",
+      "source": "PYQ",
+      "year": "2021",
+      "sourceId": "obj_56",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 8,
+      "options": [
+        "जवाहरलाल नेहरू",
+        "महात्मा गाँधी",
+        "डॉ० राजेन्द्र प्रसाद",
+        "बाल गंगाधर तिलक"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "महात्मा गाँधी के पिता का नाम क्या था?",
+      "originalOptions": [
+        "करमचंद गाँधी",
+        "धरमचंद गाँधी",
+        "जयशंकर गाँधी",
+        "विद्याशंकर गाँधी"
+      ],
+      "answerText": "करमचंद गाँधी",
+      "source": "PYQ",
+      "year": "2021",
+      "sourceId": "obj_96",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 9,
+      "options": [
+        "करमचंद गाँधी",
+        "धरमचंद गाँधी",
+        "जयशंकर गाँधी",
+        "विद्याशंकर गाँधी"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": false
+    },
+    {
+      "question": "“मेरा ख्याल है कि अगर व्यक्ति का चरित्र-निर्माण करने में हम सफल हो जाएँगे तो समाज अपना काम आप सँभाल लेगा” - यह किसका विचार है ?",
+      "originalOptions": [
+        "भीमराव अंबेडकर का",
+        "रामधारी सिंह दिनकर का",
+        "महात्मा गाँधी का",
+        "सुमित्रानंदन पंत का"
+      ],
+      "answerText": "महात्मा गाँधी का",
+      "source": "PYQ",
+      "year": "2022",
+      "sourceId": "obj_87",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 10,
+      "options": [
+        "रामधारी सिंह दिनकर का",
+        "सुमित्रानंदन पंत का",
+        "भीमराव अंबेडकर का",
+        "महात्मा गाँधी का"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी को 'महात्मा' की उपाधि किसने दी थी?",
+      "originalOptions": [
+        "राजा राममोहन राय ने",
+        "विवेकानन्द ने",
+        "रवीन्द्रनाथ टैगोर ने",
+        "ईश्वरचंद्र विद्यासागर ने"
+      ],
+      "answerText": "रवीन्द्रनाथ टैगोर ने",
+      "source": "PYQ",
+      "year": "2023",
+      "sourceId": "obj_41",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 11,
+      "options": [
+        "ईश्वरचंद्र विद्यासागर ने",
+        "विवेकानन्द ने",
+        "राजा राममोहन राय ने",
+        "रवीन्द्रनाथ टैगोर ने"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘मैं चाहता हूँ कि सब देशों की संस्कृतियों की हवा मेरे घर के चारों ओर अधिक-से-अधिक स्वतंत्रता के साथ बहती रहे ।' यह किसने कहा है?",
+      "originalOptions": [
+        "जवाहरलाल नेहरू ने",
+        "सुभाषचन्द्र बोस ने",
+        "वल्लभभाई पटेल ने",
+        "महात्मा गाँधी ने"
+      ],
+      "answerText": "महात्मा गाँधी ने",
+      "source": "PYQ",
+      "year": "2023",
+      "sourceId": "obj_42",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 12,
+      "options": [
+        "जवाहरलाल नेहरू ने",
+        "महात्मा गाँधी ने",
+        "वल्लभभाई पटेल ने",
+        "सुभाषचन्द्र बोस ने"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "महात्मा गाँधी का निधन कब हुआ था ?",
+      "originalOptions": [
+        "30 जनवरी, 1948 ई० में",
+        "20 फरवरी, 1948 ई० में",
+        "19 जनवरी, 1948 ई० में",
+        "28 फरवरी, 1948 ई० में"
+      ],
+      "answerText": "30 जनवरी, 1948 ई० में",
+      "source": "PYQ",
+      "year": "2025",
+      "sourceId": "obj_49",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 13,
+      "options": [
+        "28 फरवरी, 1948 ई० में",
+        "19 जनवरी, 1948 ई० में",
+        "20 फरवरी, 1948 ई० में",
+        "30 जनवरी, 1948 ई० में"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "'आध्यात्मिक शिक्षा से मेरा मतलब ............ है।' रिक्त स्थान में क्या होगा ?",
+      "originalOptions": [
+        "व्यावसायिक शिक्षा",
+        "रूढ़िवादी शिक्षा",
+        "हृदय की शिक्षा",
+        "वैज्ञानिक शिक्षा"
+      ],
+      "answerText": "हृदय की शिक्षा",
+      "source": "PYQ",
+      "year": "2025",
+      "sourceId": "obj_79",
+      "rawChoice": "Godhuli - 12. Shiksha aur Sanskriti (शिक्षा और संस्कृति)",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 14,
+      "options": [
+        "व्यावसायिक शिक्षा",
+        "हृदय की शिक्षा",
+        "वैज्ञानिक शिक्षा",
+        "रूढ़िवादी शिक्षा"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "महात्मा गाँधी का सबसे बड़ा हथियार था",
+      "originalOptions": [
+        "हिंसा और असत्याग्रह",
+        "अहिंसा और सत्याग्रह",
+        "निंदा और प्रपंच",
+        "दिखावटी संयम और तप"
+      ],
+      "answerText": "अहिंसा और सत्याग्रह",
+      "source": "PYQ",
+      "year": "2026",
+      "sourceId": "obj_56",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 15,
+      "options": [
+        "निंदा और प्रपंच",
+        "हिंसा और असत्याग्रह",
+        "अहिंसा और सत्याग्रह",
+        "दिखावटी संयम और तप"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "'शिक्षा और संस्कृति' शीर्षक पाठ के रचनाकार हैं",
+      "originalOptions": [
+        "यतीन्द्र मिश्र",
+        "महात्मा गाँधी",
+        "अशोक वाजपेयी",
+        "अमरकांत"
+      ],
+      "answerText": "महात्मा गाँधी",
+      "source": "PYQ",
+      "year": "2026",
+      "sourceId": "obj_88",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 16,
+      "options": [
+        "अशोक वाजपेयी",
+        "यतीन्द्र मिश्र",
+        "महात्मा गाँधी",
+        "अमरकांत"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "महात्मा गाँधी वकालत की पढ़ाई करने कहाँ गये थे ?",
+      "originalOptions": [
+        "इटली",
+        "जापान",
+        "नेपाल",
+        "लंदन"
+      ],
+      "answerText": "लंदन",
+      "source": "PYQ",
+      "year": "2026",
+      "sourceId": "obj_94",
+      "rawChoice": "",
+      "provenance": "Shiksha aur Sanskriti",
+      "number": 17,
+      "options": [
+        "इटली",
+        "लंदन",
+        "नेपाल",
+        "जापान"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "राष्ट्रपिता महात्मा गाँधी का जन्म किस तिथि को हुआ था?",
+      "originalOptions": [
+        "2 अक्टूबर 1869",
+        "15 अगस्त 1872",
+        "30 जनवरी 1869",
+        "14 नवंबर 1869"
+      ],
+      "answerText": "2 अक्टूबर 1869",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 18,
+      "options": [
+        "2 अक्टूबर 1869",
+        "30 जनवरी 1869",
+        "14 नवंबर 1869",
+        "15 अगस्त 1872"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी का जन्मस्थान कहाँ था?",
+      "originalOptions": [
+        "राजकोट, गुजरात",
+        "पोरबंदर, गुजरात",
+        "अहमदाबाद, गुजरात",
+        "सूरत, गुजरात"
+      ],
+      "answerText": "पोरबंदर, गुजरात",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 19,
+      "options": [
+        "सूरत, गुजरात",
+        "राजकोट, गुजरात",
+        "अहमदाबाद, गुजरात",
+        "पोरबंदर, गुजरात"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी की माता का नाम क्या था?",
+      "originalOptions": [
+        "कस्तूरबा",
+        "लक्ष्मीबाई",
+        "पुतलीबाई",
+        "कमलाबाई"
+      ],
+      "answerText": "पुतलीबाई",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 20,
+      "options": [
+        "कस्तूरबा",
+        "कमलाबाई",
+        "पुतलीबाई",
+        "लक्ष्मीबाई"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी की प्रारंभिक शिक्षा कहाँ हुई?",
+      "originalOptions": [
+        "पोरबंदर और उसके आस-पास",
+        "लंदन में",
+        "दक्षिण अफ्रीका में",
+        "दिल्ली में"
+      ],
+      "answerText": "पोरबंदर और उसके आस-पास",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 21,
+      "options": [
+        "दक्षिण अफ्रीका में",
+        "लंदन में",
+        "दिल्ली में",
+        "पोरबंदर और उसके आस-पास"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी का विवाह कम उम्र में किससे हुआ था?",
+      "originalOptions": [
+        "सरोजिनी",
+        "पुतलीबाई",
+        "कस्तूरबा",
+        "कमला"
+      ],
+      "answerText": "कस्तूरबा",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 22,
+      "options": [
+        "कस्तूरबा",
+        "कमला",
+        "पुतलीबाई",
+        "सरोजिनी"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "कस्तूरबा गाँधी ने किस कार्य में गाँधीजी का साथ दिया?",
+      "originalOptions": [
+        "साहित्य-संपादन में",
+        "स्वाधीनता संग्राम में",
+        "वकालत की पढ़ाई में",
+        "पत्रिका-प्रकाशन में"
+      ],
+      "answerText": "स्वाधीनता संग्राम में",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 23,
+      "options": [
+        "पत्रिका-प्रकाशन में",
+        "साहित्य-संपादन में",
+        "वकालत की पढ़ाई में",
+        "स्वाधीनता संग्राम में"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी ने अंग्रेजों के विरुद्ध अहिंसा का पहला प्रयोग कहाँ किया?",
+      "originalOptions": [
+        "भारत में",
+        "लंदन में",
+        "पोरबंदर में",
+        "दक्षिण अफ्रीका में"
+      ],
+      "answerText": "दक्षिण अफ्रीका में",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 24,
+      "options": [
+        "दक्षिण अफ्रीका में",
+        "पोरबंदर में",
+        "लंदन में",
+        "भारत में"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी ने भारत लौटने के बाद किस आंदोलन में भाग लिया?",
+      "originalOptions": [
+        "स्वाधीनता संग्राम",
+        "चंपारण के साहित्य सम्मेलन",
+        "शिक्षा परिषद",
+        "किसान सभा के चुनाव"
+      ],
+      "answerText": "स्वाधीनता संग्राम",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 25,
+      "options": [
+        "किसान सभा के चुनाव",
+        "स्वाधीनता संग्राम",
+        "चंपारण के साहित्य सम्मेलन",
+        "शिक्षा परिषद"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी ने स्वाधीनता संग्राम में किसकी माँग की?",
+      "originalOptions": [
+        "साम्राज्य की",
+        "स्वराज की",
+        "अलग शासन की",
+        "राजतंत्र की"
+      ],
+      "answerText": "स्वराज की",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 26,
+      "options": [
+        "राजतंत्र की",
+        "साम्राज्य की",
+        "स्वराज की",
+        "अलग शासन की"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "अछूतोद्धार का काम करने का उद्देश्य किस बुराई को मिटाना था?",
+      "originalOptions": [
+        "अशिक्षा",
+        "जाति-धर्म के विभेद",
+        "विदेशी भाषा",
+        "यांत्रिक शिक्षा"
+      ],
+      "answerText": "जाति-धर्म के विभेद",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 27,
+      "options": [
+        "विदेशी भाषा",
+        "यांत्रिक शिक्षा",
+        "जाति-धर्म के विभेद",
+        "अशिक्षा"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी ने किस कार्यक्रम को चलाया?",
+      "originalOptions": [
+        "सर्वोदय",
+        "साम्राज्यवाद",
+        "उपनिवेशवाद",
+        "औद्योगिक प्रतिस्पर्धा"
+      ],
+      "answerText": "सर्वोदय",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 28,
+      "options": [
+        "साम्राज्यवाद",
+        "औद्योगिक प्रतिस्पर्धा",
+        "उपनिवेशवाद",
+        "सर्वोदय"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "स्वदेशी का नारा देने के साथ गाँधीजी ने किसका विरोध किया?",
+      "originalOptions": [
+        "सत्याग्रह का",
+        "सामाजिक समानता का",
+        "विदेशी निर्भरता और विभेद का",
+        "मातृभाषा का"
+      ],
+      "answerText": "विदेशी निर्भरता और विभेद का",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 29,
+      "options": [
+        "विदेशी निर्भरता और विभेद का",
+        "सामाजिक समानता का",
+        "सत्याग्रह का",
+        "मातृभाषा का"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी का पूरा जीवन किसके प्रति समर्पित था?",
+      "originalOptions": [
+        "अपने परिवार के प्रति",
+        "राष्ट्र के प्रति",
+        "केवल शिक्षा के प्रति",
+        "विदेशी शासन के प्रति"
+      ],
+      "answerText": "राष्ट्र के प्रति",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 30,
+      "options": [
+        "केवल शिक्षा के प्रति",
+        "विदेशी शासन के प्रति",
+        "राष्ट्र के प्रति",
+        "अपने परिवार के प्रति"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी की हत्या कहाँ हुई थी?",
+      "originalOptions": [
+        "पोरबंदर",
+        "मुंबई",
+        "नई दिल्ली",
+        "राजकोट"
+      ],
+      "answerText": "नई दिल्ली",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 31,
+      "options": [
+        "पोरबंदर",
+        "नई दिल्ली",
+        "राजकोट",
+        "मुंबई"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी की स्मृति में भारत में कौन-सा दिवस मनाया जाता है?",
+      "originalOptions": [
+        "2 अक्टूबर को जयंती",
+        "15 अगस्त को जयंती",
+        "30 जनवरी को जन्मदिन",
+        "14 नवंबर को जयंती"
+      ],
+      "answerText": "2 अक्टूबर को जयंती",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 32,
+      "options": [
+        "15 अगस्त को जयंती",
+        "2 अक्टूबर को जयंती",
+        "14 नवंबर को जयंती",
+        "30 जनवरी को जन्मदिन"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी ने किन पत्रिकाओं का संपादन किया?",
+      "originalOptions": [
+        "हरिजन और यंग इंडिया",
+        "सरस्वती और माधुरी",
+        "हंस और प्रताप",
+        "कर्मवीर और आज"
+      ],
+      "answerText": "हरिजन और यंग इंडिया",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 33,
+      "options": [
+        "हरिजन और यंग इंडिया",
+        "सरस्वती और माधुरी",
+        "हंस और प्रताप",
+        "कर्मवीर और आज"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": false
+    },
+    {
+      "question": "‘हिंद स्वराज’ किसकी पुस्तक है?",
+      "originalOptions": [
+        "रवींद्रनाथ ठाकुर",
+        "महात्मा गाँधी",
+        "जवाहरलाल नेहरू",
+        "सरदार पटेल"
+      ],
+      "answerText": "महात्मा गाँधी",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 34,
+      "options": [
+        "जवाहरलाल नेहरू",
+        "महात्मा गाँधी",
+        "सरदार पटेल",
+        "रवींद्रनाथ ठाकुर"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार सबसे उदात्त शिक्षा कौन-सी है?",
+      "originalOptions": [
+        "अहिंसक प्रतिरोध",
+        "केवल अक्षर-ज्ञान",
+        "केवल व्यावसायिक शिक्षा",
+        "परीक्षा की तैयारी"
+      ],
+      "answerText": "अहिंसक प्रतिरोध",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 35,
+      "options": [
+        "परीक्षा की तैयारी",
+        "केवल अक्षर-ज्ञान",
+        "अहिंसक प्रतिरोध",
+        "केवल व्यावसायिक शिक्षा"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार अहिंसक प्रतिरोध बच्चों को कब सिखाया जाना चाहिए?",
+      "originalOptions": [
+        "अक्षर-ज्ञान के बाद",
+        "केवल किशोरावस्था में",
+        "अक्षर-ज्ञान से पहले",
+        "विद्यालय छोड़ने के बाद"
+      ],
+      "answerText": "अक्षर-ज्ञान से पहले",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 36,
+      "options": [
+        "अक्षर-ज्ञान के बाद",
+        "अक्षर-ज्ञान से पहले",
+        "केवल किशोरावस्था में",
+        "विद्यालय छोड़ने के बाद"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "वर्णमाला सीखने से पहले बच्चे को किन बातों का ज्ञान होना चाहिए?",
+      "originalOptions": [
+        "व्यापार और लाभ का",
+        "आत्मा, सत्य और प्रेम का",
+        "राजनीति और शासन का",
+        "केवल इतिहास का"
+      ],
+      "answerText": "आत्मा, सत्य और प्रेम का",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 37,
+      "options": [
+        "केवल इतिहास का",
+        "व्यापार और लाभ का",
+        "राजनीति और शासन का",
+        "आत्मा, सत्य और प्रेम का"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "जीवन-संग्राम में प्रेम से किसे जीतना सिखाया जाना चाहिए?",
+      "originalOptions": [
+        "घृणा को",
+        "सत्य को",
+        "प्रेम को",
+        "कष्ट को"
+      ],
+      "answerText": "घृणा को",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 38,
+      "options": [
+        "प्रेम को",
+        "घृणा को",
+        "सत्य को",
+        "कष्ट को"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार सत्य से किस पर विजय पाई जा सकती है?",
+      "originalOptions": [
+        "असत्य पर",
+        "प्रेम पर",
+        "आत्मा पर",
+        "शिक्षा पर"
+      ],
+      "answerText": "असत्य पर",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 39,
+      "options": [
+        "आत्मा पर",
+        "असत्य पर",
+        "शिक्षा पर",
+        "प्रेम पर"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "शिक्षा में कष्ट-सहन से किसे जीतने का अभ्यास होना चाहिए?",
+      "originalOptions": [
+        "सत्य को",
+        "हिंसा को",
+        "प्रेम को",
+        "बुद्धि को"
+      ],
+      "answerText": "हिंसा को",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 40,
+      "options": [
+        "बुद्धि को",
+        "प्रेम को",
+        "सत्य को",
+        "हिंसा को"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "बच्चों को इस प्रकार की तालीम देने का प्रयास गाँधीजी ने पहले कहाँ किया?",
+      "originalOptions": [
+        "फिनिक्स आश्रम",
+        "टॉल्सटॉय फार्म",
+        "साबरमती नगर",
+        "पोरबंदर विद्यालय"
+      ],
+      "answerText": "टॉल्सटॉय फार्म",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 41,
+      "options": [
+        "पोरबंदर विद्यालय",
+        "फिनिक्स आश्रम",
+        "टॉल्सटॉय फार्म",
+        "साबरमती नगर"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "टॉल्सटॉय फार्म के बाद गाँधीजी ने बच्चों को कहाँ तालीम देने की कोशिश की?",
+      "originalOptions": [
+        "फिनिक्स आश्रम",
+        "सेवाग्राम विद्यालय",
+        "यूनिवर्सिटी कॉलेज",
+        "राजकोट आश्रम"
+      ],
+      "answerText": "फिनिक्स आश्रम",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 42,
+      "options": [
+        "फिनिक्स आश्रम",
+        "यूनिवर्सिटी कॉलेज",
+        "राजकोट आश्रम",
+        "सेवाग्राम विद्यालय"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार बुद्धि की सच्ची शिक्षा किसके ठीक उपयोग से संभव है?",
+      "originalOptions": [
+        "शरीर की स्थूल इन्द्रियों के",
+        "केवल पुस्तकों के",
+        "केवल स्मरण-शक्ति के",
+        "केवल लिखने के"
+      ],
+      "answerText": "शरीर की स्थूल इन्द्रियों के",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 43,
+      "options": [
+        "शरीर की स्थूल इन्द्रियों के",
+        "केवल पुस्तकों के",
+        "केवल स्मरण-शक्ति के",
+        "केवल लिखने के"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": false
+    },
+    {
+      "question": "पाठ में स्थूल इन्द्रियों के उदाहरण कौन-से हैं?",
+      "originalOptions": [
+        "हाथ, पैर, आँख, कान और नाक",
+        "मन, आत्मा, बुद्धि और स्मृति",
+        "हृदय, विचार और कल्पना",
+        "केवल हाथ और पैर"
+      ],
+      "answerText": "हाथ, पैर, आँख, कान और नाक",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 44,
+      "options": [
+        "केवल हाथ और पैर",
+        "हाथ, पैर, आँख, कान और नाक",
+        "मन, आत्मा, बुद्धि और स्मृति",
+        "हृदय, विचार और कल्पना"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "इन्द्रियों का बुद्धिपूर्वक उपयोग करने से किसका विकास होता है?",
+      "originalOptions": [
+        "बुद्धि का",
+        "केवल शरीर का",
+        "केवल स्मरण का",
+        "केवल भाषा का"
+      ],
+      "answerText": "बुद्धि का",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 45,
+      "options": [
+        "केवल शरीर का",
+        "केवल स्मरण का",
+        "बुद्धि का",
+        "केवल भाषा का"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "आत्मा की जागृति के बिना केवल बुद्धि का विकास कैसा हो जाएगा?",
+      "originalOptions": [
+        "सर्वांगीण",
+        "एकांगी",
+        "नैतिक",
+        "अविभाज्य"
+      ],
+      "answerText": "एकांगी",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 46,
+      "options": [
+        "नैतिक",
+        "सर्वांगीण",
+        "अविभाज्य",
+        "एकांगी"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "पाठ में ‘स्वावलंबन’ का आशय किससे है?",
+      "originalOptions": [
+        "अपना काम स्वयं करने की क्षमता",
+        "दूसरों पर निर्भर रहने की आदत",
+        "केवल पुस्तकें पढ़ने का अभ्यास",
+        "मशीनों पर पूरी निर्भरता"
+      ],
+      "answerText": "अपना काम स्वयं करने की क्षमता",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 47,
+      "options": [
+        "अपना काम स्वयं करने की क्षमता",
+        "केवल पुस्तकें पढ़ने का अभ्यास",
+        "मशीनों पर पूरी निर्भरता",
+        "दूसरों पर निर्भर रहने की आदत"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "मस्तिष्क का सर्वांगीण विकास किन शक्तियों की शिक्षा के साथ होना चाहिए?",
+      "originalOptions": [
+        "शारीरिक और आध्यात्मिक",
+        "केवल आर्थिक",
+        "केवल भाषायी",
+        "केवल यांत्रिक"
+      ],
+      "answerText": "शारीरिक और आध्यात्मिक",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 48,
+      "options": [
+        "केवल आर्थिक",
+        "केवल यांत्रिक",
+        "शारीरिक और आध्यात्मिक",
+        "केवल भाषायी"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "शरीर, मस्तिष्क और आत्मा के विकास के बारे में गाँधीजी का सिद्धांत क्या है?",
+      "originalOptions": [
+        "ये अविभाज्य हैं",
+        "इनका कोई संबंध नहीं",
+        "केवल आत्मा का विकास जरूरी है",
+        "इनका विकास क्रमशः अलग-अलग हो"
+      ],
+      "answerText": "ये अविभाज्य हैं",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 49,
+      "options": [
+        "ये अविभाज्य हैं",
+        "इनका विकास क्रमशः अलग-अलग हो",
+        "इनका कोई संबंध नहीं",
+        "केवल आत्मा का विकास जरूरी है"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार शिक्षा से मनुष्य के किन गुणों को प्रकट किया जाना चाहिए?",
+      "originalOptions": [
+        "शरीर, बुद्धि और आत्मा के उत्तम गुण",
+        "केवल लिखने की योग्यता",
+        "केवल आर्थिक कौशल",
+        "केवल स्मरण-शक्ति"
+      ],
+      "answerText": "शरीर, बुद्धि और आत्मा के उत्तम गुण",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 50,
+      "options": [
+        "केवल स्मरण-शक्ति",
+        "केवल आर्थिक कौशल",
+        "केवल लिखने की योग्यता",
+        "शरीर, बुद्धि और आत्मा के उत्तम गुण"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी पढ़ना-लिखना किसका एक साधन मानते हैं?",
+      "originalOptions": [
+        "शिक्षा देने का",
+        "शिक्षा का अंतिम लक्ष्य",
+        "चरित्र का विकल्प",
+        "आत्मा का विकास"
+      ],
+      "answerText": "शिक्षा देने का",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 51,
+      "options": [
+        "शिक्षा देने का",
+        "आत्मा का विकास",
+        "शिक्षा का अंतिम लक्ष्य",
+        "चरित्र का विकल्प"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी बच्चे की शिक्षा का प्रारंभ किससे करना चाहते हैं?",
+      "originalOptions": [
+        "उपयोगी दस्तकारी सिखाने से",
+        "केवल वर्णमाला रटाने से",
+        "केवल परीक्षा लेने से",
+        "विदेशी भाषा से"
+      ],
+      "answerText": "उपयोगी दस्तकारी सिखाने से",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 52,
+      "options": [
+        "केवल परीक्षा लेने से",
+        "विदेशी भाषा से",
+        "उपयोगी दस्तकारी सिखाने से",
+        "केवल वर्णमाला रटाने से"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "दस्तकारी केवल यांत्रिक ढंग से नहीं, किस ढंग से सिखाई जानी चाहिए?",
+      "originalOptions": [
+        "वैज्ञानिक ढंग से",
+        "सैद्धांतिक ढंग से",
+        "स्मरण-आधारित ढंग से",
+        "परीक्षा-आधारित ढंग से"
+      ],
+      "answerText": "वैज्ञानिक ढंग से",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 53,
+      "options": [
+        "स्मरण-आधारित ढंग से",
+        "परीक्षा-आधारित ढंग से",
+        "सैद्धांतिक ढंग से",
+        "वैज्ञानिक ढंग से"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "वैज्ञानिक ढंग से दस्तकारी सीखने में बच्चे को क्या जानना चाहिए?",
+      "originalOptions": [
+        "प्रत्येक प्रक्रिया का कारण",
+        "केवल औजारों के नाम",
+        "केवल तैयार वस्तु का मूल्य",
+        "केवल काम की गति"
+      ],
+      "answerText": "प्रत्येक प्रक्रिया का कारण",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 54,
+      "options": [
+        "केवल काम की गति",
+        "प्रत्येक प्रक्रिया का कारण",
+        "केवल तैयार वस्तु का मूल्य",
+        "केवल औजारों के नाम"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी सारी शिक्षा किसके द्वारा देना चाहते थे?",
+      "originalOptions": [
+        "दस्तकारी या उद्योगों के द्वारा",
+        "केवल पाठ्यपुस्तकों के द्वारा",
+        "केवल परीक्षाओं के द्वारा",
+        "केवल व्याख्यानों के द्वारा"
+      ],
+      "answerText": "दस्तकारी या उद्योगों के द्वारा",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 55,
+      "options": [
+        "केवल पाठ्यपुस्तकों के द्वारा",
+        "केवल व्याख्यानों के द्वारा",
+        "केवल परीक्षाओं के द्वारा",
+        "दस्तकारी या उद्योगों के द्वारा"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "प्रारंभिक शिक्षा में भोजनशास्त्र के साथ कौन-सा विषय शामिल होना चाहिए?",
+      "originalOptions": [
+        "सफाई और तन्दुरुस्ती",
+        "केवल विदेशी इतिहास",
+        "केवल राजनीति",
+        "केवल साहित्य-संपादन"
+      ],
+      "answerText": "सफाई और तन्दुरुस्ती",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 56,
+      "options": [
+        "केवल साहित्य-संपादन",
+        "केवल राजनीति",
+        "सफाई और तन्दुरुस्ती",
+        "केवल विदेशी इतिहास"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "प्रारंभिक शिक्षा में बच्चों को किसका मूल सिद्धांत सीखना चाहिए?",
+      "originalOptions": [
+        "अपना काम आप करना",
+        "दूसरों पर निर्भर रहना",
+        "केवल लिखित परीक्षा देना",
+        "केवल मशीन चलाना"
+      ],
+      "answerText": "अपना काम आप करना",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 57,
+      "options": [
+        "अपना काम आप करना",
+        "केवल लिखित परीक्षा देना",
+        "दूसरों पर निर्भर रहना",
+        "केवल मशीन चलाना"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार बच्चों को घर पर किसकी मदद करनी चाहिए?",
+      "originalOptions": [
+        "माता-पिता की",
+        "केवल पड़ोसियों की",
+        "केवल दुकानदारों की",
+        "केवल अधिकारियों की"
+      ],
+      "answerText": "माता-पिता की",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 58,
+      "options": [
+        "माता-पिता की",
+        "केवल पड़ोसियों की",
+        "केवल अधिकारियों की",
+        "केवल दुकानदारों की"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "पाठ में मौजूदा पीढ़ी के लड़कों में किस ज्ञान की कमी बताई गई है?",
+      "originalOptions": [
+        "स्वच्छता और स्वावलंबन",
+        "गणित और इतिहास",
+        "संगीत और साहित्य",
+        "व्यापार और राजनीति"
+      ],
+      "answerText": "स्वच्छता और स्वावलंबन",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 59,
+      "options": [
+        "व्यापार और राजनीति",
+        "गणित और इतिहास",
+        "स्वच्छता और स्वावलंबन",
+        "संगीत और साहित्य"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "लड़कों को अनिवार्य शारीरिक तालीम देने के लिए गाँधीजी किसका सहारा लेना चाहते हैं?",
+      "originalOptions": [
+        "संगीतमय कवायद",
+        "लंबे व्याख्यान",
+        "पुस्तक-पाठ",
+        "विदेश-यात्रा"
+      ],
+      "answerText": "संगीतमय कवायद",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 60,
+      "options": [
+        "विदेश-यात्रा",
+        "पुस्तक-पाठ",
+        "संगीतमय कवायद",
+        "लंबे व्याख्यान"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "कताई और बुनाई को गाँधीजी किस शिक्षा से जोड़ते हैं?",
+      "originalOptions": [
+        "प्राथमिक शिक्षा",
+        "केवल उच्च शिक्षा",
+        "सैन्य शिक्षा",
+        "केवल वयस्क शिक्षा"
+      ],
+      "answerText": "प्राथमिक शिक्षा",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 61,
+      "options": [
+        "केवल वयस्क शिक्षा",
+        "केवल उच्च शिक्षा",
+        "सैन्य शिक्षा",
+        "प्राथमिक शिक्षा"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "कताई-बुनाई आधारित शिक्षा को गाँधीजी किसकी अग्रदूत मानते हैं?",
+      "originalOptions": [
+        "सामाजिक क्रान्ति की",
+        "राजतंत्र की",
+        "औपनिवेशिक शासन की",
+        "भाषायी विभाजन की"
+      ],
+      "answerText": "सामाजिक क्रान्ति की",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 62,
+      "options": [
+        "राजतंत्र की",
+        "भाषायी विभाजन की",
+        "सामाजिक क्रान्ति की",
+        "औपनिवेशिक शासन की"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "ग्रामोद्योगों से नगर और ग्राम के संबंधों को कैसा आधार मिल सकता है?",
+      "originalOptions": [
+        "स्वास्थ्यप्रद और नैतिक",
+        "केवल आर्थिक",
+        "कृत्रिम और अस्थायी",
+        "विषाक्त और असमान"
+      ],
+      "answerText": "स्वास्थ्यप्रद और नैतिक",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 63,
+      "options": [
+        "विषाक्त और असमान",
+        "स्वास्थ्यप्रद और नैतिक",
+        "केवल आर्थिक",
+        "कृत्रिम और अस्थायी"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार ग्रामोद्योग किस समस्या को रोकने में सहायक हैं?",
+      "originalOptions": [
+        "देहातों के बढ़ते हास को",
+        "मातृभाषा के प्रयोग को",
+        "बच्चों की शिक्षा को",
+        "सांस्कृतिक मेल को"
+      ],
+      "answerText": "देहातों के बढ़ते हास को",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 64,
+      "options": [
+        "सांस्कृतिक मेल को",
+        "देहातों के बढ़ते हास को",
+        "मातृभाषा के प्रयोग को",
+        "बच्चों की शिक्षा को"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "कताई-आधारित व्यवस्था में किस अप्राकृतिक भेद को मिटाने की कल्पना है?",
+      "originalOptions": [
+        "गरीब-अमीर के भेद को",
+        "बालक-बालिका के भेद को",
+        "शहर-देहात के नाम को",
+        "भाषाओं के अस्तित्व को"
+      ],
+      "answerText": "गरीब-अमीर के भेद को",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 65,
+      "options": [
+        "गरीब-अमीर के भेद को",
+        "बालक-बालिका के भेद को",
+        "भाषाओं के अस्तित्व को",
+        "शहर-देहात के नाम को"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "पाठ में प्रत्येक व्यक्ति के लिए किस अधिकार के आश्वासन की बात है?",
+      "originalOptions": [
+        "गुजर के लायक काम और स्वतंत्रता",
+        "विदेश में नौकरी",
+        "मशीनों का स्वामित्व",
+        "केवल किताबी ज्ञान"
+      ],
+      "answerText": "गुजर के लायक काम और स्वतंत्रता",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 66,
+      "options": [
+        "विदेश में नौकरी",
+        "केवल किताबी ज्ञान",
+        "मशीनों का स्वामित्व",
+        "गुजर के लायक काम और स्वतंत्रता"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी की योजना में सामाजिक परिवर्तन किसके बिना संभव माना गया है?",
+      "originalOptions": [
+        "रक्तरंजित वर्गयुद्ध और भारी पूँजी-व्यय के बिना",
+        "शिक्षा और श्रम के बिना",
+        "ग्राम और नगर के बिना",
+        "किसी भी दस्तकारी के बिना"
+      ],
+      "answerText": "रक्तरंजित वर्गयुद्ध और भारी पूँजी-व्यय के बिना",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 67,
+      "options": [
+        "किसी भी दस्तकारी के बिना",
+        "ग्राम और नगर के बिना",
+        "रक्तरंजित वर्गयुद्ध और भारी पूँजी-व्यय के बिना",
+        "शिक्षा और श्रम के बिना"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "भारत के व्यापक यंत्रीकरण से गाँधीजी को किस निर्भरता की आशंका थी?",
+      "originalOptions": [
+        "विदेशी मशीनरी और दक्षता पर निर्भरता",
+        "मातृभाषा पर निर्भरता",
+        "ग्रामोद्योग पर निर्भरता",
+        "स्थानीय कौशल पर निर्भरता"
+      ],
+      "answerText": "विदेशी मशीनरी और दक्षता पर निर्भरता",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 68,
+      "options": [
+        "विदेशी मशीनरी और दक्षता पर निर्भरता",
+        "मातृभाषा पर निर्भरता",
+        "ग्रामोद्योग पर निर्भरता",
+        "स्थानीय कौशल पर निर्भरता"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": false
+    },
+    {
+      "question": "गाँधीजी की योजना में जनसाधारण के भाग्य का निपटारा किसके हाथ में रह सकता है?",
+      "originalOptions": [
+        "स्वयं जनसाधारण के",
+        "केवल विशेषज्ञों के",
+        "विदेशी संस्थाओं के",
+        "केवल बड़े पूँजीपतियों के"
+      ],
+      "answerText": "स्वयं जनसाधारण के",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 69,
+      "options": [
+        "केवल बड़े पूँजीपतियों के",
+        "विदेशी संस्थाओं के",
+        "केवल विशेषज्ञों के",
+        "स्वयं जनसाधारण के"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘प्रगट’ का समानार्थी शब्द कौन-सा है?",
+      "originalOptions": [
+        "व्यक्त",
+        "गुप्त",
+        "संकीर्ण",
+        "स्थूल"
+      ],
+      "answerText": "व्यक्त",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 70,
+      "options": [
+        "स्थूल",
+        "व्यक्त",
+        "गुप्त",
+        "संकीर्ण"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "चरित्र-निर्माण के साथ गाँधीजी किन गुणों का विकास चाहते हैं?",
+      "originalOptions": [
+        "साहस, बल और सदाचार",
+        "धन, पद और वैभव",
+        "प्रतिस्पर्धा और लाभ",
+        "आडंबर और प्रसिद्धि"
+      ],
+      "answerText": "साहस, बल और सदाचार",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 71,
+      "options": [
+        "प्रतिस्पर्धा और लाभ",
+        "धन, पद और वैभव",
+        "आडंबर और प्रसिद्धि",
+        "साहस, बल और सदाचार"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "बड़े लक्ष्य के लिए काम करने में गाँधीजी किस शक्ति का विकास चाहते हैं?",
+      "originalOptions": [
+        "आत्मोत्सर्ग की",
+        "प्रतिशोध की",
+        "प्रतिस्पर्धा की",
+        "संचय की"
+      ],
+      "answerText": "आत्मोत्सर्ग की",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 72,
+      "options": [
+        "प्रतिशोध की",
+        "आत्मोत्सर्ग की",
+        "प्रतिस्पर्धा की",
+        "संचय की"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी किताबी ज्ञान को किसका साधनमात्र मानते हैं?",
+      "originalOptions": [
+        "बड़े उद्देश्य का",
+        "चरित्र का विकल्प",
+        "शिक्षा का एकमात्र लक्ष्य",
+        "सामाजिक विभेद का"
+      ],
+      "answerText": "बड़े उद्देश्य का",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 73,
+      "options": [
+        "बड़े उद्देश्य का",
+        "शिक्षा का एकमात्र लक्ष्य",
+        "चरित्र का विकल्प",
+        "सामाजिक विभेद का"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी विदेशी भाषाओं के ज्ञान-भंडार को राष्ट्र तक किस माध्यम से पहुँचाना चाहते हैं?",
+      "originalOptions": [
+        "देशी भाषाओं में अनुवाद द्वारा",
+        "केवल अंग्रेजी शिक्षा द्वारा",
+        "विदेशी विश्वविद्यालयों द्वारा",
+        "मौखिक परंपरा रोककर"
+      ],
+      "answerText": "देशी भाषाओं में अनुवाद द्वारा",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 74,
+      "options": [
+        "केवल अंग्रेजी शिक्षा द्वारा",
+        "मौखिक परंपरा रोककर",
+        "देशी भाषाओं में अनुवाद द्वारा",
+        "विदेशी विश्वविद्यालयों द्वारा"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "रवीन्द्रनाथ की रचनाओं का आनंद लेने के लिए गाँधीजी के अनुसार क्या पर्याप्त है?",
+      "originalOptions": [
+        "अच्छे अनुवाद",
+        "केवल बांग्ला सीखना",
+        "विदेश में रहना",
+        "उनकी रचनाएँ छोड़ देना"
+      ],
+      "answerText": "अच्छे अनुवाद",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 75,
+      "options": [
+        "विदेश में रहना",
+        "अच्छे अनुवाद",
+        "केवल बांग्ला सीखना",
+        "उनकी रचनाएँ छोड़ देना"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "टॉल्सटाय की कहानियों से लाभ लेने के लिए गुजराती बच्चों को कौन-सी भाषा सीखना जरूरी नहीं?",
+      "originalOptions": [
+        "रूसी",
+        "गुजराती",
+        "हिंदी",
+        "अंग्रेजी"
+      ],
+      "answerText": "रूसी",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 76,
+      "options": [
+        "अंग्रेजी",
+        "गुजराती",
+        "रूसी",
+        "हिंदी"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "विभिन्न भाषाओं की अच्छी बातें देशी भाषाओं में कौन पहुँचा सकते हैं?",
+      "originalOptions": [
+        "अनुवाद करने वाले विद्यार्थी",
+        "केवल व्यापारी",
+        "केवल शासक",
+        "केवल मुद्रक"
+      ],
+      "answerText": "अनुवाद करने वाले विद्यार्थी",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 77,
+      "options": [
+        "केवल मुद्रक",
+        "केवल शासक",
+        "अनुवाद करने वाले विद्यार्थी",
+        "केवल व्यापारी"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "दूसरी संस्कृतियों को समझने से पहले गाँधीजी किसकी गहरी समझ चाहते हैं?",
+      "originalOptions": [
+        "अपनी संस्कृति की",
+        "केवल अमेरिकी संस्कृति की",
+        "केवल अंग्रेजी साहित्य की",
+        "किसी संस्कृति की नहीं"
+      ],
+      "answerText": "अपनी संस्कृति की",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 78,
+      "options": [
+        "अपनी संस्कृति की",
+        "किसी संस्कृति की नहीं",
+        "केवल अंग्रेजी साहित्य की",
+        "केवल अमेरिकी संस्कृति की"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "अपनी संस्कृति को जाने बिना केवल उसका ज्ञान रखना किसके समान बताया गया है?",
+      "originalOptions": [
+        "मसाले में रखी लाश",
+        "खिलते हुए फूल",
+        "बहती हुई नदी",
+        "जीवित परंपरा"
+      ],
+      "answerText": "मसाले में रखी लाश",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 79,
+      "options": [
+        "मसाले में रखी लाश",
+        "जीवित परंपरा",
+        "खिलते हुए फूल",
+        "बहती हुई नदी"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी अपनी संस्कृति के ज्ञान के साथ किस बात पर जोर देते हैं?",
+      "originalOptions": [
+        "उसके अनुसार आचरण करने पर",
+        "दूसरी संस्कृतियों के बहिष्कार पर",
+        "मातृभाषा भूलने पर",
+        "केवल पुस्तकीय अध्ययन पर"
+      ],
+      "answerText": "उसके अनुसार आचरण करने पर",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 80,
+      "options": [
+        "दूसरी संस्कृतियों के बहिष्कार पर",
+        "केवल पुस्तकीय अध्ययन पर",
+        "मातृभाषा भूलने पर",
+        "उसके अनुसार आचरण करने पर"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी का धर्म दूसरी संस्कृतियों के प्रति किस व्यवहार का निषेध करता है?",
+      "originalOptions": [
+        "उन्हें तुच्छ समझने या उपेक्षा करने का",
+        "उनसे सीखने का",
+        "उनकी समझ विकसित करने का",
+        "उनसे संवाद करने का"
+      ],
+      "answerText": "उन्हें तुच्छ समझने या उपेक्षा करने का",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 81,
+      "options": [
+        "उनसे सीखने का",
+        "उनसे संवाद करने का",
+        "उनकी समझ विकसित करने का",
+        "उन्हें तुच्छ समझने या उपेक्षा करने का"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "किसी संस्कृति के जीवित रहने के लिए गाँधीजी किस प्रवृत्ति को अनुचित मानते हैं?",
+      "originalOptions": [
+        "दूसरों का बहिष्कार",
+        "परस्पर प्रभाव",
+        "संस्कृतियों का मेल",
+        "संवाद और आदान-प्रदान"
+      ],
+      "answerText": "दूसरों का बहिष्कार",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 82,
+      "options": [
+        "संस्कृतियों का मेल",
+        "संवाद और आदान-प्रदान",
+        "दूसरों का बहिष्कार",
+        "परस्पर प्रभाव"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘प्रत्येक’ शब्द का सही संधि-विच्छेद क्या है?",
+      "originalOptions": [
+        "प्रति + एक",
+        "प्र + त्येक",
+        "प्रत् + येक",
+        "प्रति + येक"
+      ],
+      "answerText": "प्रति + एक",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 83,
+      "options": [
+        "प्रति + येक",
+        "प्र + त्येक",
+        "प्रति + एक",
+        "प्रत् + येक"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "दूसरी संस्कृतियों की हवा के बीच गाँधीजी क्या नहीं चाहते?",
+      "originalOptions": [
+        "किसी एक के झोंके में उड़ जाना",
+        "विदेशी साहित्य पढ़ना",
+        "दूसरी भाषाएँ सीखना",
+        "विचारों का आदान-प्रदान"
+      ],
+      "answerText": "किसी एक के झोंके में उड़ जाना",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 84,
+      "options": [
+        "किसी एक के झोंके में उड़ जाना",
+        "विचारों का आदान-प्रदान",
+        "विदेशी साहित्य पढ़ना",
+        "दूसरी भाषाएँ सीखना"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी भारतवासियों से मातृभाषा के प्रति कैसा व्यवहार चाहते हैं?",
+      "originalOptions": [
+        "उसे न भूलें और न उपेक्षा करें",
+        "उस पर शर्म करें",
+        "केवल घर में बोलें",
+        "उसे विदेशी भाषा से बदल दें"
+      ],
+      "answerText": "उसे न भूलें और न उपेक्षा करें",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 85,
+      "options": [
+        "उसे न भूलें और न उपेक्षा करें",
+        "उसे विदेशी भाषा से बदल दें",
+        "उस पर शर्म करें",
+        "केवल घर में बोलें"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "गाँधीजी के अनुसार भारतीय संस्कृति किसकी प्रतीक है?",
+      "originalOptions": [
+        "विभिन्न संस्कृतियों के सामंजस्य की",
+        "सभी संस्कृतियों के बहिष्कार की",
+        "एक संस्कृति के प्रभुत्व की",
+        "कृत्रिम एकरूपता की"
+      ],
+      "answerText": "विभिन्न संस्कृतियों के सामंजस्य की",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 86,
+      "options": [
+        "कृत्रिम एकरूपता की",
+        "विभिन्न संस्कृतियों के सामंजस्य की",
+        "एक संस्कृति के प्रभुत्व की",
+        "सभी संस्कृतियों के बहिष्कार की"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "भारतीय संस्कृति के सामंजस्य में प्रत्येक संस्कृति के लिए क्या सुरक्षित रहता है?",
+      "originalOptions": [
+        "अपना उचित स्थान",
+        "केवल सीमित भाषा",
+        "एक जैसा रूप",
+        "अलगाव का नियम"
+      ],
+      "answerText": "अपना उचित स्थान",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 87,
+      "options": [
+        "केवल सीमित भाषा",
+        "एक जैसा रूप",
+        "अलगाव का नियम",
+        "अपना उचित स्थान"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "पाठ में किस ढंग के सामंजस्य को भारतीय संस्कृति के अनुकूल कहा गया है?",
+      "originalOptions": [
+        "कुदरती स्वदेशी सामंजस्य",
+        "जबरन एकरूपता",
+        "एक प्रमुख संस्कृति का वर्चस्व",
+        "बहिष्कार पर आधारित मेल"
+      ],
+      "answerText": "कुदरती स्वदेशी सामंजस्य",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 88,
+      "options": [
+        "जबरन एकरूपता",
+        "बहिष्कार पर आधारित मेल",
+        "कुदरती स्वदेशी सामंजस्य",
+        "एक प्रमुख संस्कृति का वर्चस्व"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "अमरीकी ढंग के सामंजस्य में एक प्रमुख संस्कृति क्या करती है?",
+      "originalOptions": [
+        "बाकी संस्कृतियों को हजम कर लेती है",
+        "सबको उचित स्वतंत्र स्थान देती है",
+        "मातृभाषाओं का अनुवाद करती है",
+        "ग्रामोद्योग को बढ़ाती है"
+      ],
+      "answerText": "बाकी संस्कृतियों को हजम कर लेती है",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 89,
+      "options": [
+        "सबको उचित स्वतंत्र स्थान देती है",
+        "बाकी संस्कृतियों को हजम कर लेती है",
+        "मातृभाषाओं का अनुवाद करती है",
+        "ग्रामोद्योग को बढ़ाती है"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘उदात्त’ शब्द का अर्थ शब्द-निधि के अनुसार क्या है?",
+      "originalOptions": [
+        "उन्नत",
+        "संकीर्ण",
+        "मशीनी",
+        "अविभक्त"
+      ],
+      "answerText": "उन्नत",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 90,
+      "options": [
+        "संकीर्ण",
+        "मशीनी",
+        "उन्नत",
+        "अविभक्त"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘सर्वांगीण’ का निकट अर्थ क्या है?",
+      "originalOptions": [
+        "समग्र",
+        "एकपक्षीय",
+        "परवर्ती",
+        "यांत्रिक"
+      ],
+      "answerText": "समग्र",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 91,
+      "options": [
+        "एकपक्षीय",
+        "समग्र",
+        "यांत्रिक",
+        "परवर्ती"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘दस्तकारी’ का सही अर्थ कौन-सा है?",
+      "originalOptions": [
+        "हाथ की कारीगरी",
+        "सामाजिक बहिष्कार",
+        "भोजन का विज्ञान",
+        "शारीरिक कवायद"
+      ],
+      "answerText": "हाथ की कारीगरी",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 92,
+      "options": [
+        "सामाजिक बहिष्कार",
+        "शारीरिक कवायद",
+        "हाथ की कारीगरी",
+        "भोजन का विज्ञान"
+      ],
+      "correctLetter": "C",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘अग्रदूत’ किसे कहते हैं?",
+      "originalOptions": [
+        "आगे-आगे चलने वाले को",
+        "पीछे रहने वाले को",
+        "निर्वाह करने वाले को",
+        "यंत्र चलाने वाले को"
+      ],
+      "answerText": "आगे-आगे चलने वाले को",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 93,
+      "options": [
+        "आगे-आगे चलने वाले को",
+        "पीछे रहने वाले को",
+        "निर्वाह करने वाले को",
+        "यंत्र चलाने वाले को"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": false
+    },
+    {
+      "question": "‘आत्मोत्सर्ग’ का अर्थ क्या है?",
+      "originalOptions": [
+        "आत्म-त्याग",
+        "आत्म-प्रशंसा",
+        "आत्म-संदेह",
+        "आत्म-विस्मृति"
+      ],
+      "answerText": "आत्म-त्याग",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 94,
+      "options": [
+        "आत्म-विस्मृति",
+        "आत्म-संदेह",
+        "आत्म-प्रशंसा",
+        "आत्म-त्याग"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘कूपमंडूक’ शब्द किस प्रवृत्ति का बोध कराता है?",
+      "originalOptions": [
+        "संकीर्ण दृष्टि",
+        "वैज्ञानिक दक्षता",
+        "उदार सामंजस्य",
+        "स्वावलंबन"
+      ],
+      "answerText": "संकीर्ण दृष्टि",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 95,
+      "options": [
+        "वैज्ञानिक दक्षता",
+        "संकीर्ण दृष्टि",
+        "उदार सामंजस्य",
+        "स्वावलंबन"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘हृदयांकित’ का अर्थ शब्द-निधि में क्या दिया गया है?",
+      "originalOptions": [
+        "हृदय में अंकित",
+        "हृदय से अलग",
+        "मस्तिष्क से निकला",
+        "हाथ से निर्मित"
+      ],
+      "answerText": "हृदय में अंकित",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 96,
+      "options": [
+        "हृदय में अंकित",
+        "हृदय से अलग",
+        "हाथ से निर्मित",
+        "मस्तिष्क से निकला"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘अविभाज्य’ का सही अर्थ क्या है?",
+      "originalOptions": [
+        "जिसे अलग-अलग न बाँटा जा सके",
+        "जो आसानी से टूट जाए",
+        "जो केवल यांत्रिक हो",
+        "जो एकांगी हो"
+      ],
+      "answerText": "जिसे अलग-अलग न बाँटा जा सके",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 97,
+      "options": [
+        "जो आसानी से टूट जाए",
+        "जो एकांगी हो",
+        "जो केवल यांत्रिक हो",
+        "जिसे अलग-अलग न बाँटा जा सके"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘रक्तरंजित’ का उचित विग्रह कौन-सा है?",
+      "originalOptions": [
+        "रक्त से रंजित",
+        "रक्त का रंग",
+        "रक्त और रंजित",
+        "रंजित के लिए रक्त"
+      ],
+      "answerText": "रक्त से रंजित",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 98,
+      "options": [
+        "रक्त का रंग",
+        "रक्त से रंजित",
+        "रक्त और रंजित",
+        "रंजित के लिए रक्त"
+      ],
+      "correctLetter": "B",
+      "optionOrderChanged": true
+    },
+    {
+      "question": "‘तालीम’ का सही पर्यायवाची क्या है?",
+      "originalOptions": [
+        "शिक्षा",
+        "विरोध",
+        "दक्षता",
+        "निर्वाह"
+      ],
+      "answerText": "शिक्षा",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 99,
+      "options": [
+        "शिक्षा",
+        "विरोध",
+        "दक्षता",
+        "निर्वाह"
+      ],
+      "correctLetter": "A",
+      "optionOrderChanged": false
+    },
+    {
+      "question": "‘मौजूदा’ का समानार्थी शब्द क्या है?",
+      "originalOptions": [
+        "वर्तमान",
+        "परवर्ती",
+        "दूरगामी",
+        "संकीर्ण"
+      ],
+      "answerText": "वर्तमान",
+      "source": "generated",
+      "year": null,
+      "sourceId": null,
+      "rawChoice": "",
+      "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि",
+      "number": 100,
+      "options": [
+        "दूरगामी",
+        "परवर्ती",
+        "संकीर्ण",
+        "वर्तमान"
+      ],
+      "correctLetter": "D",
+      "optionOrderChanged": true
+    }
+  ],
+  "postGenerationAudit": {
+    "savedPaperFile": "2026-10-26-Hindi-Class-10th-Chapter-12-question-paper.html",
+    "savedAnswerKeyFile": "2026-10-26-Hindi-Class-10th-Chapter-12-AnswerKey-16-Up-Duplex.html",
+    "questionCountCompared": 100,
+    "status": "passed",
+    "comparisonRows": [
+      {
+        "number": 1,
+        "correctOptionText": "हृदय की शिक्षा",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 2,
+        "correctOptionText": "1893 ई० से 1914 ई. तक",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 3,
+        "correctOptionText": "हृदय की शिक्षा",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 4,
+        "correctOptionText": "महात्मा गाँधी",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 5,
+        "correctOptionText": "1915 ई० में",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 6,
+        "correctOptionText": "करमचंद गाँधी",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 7,
+        "correctOptionText": "महात्मा गाँधी",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 8,
+        "correctOptionText": "महात्मा गाँधी",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 9,
+        "correctOptionText": "करमचंद गाँधी",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 10,
+        "correctOptionText": "महात्मा गाँधी का",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 11,
+        "correctOptionText": "रवीन्द्रनाथ टैगोर ने",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 12,
+        "correctOptionText": "महात्मा गाँधी ने",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 13,
+        "correctOptionText": "30 जनवरी, 1948 ई० में",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 14,
+        "correctOptionText": "हृदय की शिक्षा",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 15,
+        "correctOptionText": "अहिंसा और सत्याग्रह",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 16,
+        "correctOptionText": "महात्मा गाँधी",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 17,
+        "correctOptionText": "लंदन",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 18,
+        "correctOptionText": "2 अक्टूबर 1869",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 19,
+        "correctOptionText": "पोरबंदर, गुजरात",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 20,
+        "correctOptionText": "पुतलीबाई",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 21,
+        "correctOptionText": "पोरबंदर और उसके आस-पास",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 22,
+        "correctOptionText": "कस्तूरबा",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 23,
+        "correctOptionText": "स्वाधीनता संग्राम में",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 24,
+        "correctOptionText": "दक्षिण अफ्रीका में",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 25,
+        "correctOptionText": "स्वाधीनता संग्राम",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 26,
+        "correctOptionText": "स्वराज की",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 27,
+        "correctOptionText": "जाति-धर्म के विभेद",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 28,
+        "correctOptionText": "सर्वोदय",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 29,
+        "correctOptionText": "विदेशी निर्भरता और विभेद का",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 30,
+        "correctOptionText": "राष्ट्र के प्रति",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 31,
+        "correctOptionText": "नई दिल्ली",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 32,
+        "correctOptionText": "2 अक्टूबर को जयंती",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 33,
+        "correctOptionText": "हरिजन और यंग इंडिया",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 34,
+        "correctOptionText": "महात्मा गाँधी",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 35,
+        "correctOptionText": "अहिंसक प्रतिरोध",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 36,
+        "correctOptionText": "अक्षर-ज्ञान से पहले",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 37,
+        "correctOptionText": "आत्मा, सत्य और प्रेम का",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 38,
+        "correctOptionText": "घृणा को",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 39,
+        "correctOptionText": "असत्य पर",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 40,
+        "correctOptionText": "हिंसा को",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 41,
+        "correctOptionText": "टॉल्सटॉय फार्म",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 42,
+        "correctOptionText": "फिनिक्स आश्रम",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 43,
+        "correctOptionText": "शरीर की स्थूल इन्द्रियों के",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 44,
+        "correctOptionText": "हाथ, पैर, आँख, कान और नाक",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 45,
+        "correctOptionText": "बुद्धि का",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 46,
+        "correctOptionText": "एकांगी",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 47,
+        "correctOptionText": "अपना काम स्वयं करने की क्षमता",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 48,
+        "correctOptionText": "शारीरिक और आध्यात्मिक",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 49,
+        "correctOptionText": "ये अविभाज्य हैं",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 50,
+        "correctOptionText": "शरीर, बुद्धि और आत्मा के उत्तम गुण",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 51,
+        "correctOptionText": "शिक्षा देने का",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 52,
+        "correctOptionText": "उपयोगी दस्तकारी सिखाने से",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 53,
+        "correctOptionText": "वैज्ञानिक ढंग से",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 54,
+        "correctOptionText": "प्रत्येक प्रक्रिया का कारण",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 55,
+        "correctOptionText": "दस्तकारी या उद्योगों के द्वारा",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 56,
+        "correctOptionText": "सफाई और तन्दुरुस्ती",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 57,
+        "correctOptionText": "अपना काम आप करना",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 58,
+        "correctOptionText": "माता-पिता की",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 59,
+        "correctOptionText": "स्वच्छता और स्वावलंबन",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 60,
+        "correctOptionText": "संगीतमय कवायद",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 61,
+        "correctOptionText": "प्राथमिक शिक्षा",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 62,
+        "correctOptionText": "सामाजिक क्रान्ति की",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 63,
+        "correctOptionText": "स्वास्थ्यप्रद और नैतिक",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 64,
+        "correctOptionText": "देहातों के बढ़ते हास को",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 65,
+        "correctOptionText": "गरीब-अमीर के भेद को",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 66,
+        "correctOptionText": "गुजर के लायक काम और स्वतंत्रता",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 67,
+        "correctOptionText": "रक्तरंजित वर्गयुद्ध और भारी पूँजी-व्यय के बिना",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 68,
+        "correctOptionText": "विदेशी मशीनरी और दक्षता पर निर्भरता",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 69,
+        "correctOptionText": "स्वयं जनसाधारण के",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 70,
+        "correctOptionText": "व्यक्त",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 71,
+        "correctOptionText": "साहस, बल और सदाचार",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 72,
+        "correctOptionText": "आत्मोत्सर्ग की",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 73,
+        "correctOptionText": "बड़े उद्देश्य का",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 74,
+        "correctOptionText": "देशी भाषाओं में अनुवाद द्वारा",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 75,
+        "correctOptionText": "अच्छे अनुवाद",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 76,
+        "correctOptionText": "रूसी",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 77,
+        "correctOptionText": "अनुवाद करने वाले विद्यार्थी",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 78,
+        "correctOptionText": "अपनी संस्कृति की",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 79,
+        "correctOptionText": "मसाले में रखी लाश",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 80,
+        "correctOptionText": "उसके अनुसार आचरण करने पर",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 81,
+        "correctOptionText": "उन्हें तुच्छ समझने या उपेक्षा करने का",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 82,
+        "correctOptionText": "दूसरों का बहिष्कार",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 83,
+        "correctOptionText": "प्रति + एक",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 84,
+        "correctOptionText": "किसी एक के झोंके में उड़ जाना",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 85,
+        "correctOptionText": "उसे न भूलें और न उपेक्षा करें",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 86,
+        "correctOptionText": "विभिन्न संस्कृतियों के सामंजस्य की",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 87,
+        "correctOptionText": "अपना उचित स्थान",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 88,
+        "correctOptionText": "कुदरती स्वदेशी सामंजस्य",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 89,
+        "correctOptionText": "बाकी संस्कृतियों को हजम कर लेती है",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 90,
+        "correctOptionText": "उन्नत",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 91,
+        "correctOptionText": "समग्र",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 92,
+        "correctOptionText": "हाथ की कारीगरी",
+        "paperLetter": "C",
+        "answerKeyLetter": "C",
+        "status": "passed"
+      },
+      {
+        "number": 93,
+        "correctOptionText": "आगे-आगे चलने वाले को",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 94,
+        "correctOptionText": "आत्म-त्याग",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 95,
+        "correctOptionText": "संकीर्ण दृष्टि",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 96,
+        "correctOptionText": "हृदय में अंकित",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 97,
+        "correctOptionText": "जिसे अलग-अलग न बाँटा जा सके",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      },
+      {
+        "number": 98,
+        "correctOptionText": "रक्त से रंजित",
+        "paperLetter": "B",
+        "answerKeyLetter": "B",
+        "status": "passed"
+      },
+      {
+        "number": 99,
+        "correctOptionText": "शिक्षा",
+        "paperLetter": "A",
+        "answerKeyLetter": "A",
+        "status": "passed"
+      },
+      {
+        "number": 100,
+        "correctOptionText": "वर्तमान",
+        "paperLetter": "D",
+        "answerKeyLetter": "D",
+        "status": "passed"
+      }
+    ]
+  }
+}
