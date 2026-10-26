@@ -1,0 +1,7 @@
+.git
+.github
+firebase-debug.log
+omr-scanner/roster.local.json
+omr-scanner/roster.local.csv
+roster.local.json
+roster.local.csv

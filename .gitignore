@@ -13,3 +13,8 @@ google_forms_report.json
 /records/
 
 .vercel
+roster.local.json
+roster.local.csv
+omr-scanner/roster.local.json
+omr-scanner/roster.local.csv
+desktop.ini
