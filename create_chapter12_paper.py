@@ -5,7 +5,7 @@ from html import escape
 from pathlib import Path
 
 ROOT = Path.cwd()
-DATE = "2026-10-26"
+DATE = "2026-10-27"
 STEM = f"{DATE}-Hindi-Class-10th-Chapter-12"
 PAPER = ROOT / f"{STEM}-question-paper.html"
 KEYFILE = ROOT / f"{STEM}-AnswerKey-16-Up-Duplex.html"
@@ -142,7 +142,8 @@ def main():
     for q, options, answer in G:
         if len(options) != 4 or len(set(options)) != 4 or options.count(answer) != 1:
             raise ValueError(f"Bad generated item: {q}")
-        items.append({"question": q, "originalOptions": options, "answerText": answer,
+        concise_q = re.sub(r"^(?:गाँधीजी के अनुसार|गाँधीजी के विचार में|गाँधीजी की योजना में|पाठ के अनुसार|पाठ में)\s*", "", q)
+        items.append({"question": concise_q, "originalOptions": options, "answerText": answer,
                       "source": "generated", "year": None, "sourceId": None,
                       "rawChoice": "", "provenance": "अध्याय-पाठ/बोध-अभ्यास/भाषा-भाग/शब्द-निधि"})
     if len(items) != 100:

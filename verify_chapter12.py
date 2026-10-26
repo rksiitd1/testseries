@@ -4,7 +4,7 @@ from collections import Counter
 from html.parser import HTMLParser
 from pathlib import Path
 
-stem = "2026-10-26-Hindi-Class-10th-Chapter-12"
+stem = "2026-10-27-Hindi-Class-10th-Chapter-12"
 record = json.loads(Path(stem + "-record.json").read_text(encoding="utf-8"))
 paper_path = Path(stem + "-question-paper.html")
 key_path = Path(stem + "-AnswerKey-16-Up-Duplex.html")
@@ -61,8 +61,8 @@ for i,(q,r,letter) in enumerate(zip(questions,record["questions"],letters),1):
     parsed_text=re.sub(r"^\s*\d+\.\s*","",q["text"].strip())
     if r["source"]=="PYQ" and parsed_text!=r["question"]: errors.append(f"Q{i}: PYQ wording changed")
     comparison.append({"number":i,"correctOptionText":r["answerText"],"paperLetter":letter,"answerKeyLetter":letters[i-1],"status":"passed" if opts["ABCD".index(letter)]==r["answerText"] and r["correctLetter"]==letter else "failed"})
-if "परीक्षा तिथि: 2026-10-26" not in paper or "अधिकतम समय: 60 मिनट" not in paper: errors.append("paper date/duration")
-if 'const CLASS = "10";' not in key or 'const TEST_DATE = "2026-10-26";' not in key: errors.append("key date/class metadata")
+if "परीक्षा तिथि: 2026-10-27" not in paper or "अधिकतम समय: 60 मिनट" not in paper: errors.append("paper date/duration")
+if 'const CLASS = "10";' not in key or 'const TEST_DATE = "2026-10-27";' not in key: errors.append("key date/class metadata")
 if re.search(r"\[(?:QUESTION_TEXT|OPTION_[ABCD]|CHAPTER_NUMBER|CHAPTER_NAME|CLASS|TEST_DATE|MATCHING_PDF_STEM)\]",paper+key): errors.append("template placeholder")
 if sum(x["source"]=="PYQ" for x in record["questions"])!=17: errors.append("PYQ count")
 if sum(x["source"]=="generated" for x in record["questions"])!=83: errors.append("generated count")

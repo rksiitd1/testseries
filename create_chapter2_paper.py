@@ -2,7 +2,7 @@ import json, random, re, html
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-DATE = '2026-08-26'
+DATE = '2026-10-26'
 STEM = f'{DATE}-Biology-Class-10th-Chapter-2'
 PAPER = ROOT / f'{STEM}-question-paper.html'
 KEYFILE = ROOT / f'{STEM}-AnswerKey-16-Up-Duplex.html'
@@ -174,7 +174,7 @@ oldpaper=(ROOT/'2026-10-25-Biology-Class-10th-Chapter-1-question-paper.html').re
 oldkey=(ROOT/'2026-10-25-Biology-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex.html').read_text(encoding='utf-8')
 paper=oldpaper.replace('<title>2026-10-25-Biology-Class-10th-Chapter-1-question-paper</title>',f'<title>{STEM}-question-paper</title>')
 paper=paper.replace('<h1>Biology - Life Processes and Nutrition</h1>', '<h1>Biology - श्वसन</h1>')
-paper=paper.replace('अध्याय 1 | वस्तुनिष्ठ प्रश्न | कक्षा 10 | परीक्षा तिथि: 2026-10-25','अध्याय 2 | वस्तुनिष्ठ प्रश्न | कक्षा 10 | परीक्षा तिथि: 2026-08-26')
+paper=paper.replace('अध्याय 1 | वस्तुनिष्ठ प्रश्न | कक्षा 10 | परीक्षा तिथि: 2026-10-25',f'अध्याय 2 | वस्तुनिष्ठ प्रश्न | कक्षा 10 | परीक्षा तिथि: {DATE}')
 start=paper.index('    <div class="q">', paper.index('section-header'))
 end=paper.index('\n  </div>\n\n  <script>', start)
 blocks=[]
@@ -184,9 +184,9 @@ for q in questions:
     blocks.append(f'''    <div class="q">\n      <span class="t">{q['number']}. {html.escape(q['question'])}</span>\n      <div class="o {cls}">\n        <div>(A) {html.escape(q['options']['A'])}</div>\n        <div>(B) {html.escape(q['options']['B'])}</div>\n        <div>(C) {html.escape(q['options']['C'])}</div>\n        <div>(D) {html.escape(q['options']['D'])}</div>\n      </div>\n    </div>''')
 paper=paper[:start]+'\n'.join(blocks)+paper[end:]
 key=oldkey.replace('<title>2026-10-25-Biology-Class-10th-Chapter-1-AnswerKey-16-Up-Duplex</title>',f'<title>{STEM}-AnswerKey-16-Up-Duplex</title>')
-key=key.replace('const CHAPTER = "1";', 'const CHAPTER = "2";').replace('const CHAPTER_NAME = "Life Processes and Nutrition";', 'const CHAPTER_NAME = "श्वसन";').replace('const TEST_DATE = "2026-10-25";', 'const TEST_DATE = "2026-08-26";')
+key=key.replace('const CHAPTER = "1";', 'const CHAPTER = "2";').replace('const CHAPTER_NAME = "Life Processes and Nutrition";', 'const CHAPTER_NAME = "श्वसन";').replace('const TEST_DATE = "2026-10-25";', f'const TEST_DATE = "{DATE}";')
 key=re.sub(r'const KEY = \[.*?\];', 'const KEY = [\n  '+', '.join(json.dumps(x['answer']) for x in questions)+'\n];', key, flags=re.S)
 PAPER.write_text(paper,encoding='utf-8')
 KEYFILE.write_text(key,encoding='utf-8')
-RECORD.write_text(json.dumps({'metadata':{'class':10,'subject':'Biology','chapter':'श्वसन','chapter_number':2,'test_date':'2026-08-26','total_questions':100,'source':'User-supplied pasted chapter text'},'questions':questions},ensure_ascii=False,indent=2),encoding='utf-8')
+RECORD.write_text(json.dumps({'metadata':{'class':10,'subject':'Biology','chapter':'श्वसन','chapter_number':2,'test_date':DATE,'total_questions':100,'source':'User-supplied pasted chapter text'},'questions':questions},ensure_ascii=False,indent=2),encoding='utf-8')
 print(f'Created {len(questions)} questions; key distribution: '+str({l:letters.count(l) for l in 'ABCD'}))
