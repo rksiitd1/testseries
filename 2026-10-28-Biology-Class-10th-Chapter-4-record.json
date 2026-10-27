@@ -1,0 +1,1427 @@
+{
+  "metadata": {
+    "class": 10,
+    "subject": "Biology",
+    "chapter": "उत्सर्जन",
+    "chapter_number": 4,
+    "test_date": "2026-10-28",
+    "total_questions": 100,
+    "source": "अध्याय-4-उत्सर्जन-पूरा-चैप्टर-markdown.md"
+  },
+  "questions": [
+    {
+      "number": 1,
+      "topic": "उत्सर्जन का आधार",
+      "question": "उपापचयी क्रियाओं के फलस्वरूप बने अनावश्यक और विषाक्त पदार्थ क्या कहलाते हैं?",
+      "options": [
+        "संवहन ऊतक",
+        "पाचक एंजाइम",
+        "हार्मोन",
+        "उत्सर्जी पदार्थ"
+      ],
+      "correct_answer_text": "उत्सर्जी पदार्थ",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 2,
+      "topic": "उत्सर्जन का आधार",
+      "question": "शरीर में उत्सर्जी पदार्थों के जमा होने से मुख्य हानि क्या होती है?",
+      "options": [
+        "रक्त का pH हमेशा 7 हो जाता है",
+        "सभी उपापचयी क्रियाएँ तेज होती हैं",
+        "ऊतक विषाक्त हो सकते हैं",
+        "ऊतक में जल-संतुलन स्थायी रूप से बढ़ता है"
+      ],
+      "correct_answer_text": "ऊतक विषाक्त हो सकते हैं",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 3,
+      "topic": "उत्सर्जन का आधार",
+      "question": "उपापचय से बने अपशिष्टों को शरीर से बाहर निकालने की क्रिया क्या है?",
+      "options": [
+        "उत्सर्जन",
+        "पाचन",
+        "अवशोषण",
+        "परिवहन"
+      ],
+      "correct_answer_text": "उत्सर्जन",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 4,
+      "topic": "उत्सर्जन का आधार",
+      "question": "शरीर में जल की मात्रा के संतुलन की प्रक्रिया क्या कहलाती है?",
+      "options": [
+        "वाष्पोत्सर्जन",
+        "जल-संतुलन या परासरण-नियमन",
+        "ग्लोमेरुलर फिल्ट्रेशन",
+        "ट्यूबुलर स्रावण"
+      ],
+      "correct_answer_text": "जल-संतुलन या परासरण-नियमन",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 5,
+      "topic": "उत्सर्जन का आधार",
+      "question": "अध्याय के अनुसार उत्सर्जन और जल-संतुलन की क्रियाएँ सामान्यतः कैसी चलती हैं?",
+      "options": [
+        "केवल पौधों में",
+        "केवल भोजन के बाद",
+        "एक-दूसरे के बिल्कुल विपरीत समय पर",
+        "साथ-साथ"
+      ],
+      "correct_answer_text": "साथ-साथ",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 6,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "कार्बनिक अणुओं के विखंडन से बनने वाला प्रमुख उत्सर्जी पदार्थ कौन-सा है?",
+      "options": [
+        "यूरिया",
+        "यूरिक अम्ल",
+        "कार्बन डाइऑक्साइड",
+        "सोडियम क्लोराइड"
+      ],
+      "correct_answer_text": "कार्बन डाइऑक्साइड",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 7,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "नाइट्रोजनी उत्सर्जी पदार्थों का निर्माण मुख्यतः किनके विखंडन से होता है?",
+      "options": [
+        "प्रोटीन और एमीनो अम्ल",
+        "ग्लूकोस और लवण",
+        "विटामिन और स्टार्च",
+        "कार्बन डाइऑक्साइड और जल"
+      ],
+      "correct_answer_text": "प्रोटीन और एमीनो अम्ल",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 8,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "प्रोटीन विखंडन से सबसे शीघ्र बनने वाला नाइट्रोजनी पदार्थ कौन है?",
+      "options": [
+        "यूरिया",
+        "अमोनिया",
+        "यूरोक्रोम",
+        "यूरिक अम्ल"
+      ],
+      "correct_answer_text": "अमोनिया",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 9,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "अमोनिया जंतुओं के लिए किस कारण विशेष रूप से हानिकारक है?",
+      "options": [
+        "यह जल में अघुलनशील है",
+        "यह प्रोटीन बनाता है",
+        "यह केवल पौधों में बनता है",
+        "यह अत्यंत विषैला है"
+      ],
+      "correct_answer_text": "यह अत्यंत विषैला है",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 10,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "अध्याय के अनुसार जलीय जंतुओं, विशेषकर अकशेरुकों में अमोनिया कहाँ निष्कासित हो जाती है?",
+      "options": [
+        "मृदा में",
+        "मूत्राशय में",
+        "पुराने जाइलम में",
+        "जल में"
+      ],
+      "correct_answer_text": "जल में",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 11,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "स्थलीय जंतुओं में अमोनिया शीघ्र किस कम विषैले यौगिक में बदल जाती है?",
+      "options": [
+        "यूरोक्रोम",
+        "यूरिक अम्ल",
+        "यूरिया",
+        "सोडियम क्लोराइड"
+      ],
+      "correct_answer_text": "यूरिया",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 12,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "अमोनिया की तुलना में यूरिया कैसा यौगिक बताया गया है?",
+      "options": [
+        "कम जटिल और अधिक विषैला",
+        "अधिक जटिल, पर कम विषैला",
+        "गैर-नाइट्रोजनी और अघुलनशील",
+        "अधिक घुलनशील और अधिक विषैला"
+      ],
+      "correct_answer_text": "अधिक जटिल, पर कम विषैला",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 13,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "स्थलीय जंतुओं में नाइट्रोजनी पदार्थ सामान्यतः किस रूप में निष्कासित होते हैं?",
+      "options": [
+        "कार्बन डाइऑक्साइड",
+        "अमोनिया ही",
+        "यूरिया",
+        "यूरोक्रोम"
+      ],
+      "correct_answer_text": "यूरिया",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 14,
+      "topic": "उत्सर्जी पदार्थ",
+      "question": "रेप्टीलिया और एवीज में नाइट्रोजनी पदार्थ किस रूप में निष्कासित होते हैं?",
+      "options": [
+        "यूरिक अम्ल",
+        "यूरिया ही",
+        "ग्लूकोस",
+        "अमोनिया ही"
+      ],
+      "correct_answer_text": "यूरिक अम्ल",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 15,
+      "topic": "जंतुओं में उत्सर्जन",
+      "question": "जटिल बहुकोशिकीय जंतुओं में अपशिष्ट निकालने वाली विशेष रचनाएँ क्या कहलाती हैं?",
+      "options": [
+        "पाचक रस",
+        "संवहन बंडल",
+        "श्वसन वर्णक",
+        "उत्सर्जी अंग"
+      ],
+      "correct_answer_text": "उत्सर्जी अंग",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 16,
+      "topic": "जंतुओं में उत्सर्जन",
+      "question": "अमीबा में विशेष उत्सर्जी अंगों की स्थिति क्या है?",
+      "options": [
+        "नेफ्रॉन होते हैं",
+        "विशेष उत्सर्जी अंग नहीं होते",
+        "मूत्राशय होता है",
+        "दो वृक्क होते हैं"
+      ],
+      "correct_answer_text": "विशेष उत्सर्जी अंग नहीं होते",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 17,
+      "topic": "जंतुओं में उत्सर्जन",
+      "question": "अमीबा में नाइट्रोजनी उत्सर्जी पदार्थ मुख्यतः कौन-सा है?",
+      "options": [
+        "यूरोक्रोम",
+        "यूरिक अम्ल",
+        "यूरिया",
+        "अमोनिया"
+      ],
+      "correct_answer_text": "अमोनिया",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 18,
+      "topic": "जंतुओं में उत्सर्जन",
+      "question": "अमीबा में उत्सर्जी पदार्थ शरीर की किस सतह से बाहर निकलते हैं?",
+      "options": [
+        "गिल्स",
+        "प्लाज्मालेमा या शरीर की सतह",
+        "रंध्र",
+        "मूत्रवाहिनी"
+      ],
+      "correct_answer_text": "प्लाज्मालेमा या शरीर की सतह",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 19,
+      "topic": "जंतुओं में उत्सर्जन",
+      "question": "अमीबा में उत्सर्जी पदार्थ बाहर निकलने की विधि क्या है?",
+      "options": [
+        "विसरण",
+        "हिमोडायलिसिस",
+        "अल्ट्राफिल्ट्रेशन",
+        "ट्यूबुलर पुनरवशोषण"
+      ],
+      "correct_answer_text": "विसरण",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 20,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "मनुष्य में सबसे महत्वपूर्ण उत्सर्जी अंग कौन-सा है?",
+      "options": [
+        "वृक्क",
+        "मूत्राशय",
+        "मूत्रवाहिनी",
+        "मूत्रमार्ग"
+      ],
+      "correct_answer_text": "वृक्क",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 21,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "वृक्क से संबद्ध उत्सर्जन अंगों का सही समूह कौन-सा है?",
+      "options": [
+        "गिल्स, फेफड़े और श्वास-नलिका",
+        "यकृत, अग्न्याशय और आमाशय",
+        "मूत्रवाहिनी, मूत्राशय और मूत्रमार्ग",
+        "मूत्राशय, फेफड़े और रंध्र"
+      ],
+      "correct_answer_text": "मूत्रवाहिनी, मूत्राशय और मूत्रमार्ग",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 22,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "मनुष्य में वृक्कों की संख्या कितनी होती है?",
+      "options": [
+        "चार",
+        "तीन जोड़े",
+        "एक",
+        "एक जोड़ा"
+      ],
+      "correct_answer_text": "एक जोड़ा",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 23,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "कौन-सा वृक्क अपेक्षाकृत ऊपर स्थित होता है?",
+      "options": [
+        "दोनों समान ऊँचाई पर",
+        "बायाँ वृक्क",
+        "स्थिति बदलती नहीं",
+        "दायाँ वृक्क"
+      ],
+      "correct_answer_text": "बायाँ वृक्क",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 24,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "वृक्क का आकार किस बीज के समान बताया गया है?",
+      "options": [
+        "सरसों",
+        "मटर",
+        "गेहूँ",
+        "सेम"
+      ],
+      "correct_answer_text": "सेम",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 25,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "वृक्क की भीतरी नतोदर सतह को क्या कहते हैं?",
+      "options": [
+        "कॉर्टेक्स",
+        "हाइलम",
+        "ट्राइगोन",
+        "मेडुला"
+      ],
+      "correct_answer_text": "हाइलम",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 26,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "वृक्क-धमनी वृक्क में कहाँ से प्रवेश करती है?",
+      "options": [
+        "मूत्रमार्ग से",
+        "मूत्राशय से",
+        "हाइलम से",
+        "वृक्क-शंकु के शीर्ष से"
+      ],
+      "correct_answer_text": "हाइलम से",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 27,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "वृक्क से निकलने वाली मूत्रवाहिनी का थोड़ा मोटा शीर्ष भाग क्या कहलाता है?",
+      "options": [
+        "ट्राइगोन",
+        "मूत्रमार्ग",
+        "मूत्रवाहिनी की श्रोणि",
+        "हाइलम"
+      ],
+      "correct_answer_text": "मूत्रवाहिनी की श्रोणि",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 28,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "मूत्रवाहिनी अंततः किस रचना में खुलती है?",
+      "options": [
+        "मूत्राशय",
+        "हाइलम",
+        "मूत्रमार्ग",
+        "ग्लोमेरुलस"
+      ],
+      "correct_answer_text": "मूत्राशय",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 29,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "मूत्राशय का वर्णन किस विकल्प में सही है?",
+      "options": [
+        "प्याले के आकार की केशिका",
+        "सेम के आकार का ठोस अंग",
+        "नाशपाती के आकार की पतली दीवार वाली थैली",
+        "पिरामिडाकार मांसपेशी"
+      ],
+      "correct_answer_text": "नाशपाती के आकार की पतली दीवार वाली थैली",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 30,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "मूत्राशय से मूत्र को शरीर के बाहर ले जाने वाली नली क्या है?",
+      "options": [
+        "वृक्क-धमनी",
+        "मूत्रमार्ग",
+        "मूत्रवाहिनी",
+        "संग्राहक नलिका"
+      ],
+      "correct_answer_text": "मूत्रमार्ग",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 31,
+      "topic": "मनुष्य का मूत्रतंत्र",
+      "question": "मूत्रमार्ग शरीर से किस छिद्र द्वारा बाहर खुलता है?",
+      "options": [
+        "मूत्रद्वार",
+        "ग्लोमेरुलस",
+        "ट्राइगोन",
+        "हाइलम"
+      ],
+      "correct_answer_text": "मूत्रद्वार",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 32,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "वृक्क बाहर से किससे बने पतले कैप्सूल से ढँका रहता है?",
+      "options": [
+        "रक्त कोशिकाएँ और अस्थि",
+        "संयोजी ऊतक और अंगोखित पेशियाँ",
+        "जाइलम और फ्लोएम",
+        "उपास्थि और उपकला"
+      ],
+      "correct_answer_text": "संयोजी ऊतक और अंगोखित पेशियाँ",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 33,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "वृक्क का बाहरी भाग क्या कहलाता है?",
+      "options": [
+        "अंतस्थ भाग या मेडुला",
+        "ट्राइगोन",
+        "हाइलम",
+        "प्रांतस्थ भाग या कॉर्टेक्स"
+      ],
+      "correct_answer_text": "प्रांतस्थ भाग या कॉर्टेक्स",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 34,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "वृक्क का भीतरी भाग क्या कहलाता है?",
+      "options": [
+        "प्रांतस्थ भाग या कॉर्टेक्स",
+        "हाइलम",
+        "अंतस्थ भाग या मेडुला",
+        "बोमैन-संपुट"
+      ],
+      "correct_answer_text": "अंतस्थ भाग या मेडुला",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 35,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "वृक्क में लगभग कितनी पिरामिड जैसी वृक्क-शंकु रचनाएँ बताई गई हैं?",
+      "options": [
+        "2–3",
+        "5–6",
+        "15–16",
+        "100–150"
+      ],
+      "correct_answer_text": "15–16",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 36,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "वृक्क की रचनात्मक एवं क्रियात्मक इकाई कौन-सी है?",
+      "options": [
+        "मूत्राशय",
+        "हाइलम",
+        "मूत्रवाहिनी",
+        "नेफ्रॉन"
+      ],
+      "correct_answer_text": "नेफ्रॉन",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 37,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "प्रत्येक वृक्क में लगभग कितने नेफ्रॉन बताए गए हैं?",
+      "options": [
+        "1,000",
+        "10,00,000",
+        "10,000",
+        "10,00,00,000"
+      ],
+      "correct_answer_text": "10,00,000",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 38,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "नेफ्रॉन का आरंभ प्याले जैसी किस रचना से होता है?",
+      "options": [
+        "संग्राहक नली",
+        "बोमैन-संपुट",
+        "मूत्रवाहिनी",
+        "हेनले का चाप"
+      ],
+      "correct_answer_text": "बोमैन-संपुट",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 39,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "बोमैन-संपुट किस रक्त केशिका-जाल को घेरे रहता है?",
+      "options": [
+        "मूत्राशय",
+        "हाइलम",
+        "ट्राइगोन",
+        "ग्लोमेरुलस"
+      ],
+      "correct_answer_text": "ग्लोमेरुलस",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 40,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "बोमैन-संपुट और ग्लोमेरुलस मिलकर क्या बनाते हैं?",
+      "options": [
+        "वृक्क-शंकु",
+        "मूत्राशय ट्राइगोन",
+        "मैलपीगियन कोष",
+        "सामान्य संग्राहक नली"
+      ],
+      "correct_answer_text": "मैलपीगियन कोष",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 41,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "नेफ्रॉन के काय में कौन-से दो कुंडलित भाग बताए गए हैं?",
+      "options": [
+        "अभिवाही और अपवाही",
+        "समीपस्थ और दूरस्थ",
+        "बाहरी और मध्य",
+        "अग्रस्थ और पश्चस्थ"
+      ],
+      "correct_answer_text": "समीपस्थ और दूरस्थ",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 42,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "समीपस्थ भाग नीचे आकर कौन-सा चाप बनाता है?",
+      "options": [
+        "अवरोही चाप",
+        "संग्राहक चाप",
+        "मूत्राशयी चाप",
+        "अधिरोही चाप"
+      ],
+      "correct_answer_text": "अवरोही चाप",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 43,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "अवरोही और अधिरोही चापों के बीच के विशेष भाग का नाम क्या है?",
+      "options": [
+        "मैलपीगियन कोष",
+        "हाइलम",
+        "ट्राइगोन",
+        "हेनले का चाप"
+      ],
+      "correct_answer_text": "हेनले का चाप",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 44,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "अधिरोही चाप आगे किसमें खुलती है?",
+      "options": [
+        "संग्राहक नलिका",
+        "अभिवाही धमनिका",
+        "मूत्रमार्ग",
+        "मूत्राशय"
+      ],
+      "correct_answer_text": "संग्राहक नलिका",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 45,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "अनेक संग्राहक नलिकाएँ मिलकर कौन-सी रचना बनाती हैं?",
+      "options": [
+        "मैलपीगियन कोष",
+        "सामान्य संग्राहक नली",
+        "ग्लोमेरुलस",
+        "वृक्क-धमनी"
+      ],
+      "correct_answer_text": "सामान्य संग्राहक नली",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 46,
+      "topic": "वृक्क की आंतरिक संरचना",
+      "question": "सामान्य संग्राहक नली अंततः किससे जुड़ती है?",
+      "options": [
+        "मूत्रद्वार सीधे",
+        "वृक्क-शिरा",
+        "वृक्क-धमनी",
+        "मूत्रवाहिनी"
+      ],
+      "correct_answer_text": "मूत्रवाहिनी",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 47,
+      "topic": "मूत्र-निर्माण",
+      "question": "वृक्क में मूत्र-निर्माण की प्रक्रिया कितने चरणों में पूरी होती है?",
+      "options": [
+        "पाँच",
+        "दो",
+        "तीन",
+        "चार"
+      ],
+      "correct_answer_text": "तीन",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 48,
+      "topic": "मूत्र-निर्माण",
+      "question": "मूत्र-निर्माण के तीन चरणों का सही क्रम कौन-सा है?",
+      "options": [
+        "ट्यूबुलर स्रावण, विसरण, पाचन",
+        "अल्ट्राफिल्ट्रेशन, श्वसन, वाष्पोत्सर्जन",
+        "पुनरवशोषण, अवशोषण, श्वसन",
+        "ग्लोमेरुलर फिल्ट्रेशन, ट्यूबुलर पुनरवशोषण, ट्यूबुलर स्रावण"
+      ],
+      "correct_answer_text": "ग्लोमेरुलर फिल्ट्रेशन, ट्यूबुलर पुनरवशोषण, ट्यूबुलर स्रावण",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 49,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "ग्लोमेरुलस मुख्यतः किसकी तरह कार्य करता है?",
+      "options": [
+        "छन्ने की तरह",
+        "पंप की तरह",
+        "कपाट की तरह",
+        "मूत्राशय की तरह"
+      ],
+      "correct_answer_text": "छन्ने की तरह",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 50,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "अभिवाही धमनिका का व्यास अपवाही धमनिका की तुलना में कैसा होता है?",
+      "options": [
+        "अधिक",
+        "समान",
+        "शून्य",
+        "कम"
+      ],
+      "correct_answer_text": "अधिक",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 51,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "ग्लोमेरुलस में रक्त-दाब बढ़ने का पाठ में दिया कारण क्या है?",
+      "options": [
+        "अभिवाही धमनिका का व्यास कम है",
+        "मूत्राशय भरा रहता है",
+        "अपवाही धमनिका का व्यास अपेक्षाकृत कम है",
+        "ग्लूकोस वापस रक्त में चला जाता है"
+      ],
+      "correct_answer_text": "अपवाही धमनिका का व्यास अपेक्षाकृत कम है",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 52,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "उच्च दाब पर होने वाले फिल्ट्रेशन को क्या कहते हैं?",
+      "options": [
+        "परासरण-नियमन",
+        "ट्यूबुलर स्रावण",
+        "अल्ट्राफिल्ट्रेशन",
+        "हिमोडायलिसिस"
+      ],
+      "correct_answer_text": "अल्ट्राफिल्ट्रेशन",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 53,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "छने हुए पदार्थ बोमैन-संपुट की दीवार से होकर कहाँ जाते हैं?",
+      "options": [
+        "वृक्क-नलिका में",
+        "वृक्क-शिरा में",
+        "मूत्रवाहिनी में सीधे",
+        "मूत्राशय में सीधे"
+      ],
+      "correct_answer_text": "वृक्क-नलिका में",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 54,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "ग्लोमेरुलर फिल्ट्रेट में सामान्यतः कौन-सा पदार्थ छनकर जाता है?",
+      "options": [
+        "प्लाज्मा-प्रोटीन",
+        "रक्त कोशिकाएँ",
+        "लाल रक्त कणिकाएँ",
+        "ग्लूकोस"
+      ],
+      "correct_answer_text": "ग्लूकोस",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 55,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "बोमैन-संपुट की भित्ति के लिए कौन-से पदार्थ अपारगम्य बताए गए हैं?",
+      "options": [
+        "जल और लवण",
+        "रक्त कोशिकाएँ और प्लाज्मा-प्रोटीन",
+        "ग्लूकोस और यूरिया",
+        "यूरिक अम्ल और जल"
+      ],
+      "correct_answer_text": "रक्त कोशिकाएँ और प्लाज्मा-प्रोटीन",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 56,
+      "topic": "ग्लोमेरुलर फिल्ट्रेशन",
+      "question": "बोमैन-संपुट में छनकर पहुँचे द्रव को क्या कहते हैं?",
+      "options": [
+        "लसीका",
+        "सीरम",
+        "डायलाइजेट",
+        "ग्लोमेरुलर फिल्ट्रेट"
+      ],
+      "correct_answer_text": "ग्लोमेरुलर फिल्ट्रेट",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 57,
+      "topic": "ट्यूबुलर पुनरवशोषण",
+      "question": "नलिकाओं से गुजरते ग्लोमेरुलर फिल्ट्रेट में से कोशिकाएँ क्या करती हैं?",
+      "options": [
+        "रक्त कोशिकाएँ बनाती हैं",
+        "सभी पदार्थों को बाहर फेंक देती हैं",
+        "आवश्यक पदार्थों को पुनः शोषित करती हैं",
+        "केवल प्रोटीन छानती हैं"
+      ],
+      "correct_answer_text": "आवश्यक पदार्थों को पुनः शोषित करती हैं",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 58,
+      "topic": "ट्यूबुलर पुनरवशोषण",
+      "question": "अध्याय के अनुसार सामान्यतः सारा ग्लूकोस किस प्रक्रिया में फिर से शोषित हो जाता है?",
+      "options": [
+        "हिमोडायलिसिस",
+        "ट्यूबुलर पुनरवशोषण",
+        "ट्यूबुलर स्रावण",
+        "ग्लोमेरुलर फिल्ट्रेशन"
+      ],
+      "correct_answer_text": "ट्यूबुलर पुनरवशोषण",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 59,
+      "topic": "ट्यूबुलर पुनरवशोषण",
+      "question": "नेफ्रॉन से पुनः रक्त में लौटने वाले पदार्थों का सही समूह कौन-सा है?",
+      "options": [
+        "जल, ग्लूकोस और एमीनो अम्ल",
+        "कार्बन डाइऑक्साइड, रेजिन और गोंद",
+        "यूरिया, यूरिक अम्ल और अमोनिया",
+        "केवल प्लाज्मा-प्रोटीन"
+      ],
+      "correct_answer_text": "जल, ग्लूकोस और एमीनो अम्ल",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 60,
+      "topic": "ट्यूबुलर पुनरवशोषण",
+      "question": "नेफ्रॉन से पुनः अवशोषित पदार्थ रक्त प्रवाह में किस वाहिका से पहुँचते हैं?",
+      "options": [
+        "मूत्रमार्ग द्वारा",
+        "वृक्क-शिराओं द्वारा",
+        "संग्राहक नली द्वारा",
+        "मूत्रवाहिनियों द्वारा"
+      ],
+      "correct_answer_text": "वृक्क-शिराओं द्वारा",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 61,
+      "topic": "ट्यूबुलर स्रावण",
+      "question": "नलिका की कोशिकाओं से कुछ उत्सर्जी पदार्थ फिल्ट्रेट में मिलें तो यह कौन-सी प्रक्रिया है?",
+      "options": [
+        "ट्यूबुलर स्रावण",
+        "परासरण",
+        "ग्लोमेरुलर फिल्ट्रेशन",
+        "ट्यूबुलर पुनरवशोषण"
+      ],
+      "correct_answer_text": "ट्यूबुलर स्रावण",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 62,
+      "topic": "मूत्र-निर्माण",
+      "question": "जो पदार्थ ग्लोमेरुलर फिल्ट्रेशन में नहीं छनते, वे किसके साथ रक्त प्रवाह में लौटते हैं?",
+      "options": [
+        "मूत्राशय के रास्ते",
+        "मूत्रमार्ग के रास्ते",
+        "अपवाही धमनिका के रास्ते",
+        "मूत्रवाहिनी के रास्ते"
+      ],
+      "correct_answer_text": "अपवाही धमनिका के रास्ते",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 63,
+      "topic": "मूत्र-निर्माण",
+      "question": "मूत्राशय में जमा मूत्र शरीर से समय-समय पर किस रास्ते से बाहर निकलता है?",
+      "options": [
+        "मूत्रमार्ग के छिद्र से",
+        "मूत्रवाहिनी से",
+        "हाइलम से",
+        "वृक्क-शिरा से"
+      ],
+      "correct_answer_text": "मूत्रमार्ग के छिद्र से",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 64,
+      "topic": "मूत्र-निर्माण",
+      "question": "मूत्र बनने के बाद उसे जमा रखने वाली रचना कौन-सी है?",
+      "options": [
+        "मूत्राशय",
+        "बोमैन-संपुट",
+        "ग्लोमेरुलस",
+        "वृक्क-धमनी"
+      ],
+      "correct_answer_text": "मूत्राशय",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 65,
+      "topic": "मूत्र की बनावट",
+      "question": "मूत्र के मुख्य सामान्य घटकों में कौन-सा समूह दिया गया है?",
+      "options": [
+        "रक्त कोशिकाएँ, प्रोटीन और वसा",
+        "रेजिन, टैनिन और गोंद",
+        "जल, यूरिया और सोडियम क्लोराइड",
+        "ग्लूकोस, हीमोग्लोबिन और स्टार्च"
+      ],
+      "correct_answer_text": "जल, यूरिया और सोडियम क्लोराइड",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 66,
+      "topic": "मूत्र की बनावट",
+      "question": "अध्याय में सामान्य मूत्र में जल का अनुपात कितना बताया गया है?",
+      "options": [
+        "4%",
+        "96%",
+        "2%",
+        "30%"
+      ],
+      "correct_answer_text": "96%",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 67,
+      "topic": "मूत्र की बनावट",
+      "question": "अध्याय में सामान्य मूत्र में ठोस पदार्थों का अनुपात कितना है?",
+      "options": [
+        "96%",
+        "30%",
+        "4%",
+        "2 mg"
+      ],
+      "correct_answer_text": "4%",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 68,
+      "topic": "मूत्र की बनावट",
+      "question": "मूत्र के ठोस अंश में यूरिया का हिस्सा लगभग कितना बताया गया है?",
+      "options": [
+        "4%",
+        "96%",
+        "2%",
+        "30%"
+      ],
+      "correct_answer_text": "2%",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 69,
+      "topic": "मूत्र की बनावट",
+      "question": "मूत्र के ठोस अंश में अन्य पदार्थों का हिस्सा लगभग कितना बताया गया है?",
+      "options": [
+        "4 ग्राम",
+        "96%",
+        "30%",
+        "2%"
+      ],
+      "correct_answer_text": "2%",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 70,
+      "topic": "यूरिया और यूरिक अम्ल",
+      "question": "यूरिया किस उपापचय का उपोत्पाद है?",
+      "options": [
+        "प्रोटीन उपापचय",
+        "प्रकाश-संश्लेषण",
+        "कार्बोहाइड्रेट पाचन",
+        "वसा का अवशोषण"
+      ],
+      "correct_answer_text": "प्रोटीन उपापचय",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 71,
+      "topic": "यूरिया और यूरिक अम्ल",
+      "question": "पाठ में यूरिया का निर्माण किससे बताया गया है?",
+      "options": [
+        "लाल रक्त कोशिकाओं से",
+        "एमीनो अम्ल से",
+        "यूरोक्रोम से",
+        "सोडियम क्लोराइड से"
+      ],
+      "correct_answer_text": "एमीनो अम्ल से",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 72,
+      "topic": "यूरिया और यूरिक अम्ल",
+      "question": "100 mL रक्त में यूरिया की सामान्य मात्रा कितनी मानी गई है?",
+      "options": [
+        "96 mg",
+        "1.5–2 g",
+        "30 mg",
+        "2–3 mg"
+      ],
+      "correct_answer_text": "30 mg",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 73,
+      "topic": "यूरिया और यूरिक अम्ल",
+      "question": "100 mL रक्त में यूरिक अम्ल की सामान्य मात्रा कितनी बताई गई है?",
+      "options": [
+        "2–3 mg",
+        "96 mg",
+        "1.5–2 g",
+        "30 mg"
+      ],
+      "correct_answer_text": "2–3 mg",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 74,
+      "topic": "यूरिया और यूरिक अम्ल",
+      "question": "प्रतिदिन मूत्र के साथ लगभग कितना यूरिक अम्ल निष्कासित होता है?",
+      "options": [
+        "2–3 मिलीग्राम",
+        "96 ग्राम",
+        "30 ग्राम",
+        "1.5–2 ग्राम"
+      ],
+      "correct_answer_text": "1.5–2 ग्राम",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 75,
+      "topic": "यूरिया और यूरिक अम्ल",
+      "question": "मूत्र का पीला रंग किस रंजक के कारण होता है?",
+      "options": [
+        "हीमोग्लोबिन",
+        "क्लोरोफिल",
+        "फाइब्रिन",
+        "यूरोक्रोम"
+      ],
+      "correct_answer_text": "यूरोक्रोम",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 76,
+      "topic": "हिमोडायलिसिस",
+      "question": "किन स्थितियों के कारण वृक्क क्षतिग्रस्त हो सकते हैं?",
+      "options": [
+        "वाष्पोत्सर्जन",
+        "संक्रमण, मधुमेह, उच्च रक्तचाप या चोट",
+        "केवल ठंडा पानी",
+        "केवल अधिक भोजन"
+      ],
+      "correct_answer_text": "संक्रमण, मधुमेह, उच्च रक्तचाप या चोट",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 77,
+      "topic": "हिमोडायलिसिस",
+      "question": "वृक्क काम करना बंद कर दें तो शरीर में क्या जमा हो सकता है?",
+      "options": [
+        "केवल ग्लूकोस",
+        "केवल हीमोग्लोबिन",
+        "केवल ऑक्सीजन",
+        "अधिक जल, खनिज और यूरिया जैसे विकार"
+      ],
+      "correct_answer_text": "अधिक जल, खनिज और यूरिया जैसे विकार",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 78,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलिसिस मशीन वृक्क के विकल्प के रूप में क्या कहलाती है?",
+      "options": [
+        "कृत्रिम वृक्क",
+        "मूत्रवाहिनी",
+        "संग्राहक नली",
+        "मैलपीगियन कोष"
+      ],
+      "correct_answer_text": "कृत्रिम वृक्क",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 79,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलाइजर में कौन-सा तरल भरा रहता है?",
+      "options": [
+        "डायलाइजेट या डायलिसिस फ्लूइड",
+        "मूत्र",
+        "ग्लोमेरुलर फिल्ट्रेट",
+        "प्लाज्मा-प्रोटीन"
+      ],
+      "correct_answer_text": "डायलाइजेट या डायलिसिस फ्लूइड",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 80,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलिसिस फ्लूइड की सांद्रता किस द्रव जैसी रखी जाती है?",
+      "options": [
+        "शुद्ध मूत्र",
+        "सामान्य ऊतक द्रव",
+        "रक्त कोशिकाओं",
+        "गाढ़े यूरिया विलयन"
+      ],
+      "correct_answer_text": "सामान्य ऊतक द्रव",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 81,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलिसिस फ्लूइड में किसकी अधिक मात्रा नहीं रखी जाती?",
+      "options": [
+        "सभी विलेय पदार्थ",
+        "सेलोफेन",
+        "जल",
+        "नाइट्रोजनी विकार और लवण"
+      ],
+      "correct_answer_text": "नाइट्रोजनी विकार और लवण",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 82,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलिसिस के समय रोगी का रक्त शरीर से किस वाहिका द्वारा निकाला जाता है?",
+      "options": [
+        "मूत्रवाहिनी",
+        "मूत्रमार्ग",
+        "शिरा",
+        "धमनी"
+      ],
+      "correct_answer_text": "धमनी",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 83,
+      "topic": "हिमोडायलिसिस",
+      "question": "रक्त को तरल अवस्था में बनाए रखने के लिए उसमें क्या मिलाया जाता है?",
+      "options": [
+        "डायलाइजेट",
+        "हीमोग्लोबिन",
+        "प्रतिकंदक",
+        "यूरोक्रोम"
+      ],
+      "correct_answer_text": "प्रतिकंदक",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 84,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलाइजर में रक्त भेजने के लिए किसका उपयोग होता है?",
+      "options": [
+        "मूत्राशय",
+        "रंध्र",
+        "पंप",
+        "ग्लोमेरुलस"
+      ],
+      "correct_answer_text": "पंप",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 85,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलाइजर में रक्त से नाइट्रोजनी विकार कहाँ चले जाते हैं?",
+      "options": [
+        "डायलिसिस फ्लूइड में",
+        "हवा में",
+        "रक्त कोशिकाओं में",
+        "मूत्राशय में सीधे"
+      ],
+      "correct_answer_text": "डायलिसिस फ्लूइड में",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 86,
+      "topic": "हिमोडायलिसिस",
+      "question": "डायलिसिस मशीन द्वारा रक्त शुद्ध करने की प्रक्रिया क्या कहलाती है?",
+      "options": [
+        "ट्यूबुलर स्रावण",
+        "परासरण-नियमन",
+        "हिमोडायलिसिस",
+        "अल्ट्राफिल्ट्रेशन"
+      ],
+      "correct_answer_text": "हिमोडायलिसिस",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 87,
+      "topic": "पादप में उत्सर्जन",
+      "question": "पौधों में जंतुओं की तुलना में किस प्रकार के उत्सर्जन अंग पाए जाते हैं?",
+      "options": [
+        "मूत्राशय होता है",
+        "नेफ्रॉन होते हैं",
+        "विशिष्ट उत्सर्जन अंग नहीं पाए जाते",
+        "दो वृक्क होते हैं"
+      ],
+      "correct_answer_text": "विशिष्ट उत्सर्जन अंग नहीं पाए जाते",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 88,
+      "topic": "पादप में उत्सर्जन",
+      "question": "पौधों में श्वसन से निकली कार्बन डाइऑक्साइड और प्रकाश-संश्लेषण से निकली ऑक्सीजन किससे बाहर जाती हैं?",
+      "options": [
+        "हिमोडायलिसिस द्वारा",
+        "मूत्रवाहिनी द्वारा",
+        "ट्यूबुलर स्रावण द्वारा",
+        "विसरण द्वारा"
+      ],
+      "correct_answer_text": "विसरण द्वारा",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 89,
+      "topic": "पादप में उत्सर्जन",
+      "question": "पत्तियों के अतिरिक्त पौधों में गैसों के निष्कासन के लिए कौन-सी संरचना बताई गई है?",
+      "options": [
+        "हेनले का चाप",
+        "वातरंध्र या लेंटिसेल",
+        "ग्लोमेरुलस",
+        "मूत्रद्वार"
+      ],
+      "correct_answer_text": "वातरंध्र या लेंटिसेल",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 90,
+      "topic": "पादप में उत्सर्जन",
+      "question": "वाष्पोत्सर्जन से निकलने वाला जल मुख्यतः किसके द्वारा निष्कासित होता है?",
+      "options": [
+        "हाइलम द्वारा",
+        "रंध्रों द्वारा",
+        "मूत्रमार्ग द्वारा",
+        "गिल्स द्वारा"
+      ],
+      "correct_answer_text": "रंध्रों द्वारा",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 91,
+      "topic": "पादप में उत्सर्जन",
+      "question": "पत्तियों के गिरने और छाल के अलग होने से पौधे को क्या लाभ होता है?",
+      "options": [
+        "संचित उत्सर्जी पदार्थ बाहर निकलते हैं",
+        "नेफ्रॉन बनते हैं",
+        "जल अवशोषण बंद होता है",
+        "प्रकाश-संश्लेषण रुकता है"
+      ],
+      "correct_answer_text": "संचित उत्सर्जी पदार्थ बाहर निकलते हैं",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 92,
+      "topic": "पादप में उत्सर्जन",
+      "question": "कुछ पौध-उत्सर्जी पदार्थ कोशिका के किस भाग में जमा रहते हैं?",
+      "options": [
+        "मूत्राशय में",
+        "कोशिकीय रिक्तिकाओं में",
+        "ग्लोमेरुलस में",
+        "हाइलम में"
+      ],
+      "correct_answer_text": "कोशिकीय रिक्तिकाओं में",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 93,
+      "topic": "पादप में उत्सर्जन",
+      "question": "अध्याय में पौधों के प्रमुख उत्सर्जी पदार्थों का सही समूह कौन-सा है?",
+      "options": [
+        "टैनिन, रेजिन और गोंद",
+        "हीमोग्लोबिन, फाइब्रिन और प्लाज्मा",
+        "ग्लूकोस, स्टार्च और प्रोटीन",
+        "यूरिया, यूरिक अम्ल और अमोनिया"
+      ],
+      "correct_answer_text": "टैनिन, रेजिन और गोंद",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 94,
+      "topic": "पादप में उत्सर्जन",
+      "question": "रेजिन और गोंद मुख्यतः कहाँ संचित बताए गए हैं?",
+      "options": [
+        "रंध्रों के बाहर",
+        "पुराने जाइलम में",
+        "कोशिका-केंद्रक में",
+        "छाल में ही"
+      ],
+      "correct_answer_text": "पुराने जाइलम में",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 95,
+      "topic": "पादप में उत्सर्जन",
+      "question": "गाढ़े, दूधिया उत्सर्जी तरल को क्या कहते हैं?",
+      "options": [
+        "यूरोक्रोम",
+        "लैटेक्स",
+        "डायलाइजेट",
+        "रेजिन"
+      ],
+      "correct_answer_text": "लैटेक्स",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "B"
+    },
+    {
+      "number": 96,
+      "topic": "पादप में उत्सर्जन",
+      "question": "पाठ में ताजी पत्ती तोड़ने पर लैटेक्स निकलने के उदाहरण कौन-से दिए हैं?",
+      "options": [
+        "पीपल, बरगद या पीला कनेर",
+        "बबूल, चीड़ और गेहूँ",
+        "मकई, सेब और गुलाब",
+        "कनेर, चीड़ और बबूल"
+      ],
+      "correct_answer_text": "पीपल, बरगद या पीला कनेर",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 97,
+      "topic": "पादप में उत्सर्जन",
+      "question": "बबूल में कौन-सा उत्सर्जी पदार्थ पाया जाता है?",
+      "options": [
+        "यूरिक अम्ल",
+        "यूरिया",
+        "रेजिन",
+        "गोंद"
+      ],
+      "correct_answer_text": "गोंद",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    },
+    {
+      "number": 98,
+      "topic": "पादप में उत्सर्जन",
+      "question": "चीड़ में सामान्य उत्सर्जी पदार्थ कौन-सा है?",
+      "options": [
+        "लैटेक्स ही",
+        "गोंद",
+        "रेजिन",
+        "टैनिन ही"
+      ],
+      "correct_answer_text": "रेजिन",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "C"
+    },
+    {
+      "number": 99,
+      "topic": "पादप में उत्सर्जन",
+      "question": "जलीय पौधे उत्सर्जी पदार्थ सीधे कहाँ निष्कासित करते हैं?",
+      "options": [
+        "जल में, विसरण द्वारा",
+        "वातरंध्रों से रक्त में",
+        "मृदा में ही",
+        "मूत्राशय में"
+      ],
+      "correct_answer_text": "जल में, विसरण द्वारा",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "A"
+    },
+    {
+      "number": 100,
+      "topic": "पादप में उत्सर्जन",
+      "question": "स्थलीय पौधे कुछ उत्सर्जी पदार्थ आसपास के किस माध्यम में छोड़ते हैं?",
+      "options": [
+        "मूत्राशय में",
+        "रक्त में",
+        "डायलिसिस फ्लूइड में",
+        "मृदा में"
+      ],
+      "correct_answer_text": "मृदा में",
+      "source": "generated_from_user_supplied_chapter_text",
+      "correct_answer": "D"
+    }
+  ],
+  "answer_key_audit": {
+    "questions": 100,
+    "answer_distribution": {
+      "D": 25,
+      "C": 25,
+      "A": 25,
+      "B": 25
+    },
+    "exact_25_each": true,
+    "longest_identical_letter_streak": 2,
+    "no_three_identical_consecutively": true,
+    "normalized_duplicate_stems": [],
+    "answer_text_consistency": "100/100"
+  }
+}
